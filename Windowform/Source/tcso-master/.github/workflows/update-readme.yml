@@ -1,0 +1,25 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
+
+name: Update readme
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm run update-readme
+      - run: |
+          git config user.name gkr-bot
+          git config user.email gkr@tuta.io
+          git add README.md
+          git diff-index --quiet HEAD || git commit -m "Updated readme"
+          git push

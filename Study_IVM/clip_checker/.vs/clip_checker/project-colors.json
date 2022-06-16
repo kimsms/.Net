@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9be9ce3e-64a4-41ed-b2ed-264f4158f88f": {
+      "ProjectGuid": "9be9ce3e-64a4-41ed-b2ed-264f4158f88f",
+      "DisplayName": "clip_checker",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

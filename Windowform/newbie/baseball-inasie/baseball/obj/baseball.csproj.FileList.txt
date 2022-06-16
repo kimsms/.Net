@@ -1,0 +1,8 @@
+bin\Debug\baseball.exe
+bin\Debug\baseball.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\baseball.Form1.resources
+obj\Debug\baseball.Properties.Resources.resources
+obj\Debug\baseball.csproj.GenerateResource.Cache
+obj\Debug\baseball.exe
+obj\Debug\baseball.pdb

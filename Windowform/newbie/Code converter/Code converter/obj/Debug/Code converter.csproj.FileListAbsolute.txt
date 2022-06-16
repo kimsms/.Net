@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\bin\Debug\Code converter.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\bin\Debug\Code converter.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\bin\Debug\Code converter.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code converter.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code_converter.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code_converter.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code converter.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code converter.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code converter.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Code converter\Code converter\obj\Debug\Code converter.pdb

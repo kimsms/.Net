@@ -1,0 +1,15 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\bin\Debug\WPF_MemoryMap_Server.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\bin\Debug\WPF_MemoryMap_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\bin\Debug\WPF_MemoryMap_Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Memory Map communication\WPF_MemoryMap_Server\WPF_MemoryMap_Server\obj\Debug\WPF_MemoryMap_Server.pdb

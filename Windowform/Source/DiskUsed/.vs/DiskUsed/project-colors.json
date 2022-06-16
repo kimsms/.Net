@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ddf2545-9ebf-4f50-8b15-69c0d13ef67a": {
+      "ProjectGuid": "5ddf2545-9ebf-4f50-8b15-69c0d13ef67a",
+      "DisplayName": "DiskUsed",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

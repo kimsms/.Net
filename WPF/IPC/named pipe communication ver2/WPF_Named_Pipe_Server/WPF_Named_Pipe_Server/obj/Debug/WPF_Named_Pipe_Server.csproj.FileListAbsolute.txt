@@ -1,0 +1,44 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\WPF_Named_Pipe_Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\NamedPipeControl.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\NamedPipeControl.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\obj\Debug\WPF_Named_Pipe_Server.csproj.CopyComplete
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\EntityFramework.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\EntityFramework.xml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\DBConnect.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\DBConnect.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\named pipe communication ver2\WPF_Named_Pipe_Server\WPF_Named_Pipe_Server\bin\Debug\DBConnect.dll.config

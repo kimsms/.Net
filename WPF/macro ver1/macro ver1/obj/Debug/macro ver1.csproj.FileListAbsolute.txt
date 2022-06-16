@@ -1,0 +1,15 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\bin\Debug\macro ver1.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\bin\Debug\macro ver1.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\bin\Debug\macro ver1.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro_ver1.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\macro ver1\macro ver1\obj\Debug\macro ver1.pdb

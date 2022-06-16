@@ -1,0 +1,10 @@
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\bin\Debug\EventHandle.exe.config
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\bin\Debug\EventHandle.exe
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\bin\Debug\EventHandle.pdb
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.csprojAssemblyReference.cache
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.Form1.resources
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.Properties.Resources.resources
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.csproj.GenerateResource.cache
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.csproj.CoreCompileInputs.cache
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.exe
+C:\Users\HUNDEL\source\repos\EventHandle\EventHandle\obj\Debug\EventHandle.pdb

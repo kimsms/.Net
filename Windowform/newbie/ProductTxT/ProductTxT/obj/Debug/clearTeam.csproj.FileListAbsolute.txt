@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\bin\Debug\clearTeam.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\bin\Debug\clearTeam.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\bin\Debug\clearTeam.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\clearTeam\clearTeam\obj\Debug\clearTeam.pdb

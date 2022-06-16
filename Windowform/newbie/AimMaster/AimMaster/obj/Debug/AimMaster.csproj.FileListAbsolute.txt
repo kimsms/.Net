@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\bin\Debug\AimMaster.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\bin\Debug\AimMaster.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\bin\Debug\AimMaster.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\AimMaster\AimMaster\obj\Debug\AimMaster.pdb

@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\bin\Debug\AutoMouse.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\bin\Debug\AutoMouse.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\bin\Debug\AutoMouse.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\SG_Vproject\AutoMouse\AutoMouse\obj\Debug\AutoMouse.pdb

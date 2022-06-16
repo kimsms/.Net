@@ -1,0 +1,7 @@
+binarization : 이진화
+blob : 윤곽선 찾기(Blob, Contour)
+blur : 필터
+synthesis : 합성
+Camera : 카메라
+temporary_checker : 임시 검사기
+Bead_Test : 머지 렉(merge rectangles blob)

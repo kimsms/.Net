@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\bin\Debug\Change_path.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\bin\Debug\Change_path.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\bin\Debug\Change_path.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\freeStudy.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_path\freeStudy\obj\Debug\Change_path.pdb

@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\메모리 수동 할당\bin\Debug\GrablinkSnapshotTrigger.exe.config
+C:\Users\Administrator\Desktop\메모리 수동 할당\bin\Debug\GrablinkSnapshotTrigger.exe
+C:\Users\Administrator\Desktop\메모리 수동 할당\bin\Debug\GrablinkSnapshotTrigger.pdb
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger110.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger.MainForm.resources
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger110.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger110.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger.exe
+C:\Users\Administrator\Desktop\메모리 수동 할당\obj\Debug\GrablinkSnapshotTrigger.pdb

@@ -1,0 +1,29 @@
+﻿<Window x:Name="NewWindow" x:Class="WPF_SQLite_ver2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_SQLite_ver2"
+        mc:Ignorable="d"
+        Title="검색" Height="340" Width="400" MinWidth="400" MinHeight="340" MaxWidth="400" MaxHeight="340" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid Loaded="Grid_Loaded_1" Margin="10,10,-6.8,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="combox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="25,47,0,0" SelectedIndex="0"/>
+        <TextBox x:Name="sqlbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,46,0,0" KeyDown="sqlbox_KeyDown"/>
+        <Button x:Name="selectbtn" Content="검색" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="260,157,0,0" Click="selectbtn_Click"/>
+        <Label Content="테이블" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,16,0,0"/>
+        <Label Content="이름" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="211,16,0,0"/>
+        <Button x:Name="testbtn" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="260,113,0,0" Click="testbtn_Click"/>
+        <DataGrid x:Name="ViewGrid" HorizontalAlignment="Left" Height="175" VerticalAlignment="Top" Width="201" Margin="25,90,0,0"
+                   CanUserAddRows="False" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=TableGrid}" ClipboardContentBinding="{x:Null}" Header="테이블" Width="66"/>
+                <DataGridTextColumn Binding="{Binding Path=NameGrid}" ClipboardContentBinding="{x:Null}" Header="이름" Width="66"/>
+                <DataGridTextColumn Binding="{Binding Path=AgeGrid}" ClipboardContentBinding="{x:Null}" Header="나이" Width="66"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

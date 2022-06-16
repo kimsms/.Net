@@ -1,0 +1,395 @@
+D:\Data\11_Work\SerialTest\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\11_Work\SerialTest\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\11_Work\SerialTest\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\11_Work\SerialTest\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\11_Work\SerialTest\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\11_Work\SerialTest\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\11_Work\SerialTest\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\11_Work\SerialTest\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\11_UI 프로그램 Work\SerialTest\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\11_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171108\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_171214\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_180102\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180422\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\SerialTest_LadarMotion_180523\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\SerialTest_LadarMotion_180605\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\LadarTasMotionUi_C#\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TasLadarMotionUi_C#\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TasLadarMotionUi_C#\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TasLadarMotionUi_C#\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181009_최종\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181019_최종\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_최종\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181027_6400 위치전송_최종\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Project_BM\8_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181107_6400_위치전송\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181124\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_20181207\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.exe.config
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.exe
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.pdb
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.exe
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.pdb
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Multimedia.dll
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Multimedia.pdb
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\2_BackUp\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Work\LADAR_Motion_Ui_C#_ICD 기준_64000_20190116\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\10_프로그램소스\LADAR_Motion_Ui_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.dll
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Microsoft.DirectX.xml
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Project_BM\81_LADAR_3차원 거리맵 LADAR_자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스_최종본\UI_C#_ICD 기준_64000_20190408\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csprojResolveAssemblyReference.cache
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Project_BM\11_LADAR_3차원 거리맵 자방기\13_프로그램 소스\2_UI 프로그램 소스\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.Cache
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe.config
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.pdb
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.dll
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.pdb
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csprojAssemblyReference.cache
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.cache
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.CoreCompileInputs.cache
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.CopyComplete
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.exe
+D:\Data\Project_ivm\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.cache
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.CoreCompileInputs.cache
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.csproj.CopyComplete
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_ICD 기준_64000_20190415\SerialTest\obj\Debug\SerialTest.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.exe.config
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.exe
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\bin\Debug\Multimedia.dll
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\bin\Debug\Multimedia.pdb
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csprojAssemblyReference.cache
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.cache
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.CoreCompileInputs.cache
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.CopyComplete
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.exe
+D:\1_Data\1.Project_IVM\14_참조 Project C#_PTS\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.pdb
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.exe.config
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.exe
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\bin\Debug\SerialTest.pdb
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\bin\Debug\Multimedia.dll
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\bin\Debug\Multimedia.pdb
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csprojAssemblyReference.cache
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.Form1.resources
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.Properties.Resources.resources
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.SetupDlg.resources
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.GenerateResource.cache
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.CoreCompileInputs.cache
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.csproj.CopyComplete
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.exe
+D:\4_작업폴더\UI_C#_SerialTest\SerialTest\obj\Debug\SerialTest.pdb

@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\bin\Debug\SG_RSPgame.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\bin\Debug\SG_RSPgame.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\bin\Debug\SG_RSPgame.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SG_RSPgame\SG_RSPgame\obj\Debug\SG_RSPgame.pdb

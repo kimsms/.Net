@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RawInput">
+</Property><Property Name="솔루션 파일" Value="C:\Users\Administrator\Desktop\RawInput\RawInput.sln">
+</Property><Property Name="Date" Value="2012년 10월 15일 월요일">
+</Property><Property Name="Time" Value="오후 16:04">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RawInput.sln" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\RawInput.sln(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="RawInput.csproj" Description="프로젝트 파일을 C:\Users\Administrator\Desktop\RawInput\Backup\RawInput.csproj(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Form1.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Form1.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Form1.Designer.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Form1.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="InputDevice.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\InputDevice.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Program.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Program.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Properties\AssemblyInfo.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Properties\AssemblyInfo.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Properties\Resources.Designer.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Properties\Resources.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Properties\Settings.Designer.cs" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Properties\Settings.Designer.cs(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Properties\Settings.settings" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Properties\Settings.settings(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Form1.resx" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Form1.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="Properties\Resources.resx" Description="파일을 C:\Users\Administrator\Desktop\RawInput\Backup\Properties\Resources.resx(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="RawInput.csproj" Description="프로젝트를 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="RawInput" Source="RawInput.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RawInput.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="RawInput.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RawInput" Source="RawInput.csproj" Description="검사 완료: 프로젝트 파일을 업그레이드할 필요가 없습니다.">
+</Event></UpgradeLog>

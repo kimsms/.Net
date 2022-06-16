@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\bin\Debug\Content_secrecy.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\bin\Debug\Content_secrecy.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\bin\Debug\Content_secrecy.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Content_secrecy\Content_secrecy\obj\Debug\Content_secrecy.pdb

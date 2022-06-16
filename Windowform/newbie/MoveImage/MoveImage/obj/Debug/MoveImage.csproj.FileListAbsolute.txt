@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\bin\Debug\MoveImage.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\bin\Debug\MoveImage.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\bin\Debug\MoveImage.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MoveImage\MoveImage\obj\Debug\MoveImage.pdb

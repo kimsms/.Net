@@ -1,0 +1,16 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\bin\Debug\ignorant notepad.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\bin\Debug\ignorant notepad.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\bin\Debug\ignorant notepad.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant_notepad.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ignorant notepad\ignorant notepad\obj\Debug\ignorant notepad_Content.g.cs

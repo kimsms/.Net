@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\bin\Debug\CopyProgram.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\bin\Debug\CopyProgram.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\bin\Debug\CopyProgram.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\CopyProgram\CopyProgram\obj\Debug\CopyProgram.pdb

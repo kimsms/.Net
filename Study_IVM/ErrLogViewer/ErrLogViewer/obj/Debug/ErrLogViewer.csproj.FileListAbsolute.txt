@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\bin\Debug\ErrLogViewer.exe.config
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\bin\Debug\ErrLogViewer.exe
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\bin\Debug\ErrLogViewer.pdb
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.Form1.resources
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.exe
+C:\Users\Administrator\Documents\GitHub\IVM\Study_IVM\ErrLogViewer\ErrLogViewer\obj\Debug\ErrLogViewer.pdb

@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\ImageSaveDllTester.exe.config
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\ImageSaveDllTester.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\ImageSaveDllTester.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.Form1.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\ImageClass.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\ImageClass.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\obj\Debug\ImageSaveDllTester.csproj.CopyComplete
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\WriteErrLog.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\ImageSaveDllTester\ImageSaveDllTester\bin\Debug\WriteErrLog.pdb

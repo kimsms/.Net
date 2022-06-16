@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\bin\Debug\SchoolTabs.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\bin\Debug\SchoolTabs.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\bin\Debug\SchoolTabs.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\SchoolTabs\SchoolTabs\obj\Debug\SchoolTabs.pdb

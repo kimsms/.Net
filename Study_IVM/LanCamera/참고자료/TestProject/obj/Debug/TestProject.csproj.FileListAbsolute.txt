@@ -1,0 +1,22 @@
+C:\Users\sungmin\Desktop\새 폴더\TestProject\bin\Debug\cows.jpg
+C:\Users\sungmin\Desktop\새 폴더\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\sungmin\Desktop\새 폴더\TestProject\bin\Debug\TestProject.exe
+C:\Users\sungmin\Desktop\새 폴더\TestProject\bin\Debug\TestProject.pdb
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.csproj.AssemblyReference.cache
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.MainForm.resources
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.csproj.GenerateResource.cache
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.exe
+C:\Users\sungmin\Desktop\새 폴더\TestProject\obj\Debug\TestProject.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\bin\Debug\cows.jpg
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\bin\Debug\TestProject.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\bin\Debug\TestProject.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.MainForm.resources
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\Study_IVM\LanCamera\참고자료\TestProject\obj\Debug\TestProject.pdb

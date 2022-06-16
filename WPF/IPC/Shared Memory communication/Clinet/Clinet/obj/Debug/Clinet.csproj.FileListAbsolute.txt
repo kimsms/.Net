@@ -1,0 +1,15 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\bin\Debug\Clinet.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\bin\Debug\Clinet.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\bin\Debug\Clinet.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication\Clinet\Clinet\obj\Debug\Clinet.pdb

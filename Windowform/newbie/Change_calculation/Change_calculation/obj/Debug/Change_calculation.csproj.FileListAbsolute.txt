@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\bin\Debug\Change_calculation.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\bin\Debug\Change_calculation.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\bin\Debug\Change_calculation.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Change_calculation\Change_calculation\obj\Debug\Change_calculation.pdb

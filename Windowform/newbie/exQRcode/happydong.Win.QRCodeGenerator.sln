@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "happydong.Win.QRCodeGenerator", "happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator.csproj", "{8BB3A941-A4D9-4677-80BB-767C0F408961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{758F0021-4DC3-4211-B2CE-CA936917455E}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\ThoughtWorks.QRCode.dll = Assemblies\ThoughtWorks.QRCode.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB3A941-A4D9-4677-80BB-767C0F408961}.Debug|x86.ActiveCfg = Debug|x86
+		{8BB3A941-A4D9-4677-80BB-767C0F408961}.Debug|x86.Build.0 = Debug|x86
+		{8BB3A941-A4D9-4677-80BB-767C0F408961}.Release|x86.ActiveCfg = Release|x86
+		{8BB3A941-A4D9-4677-80BB-767C0F408961}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

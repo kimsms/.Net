@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\bin\Debug\Coin game.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\bin\Debug\Coin game.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\bin\Debug\Coin game.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin_game.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin_game.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin game.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin game.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin game.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin game.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Coin game\Coin game\obj\Debug\Coin game.csprojAssemblyReference.cache

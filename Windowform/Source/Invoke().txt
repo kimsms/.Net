@@ -1,0 +1,20 @@
+ this.Invoke(
+        (System.Action)(() =>
+        {
+            this.Text = title;
+        }));
+
+//----------------------------
+
+if (InvokeRequired)
+                                {
+                                    this.BeginInvoke((ThreadStart)delegate ()
+                                    {
+
+                                    });
+                                }
+                                else
+                                {
+
+                                }
+                            }

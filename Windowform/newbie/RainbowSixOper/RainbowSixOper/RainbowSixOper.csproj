@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8EDCAF9-0F79-4A8F-905E-CF488446D000}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RainbowSixOper</RootNamespace>
+    <AssemblyName>RainbowSixOper</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>레식-아이콘.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\슬랫지.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\대처.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\애쉬.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\서마이트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\트위치.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\몽타뉴.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\글라즈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\퓨즈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\블리츠.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\아이큐.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\플로레스.png" />
+    <None Include="Resources\아루니.png" />
+    <None Include="Resources\멜루시.png" />
+    <None Include="Resources\오릭스.png" />
+    <None Include="Resources\제로.png" />
+    <None Include="Resources\에이스.png" />
+    <None Include="Resources\야나.png" />
+    <None Include="Resources\와마이.png" />
+    <None Include="Resources\고요.png" />
+    <None Include="Resources\워든.png" />
+    <None Include="Resources\모지.png" />
+    <None Include="Resources\칼리.png" />
+    <None Include="Resources\아마루.png" />
+    <None Include="Resources\뇌크.png" />
+    <None Include="Resources\그리드락.png" />
+    <None Include="Resources\카이드.png" />
+    <None Include="Resources\클래시.png" />
+    <None Include="Resources\알리바이.png" />
+    <None Include="Resources\마에스트로.png" />
+    <None Include="Resources\노매드.png" />
+    <None Include="Resources\메버릭.png" />
+    <None Include="Resources\핀카.png" />
+    <None Include="Resources\라이온.png" />
+    <None Include="Resources\비질.png" />
+    <None Include="Resources\엘라.png" />
+    <None Include="Resources\리전.png" />
+    <None Include="Resources\미라.png" />
+    <None Include="Resources\도깨비.png" />
+    <None Include="Resources\조피아.png" />
+    <None Include="Resources\잉.png" />
+    <None Include="Resources\자칼.png" />
+    <None Include="Resources\에코.png" />
+    <None Include="Resources\카베이라.png" />
+    <None Include="Resources\발키리.png" />
+    <None Include="Resources\프로스트.png" />
+    <None Include="Resources\히바나.png" />
+    <None Include="Resources\카피탕.png" />
+    <None Include="Resources\블랙비어드.png" />
+    <None Include="Resources\벅.png" />
+    <None Include="Resources\밴딧.png" />
+    <None Include="Resources\예거.png" />
+    <None Include="Resources\타찬카.png" />
+    <None Include="Resources\캅칸.png" />
+    <None Include="Resources\룩.png" />
+    <None Include="Resources\닥.png" />
+    <None Include="Resources\펄스.png" />
+    <None Include="Resources\캐슬.png" />
+    <None Include="Resources\뮤트.png" />
+    <None Include="Resources\스모크.png" />
+    <Content Include="레식-아이콘.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

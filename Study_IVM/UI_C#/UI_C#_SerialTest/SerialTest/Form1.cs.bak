@@ -1,0 +1,2215 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using System.Windows.Forms.DataVisualization.Charting; 
+
+//-------------------------------------
+// 시리얼 포트
+using System.IO.Ports;
+//-------------------------------------
+
+namespace SerialTest
+{
+    public partial class Form1 : Form
+    {
+        static readonly byte NEW_LINE = 1;
+        //--------------------------------------------
+        public string g_csRecevData = "";
+        public int g_iRecevDataSize = 0;
+        public bool g_bRecevChk = false;
+        public int g_iDisplayCnt = 0;
+        public bool g_bSerialOpenChk = false;
+        public int g_iTestCnt = 0;
+
+        public bool g_bRecevStart = false;
+        public bool g_bRecevStop = false;
+
+        public int g_iRecevErrorCnt = 0;
+        public bool g_bAutoRun = false;
+
+        public int g_iAdcMax = 0;
+        public int g_iAdcMax2 = 0;
+
+        public bool g_bSend = false;
+
+        public int g_iSetPulse = 1000;
+        public int g_iSetRpm = 15;
+
+        //--------------------------------------------
+        static readonly byte OFF = 0;
+        static readonly byte ON = 1;
+        static readonly byte OK = 2;
+        static readonly byte NG = 3;
+
+        // ICD Define
+        static readonly byte ICD_STX = 0x7e;   // tx start
+        static readonly byte ICD_SrID = 0x17;    // source id
+        static readonly byte ICD_ETX = 0x7f;    // tx end
+        static readonly byte ICD_ID_HOST = 0x27;//My -- >  Host
+        static readonly byte ICD_ID_MY = 0x17;//Host --> My
+        static readonly byte ICD_DATA_MAX = 255; //256 // data max length
+
+        //static readonly byte ICD_SEND_DATA_MAX = 25; //25 // data max length
+        static readonly byte ICD_SEND_DATA_MAX = 8;
+
+        //-----------------------------------------------------------
+        // 모타 정의  UGS 
+        //-----------------------------------------------------------
+        //Azimuth   방위각
+        //Elevation 고저각
+        //AZ PWM4~6  (CN2) MOTOR
+        //EL PWM0~3  (CN3) MOTOR
+        //AZ SPI-B   (CN5) ENCODER
+        //EL SPI-A   (CN6) ENCODER
+        //AZ ADC0~5
+        //EL ADC8~13
+
+        static readonly byte PELCOD_STX = 0xfe;    // tx start
+        static readonly byte PELCOD_LEFT = 0x04;
+        static readonly byte PELCOD_RIGHT = 0x02;
+        static readonly byte PELCOD_UP = 0x08;
+        static readonly byte PELCOD_DN = 0x10;
+        static readonly byte PELCOD_AZ_STOP = 0x00;
+        static readonly byte PELCOD_EL_STOP = 0x00;     
+        static readonly byte PELCOD_PRESET_SET = 0x03;
+        static readonly byte PELCOD_PRESET_GO = 0x07;
+        static readonly byte PELCOD_AZ_POS_MOV = 0x80;
+        static readonly byte PELCOD_EL_POS_MOV = 0x81;
+        static readonly byte PELCOD_AZ_POS_DEMAND = 0x82;
+        static readonly byte PELCOD_EL_POS_DEMAND = 0x83;
+        static readonly byte PELCOD_AZ_POS_ACK = 0x84;
+        static readonly byte PELCOD_EL_POS_ACK = 0x85;
+        static readonly byte PELCOD_EMERGENCY_STOP = 0x86;
+        static readonly byte PELCOD_ADC_READ = 0x88;
+        static readonly byte PELCOD_ADC_OVERLOAD = 0x90;
+
+        static readonly byte PELCOD_ENCODE_AZ_SET = 0x91;
+        static readonly byte PELCOD_ENCODE_EL_SET = 0x92;
+        static readonly byte PELCOD_SEARCH_MOVE_MODE = 0x93;
+        
+        static readonly byte PELCOD_ADDRESS1 = 0x01;
+
+        static readonly byte MOVE_SPEED = 0x00;
+        static readonly byte MOVE_POS = 0x01;
+
+
+        static readonly byte MOTOR_AZ = 0;
+        static readonly byte MOTOR_EL = 0;
+
+        static readonly byte PRESET_ADDR_MAX = 15;
+
+
+        public byte g_TestCnt = 0;
+
+        byte[] g_byteData = new byte[ICD_DATA_MAX];
+        public byte g_RecevCnt = 0;
+
+        public int g_RunTestCnt = 0;
+
+        public int g_RecevChk = 1;
+        //----------------------------------
+        public string g_csSaveData = "";
+        public int g_iSaveNo = 0;
+        public int g_iSaveStepNo = 0;
+        public string g_csOldTime = "";
+
+        public int g_iSaveSubStep= 0;
+        public int g_iSaveTime1 = 0;
+        public int g_iSaveTime2 = 0;
+
+        public int g_iRpmChgVal = 0;
+        public int g_iSendSec = 0;
+        public int g_iSendmSec = 0;
+        //----------------------------------
+        public int g_iAutoMode = 0;
+
+        public int g_iAutoStep = 0;
+
+        public int g_iRpmStep = 120;
+        public int g_iRpmStep2 = 10;
+        public int g_DirMode = 0;
+        public int g_DirMode2 = 0;
+
+        public int g_iTestStepCnt = 0;
+
+        //----------------------------------
+        int Min = Int32.MaxValue;
+        int Max = Int32.MinValue;
+        int Min2 = Int32.MaxValue;
+        int Max2 = Int32.MinValue;
+        double[] ecg = new double[100000];
+        double[] ppg = new double[100000];
+        private int ecgLength=0;
+        private int ppgLength=0;
+
+        public Form1()
+        {
+            InitializeComponent();
+
+            try
+            {
+                string csFile = @"C:\Tester\SetupData\SerialPort.txt";
+                SerialPortFileOpen(csFile);
+                ///SerialPortOpen();
+                timer1.Enabled = true;
+                timer2.Enabled = true;
+                //timer4.Enabled = true;
+
+                g_csSaveData = "";
+                g_csSaveData += "No/Sec" + "," + "Send Sec" + "," + "Send mSec" + "," + "Recev Sec" + "," + "Recev mSec" + "," + "Interval" + ",";
+
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.ToString());
+            }
+
+            SerialPortOpen();
+
+            GrapeInit();
+        }
+
+        public async void GrapeInit()
+        {
+            chart1.Series[0].Points.Clear();
+            chart1.Series[1].Points.Clear();
+            //chartB.Series[0].ChartType = SeriesChartType.Pie;
+            //chart1.Series[0].ChartType = SeriesChartType.Line;
+            //chartB.Series[0].ChartType = SeriesChartType.Bar;
+            //chart1.Series[0].ChartType = SeriesChartType.SplineArea;
+            //timer4.Stop();
+            //timer4.Start();
+            chart1.Series[0].BorderWidth = 2;
+            chart1.Series[0].Color = Color.Red;
+            chart1.Series[1].BorderWidth = 2;
+            chart1.Series[1].Color = Color.Blue;
+
+            chart1.Series[0].Points.AddXY(0, 1);
+            chart1.Series[1].Points.AddXY(0, 2);
+        }
+
+
+
+        public async void LogDis(String cs, int rt)
+        {
+            //디버강 모드에서는 에러, 작업 표시줄에 표시후 실행!!
+            //if (LogDisList.Lines.Length > 30)
+            //if (LogDisList.Lines.Length > 20)
+            //   LogDisList.Clear();
+
+            //if (LogDisList.Lines.Length > 30)
+            if (LogDisList.Lines.Length > 60)
+            {
+                LogDisList.Clear();
+            }
+
+            LogDisList.Text += cs;
+            if (rt == ON)
+                LogDisList.Text += "\r\n";   
+        }
+
+        private void btnSerialOpen_Click(object sender, EventArgs e)
+        {
+            string file = @"C:\Tester\SetupData\SerialPort.txt";
+            SerialPortFileSave(file);
+            SerialPortOpen();
+            if (g_bSerialOpenChk)
+                System.Windows.Forms.MessageBox.Show("Serial Port를 정상 Open 하였습니다!");
+            else
+                System.Windows.Forms.MessageBox.Show("Error!! Serial Port를 Open 하지 못했습니다!");
+        }
+
+        private void SerialPortOpen()
+        {
+            //Port name can be identified by checking the ports
+            // section in Device Manager after connecting your device
+            if (serialPort1.IsOpen) serialPort1.Close();
+
+            string csPort = txtSerialPortName.Text;
+            int bps = Convert.ToInt32(txtSerialPortBps.Text);
+            serialPort1.PortName = csPort;  //"COM3"
+            //Provide the name of port to which device is connected
+
+            //default values of hardware[check with device specification document]
+            serialPort1.BaudRate =  bps;  // 9600
+            serialPort1.Parity = Parity.None;
+            serialPort1.StopBits = StopBits.One;
+            serialPort1.Handshake = Handshake.None;
+
+            try
+            {
+                serialPort1.Open(); //opens the port
+                serialPort1.ReadTimeout = 200;
+                if (serialPort1.IsOpen)//정상 Open true
+                {
+                    //DispString = "";
+                    //System.Windows.Forms.MessageBox.Show("COM3을 Open 하였습니다!");
+                    //IconDisplay(OK);
+                    g_bSerialOpenChk = true;
+                }
+            }
+            catch
+            {
+                //IconDisplay(NG);
+                g_bSerialOpenChk = false;
+            }
+            serialPort1.DataReceived += new SerialDataReceivedEventHandler(serialPort1_DataReceived);
+            /*
+            SerialPort mySerialPort = new SerialPort("COM3");
+            mySerialPort.BaudRate = 9600;
+            mySerialPort.Parity = Parity.None;
+            mySerialPort.StopBits = StopBits.One;
+            mySerialPort.DataBits = 8;
+            mySerialPort.Handshake = Handshake.None;
+            mySerialPort.RtsEnable = true;
+            mySerialPort.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
+            mySerialPort.Open();
+            mySerialPort.Close();
+            */
+        }
+
+        public void SerialPortFileOpen(string file)
+        {
+            try
+            {
+                string[] lines = System.IO.File.ReadAllLines(file);
+                int max = 0;
+                max = lines.GetLength(0);
+                //txtIpFilePath.Text = file;
+                //------------------------------
+                //if (max > 0 && max < LAYER_MAX) m_DrawMax = max;
+                //------------------------------
+                for (int i = 0; i < max; i++)//LAYER_MAX
+                {
+                    string[] ps;
+                    ps = lines[i].Split(',');
+                    //txtUnitSpaceIpDis = ps[0];
+                    txtSerialPortName.Text = ps[0];
+                    txtSerialPortBps.Text = ps[1];
+                }
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show("", file + " : 위치 정보 파일을 찾지 못하겠습니다.!");
+            }
+        }
+
+        public void SerialPortFileSave(string file)
+        {
+            try
+            {
+                string[] lines = System.IO.File.ReadAllLines(file);
+                int max = 0;
+                max = lines.GetLength(0);
+
+                string uspaceName = "";
+                string[] csIp = new string[2];
+
+                //------------------------------
+                //if (max > 0 && max < LAYER_MAX) m_DrawMax = max;
+                //------------------------------
+                string cs = "";// string.Empty;
+                for (int i = 0; i < max; i++)//LAYER_MAX
+                {
+                    //uspaceName = listUnitSpace.Items[i].ToString();
+
+                    string[] ps;
+                    ps = lines[i].Split(',');
+                    csIp[0] = txtSerialPortName.Text;
+                    csIp[1] = txtSerialPortBps.Text;
+
+                    cs += string.Format("{0},{1}", csIp[0], csIp[1]) + "\r\n";
+                }
+                System.IO.File.WriteAllText(file, cs);
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show("", file + "파일을 저장하지 못하겠습니다.!");
+            }
+        }
+
+        private string HextoAsc(byte ascnum)
+        {
+           // string hex = "123456789ABCDEF";
+            var hex = new List<string> { "0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F" };
+            string data = "";
+
+            if (ascnum < 16)
+            { data = hex[ascnum]; }
+            return data;
+        }
+
+        private byte AsctoHex2(byte ascnum)
+        {
+            byte[] hex = new byte[16] { 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 65, 66, 67, 68, 69, 70 };
+            byte i = 0;
+
+            do
+            {
+                if (hex[i] == ascnum)
+                {
+                    return i;
+                }
+                i++;
+            } while (i < 16);
+            return 0;
+        }
+
+        //=====================================================================
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (g_bAutoRun)
+            {
+                ///if (g_bSend != true)
+                {
+                    /// AdcDataRead();
+                    //RpmAutoChg();
+                    //AutoPosRun();
+                    //AzGoStep();
+                    g_iTestStepCnt++;
+
+                    if (g_iTestStepCnt == 1)
+                    {
+                        AzGoStep();
+                       // ElGoStep();
+                       // g_iTestStepCnt = 0;
+                    }
+
+                    if (g_iTestStepCnt >= 2)
+                    {
+                        g_iTestStepCnt = 0;
+                       // ElGoStep();
+                    }
+                }
+            }
+        }
+        //=====================================================================
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            //Error          
+            if (g_bSend)
+            {
+                g_iRecevErrorCnt++;
+                if (g_iRecevErrorCnt >=2)
+                {
+                    g_iRecevErrorCnt = 0;
+                    g_bRecevStart = false;
+                    g_bRecevStop = false;
+                   // g_csRecevData = "";
+                    g_bSend = false;
+
+                    //for (int i = 0; i < ICD_DATA_MAX; i++)
+                    //{
+                    //    g_byteData[i] = 0;
+                   // }
+                }
+            }
+        }
+        //=====================================================================
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            SineDataGrap();
+        }
+
+        private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            
+            int i = 0;
+            int Buf1 = 0;
+            int Buf2 = 0;
+            int Adc = 0;
+            int Rpm = 0;
+            string csBuf = "";
+            bool bReadChk = false;
+            int AzMulti = 0;
+            int AzSingle = 0;
+            int ElzMulti = 0;
+            int ElSingle = 0;
+
+            int Value1 = 0;
+            int Value2 = 0;
+            int Value3 = 0;
+
+            byte[] byteBuf = new byte[1];
+
+            // ICD Define
+            //static readonly byte ICD_STX = 0x7e;   // tx start
+            //static readonly byte ICD_SrID = 0x17;    // source id
+            //static readonly byte ICD_ETX = 0x7f;    // tx end
+            //static readonly byte ICD_ID_HOST = 0x27;//My -- >  Host
+            //static readonly byte ICD_ID_MY = 0x17;//Host --> My
+            //static readonly byte ICD_DATA_MAX = 255; //256 // data max length
+
+            //chart1.
+            //chart1.d
+
+            try
+            {
+                int nLength = 0;
+                //g_iRecevErrorCnt++;
+                SerialPort sp = (SerialPort)sender;
+                nLength = sp.BytesToRead;
+                if (nLength > 0)
+                {
+
+                   byte[] btTemp = new byte[nLength];
+                   sp.Read(btTemp, 0, nLength);
+                   //------------------------------------------
+                   //IconDisplay(OFF);
+                   g_bRecevChk = false;
+                   //------------------------------------------
+                //if (nLength > 0)
+                //{
+                    string cs = Encoding.UTF8.GetString(btTemp, 0, btTemp.Length);
+                    g_csRecevData += cs;
+                    //string dis = (string.Format("SIZE:{0} :", g_csRecevData.Length) + g_csRecevData);
+                    //LogDis("--------------------------------------------------", NEW_LINE);
+                    //LogDis(dis, NEW_LINE);
+
+                    for (i = 0; i < nLength; i++)
+                    {
+                        csBuf  += btTemp[i].ToString() + " : ";
+
+                        if(g_RecevCnt<ICD_DATA_MAX)
+                           g_byteData[g_RecevCnt++] = btTemp[i];
+                    }
+
+                    //LogDis(csBuf, NEW_LINE);
+
+                    for (i = 0; i < nLength; i++)
+                    {
+                        if (btTemp[i] == PELCOD_STX) {g_bRecevStart = true;}
+                        //if (btTemp[i] == ICD_STX) { g_bRecevStart = true; }
+                        if (btTemp[i] == ICD_ETX) {g_bRecevStop = true;}
+                    }
+
+                    //LogDis(":" + nLength.ToString() + ":", NEW_LINE);
+
+                    //if (g_bRecevStart == true && g_bRecevStop == true)
+                    if (g_bRecevStop == true)
+                    {
+                        ///LogDis("READ: " + g_csRecevData, NEW_LINE);
+                        g_bRecevStart = false;
+                        g_bRecevStop = false;
+                        //g_csRecevData = "";
+
+                        bReadChk = true;
+                    }
+                }
+
+                if(bReadChk)
+                {
+                    int Length = g_csRecevData.Length;
+                    //string buf="";
+                    string csHex = "";
+                    string csData = g_csRecevData;
+                    int Steptime = 0;
+                    int IntervalTime = 0;
+
+                    //LogDis("Length: " + Length.ToString(), NEW_LINE);
+
+                    if (Length >= ICD_SEND_DATA_MAX)
+                    {
+                        //byte[] DataBytes = System.Text.Encoding.ASCII.GetBytes(csData);
+                        //byte[] DataBytes = System.Text.Encoding.UTF8.GetBytes(csData);
+
+                        /*
+                        if (Length > 0)
+                        {
+                            for (i = 0; i < Length; i++)
+                            {
+                                // buf += csData[i] + ",";
+
+                                // byteBuf[0] = DataBytes[i];
+                                // buf += Encoding.UTF8.GetString(byteBuf, 0, byteBuf.Length) +",";
+                                //buf += DataBytes[i].ToString() + " : ";
+                                
+                                buf += g_byteData[i].ToString() + " ";
+
+                                csHex += HextoAsc((byte)(g_byteData[i] >> 4));
+                                csHex += HextoAsc((byte)(g_byteData[i] & 0x0f));
+                                csHex += " ";
+
+                            }
+                        }
+                        */
+
+                        //=======================================================
+                        //=======================================================
+                        /*
+                        //LogDis("DEC: " + buf, NEW_LINE);
+                        if (g_RecevChk == 1)
+                        {
+                            //DateTime.Today.ToString();
+                            //DateTime.Now.ToLongTimeString();
+                            string time = DateTime.Now.Second.ToString()+"초:"+ DateTime.Now.Millisecond.ToString();
+                            //csHex += " (" + time +")"+"\r\n";
+                            csHex += " (" + time + ")" + "\r";
+                            LogDis("HEX: " + csHex, NEW_LINE);
+                        }
+                        */
+                        //=======================================================
+                        //=======================================================
+
+                        //if (g_byteData[3] == PELCOD_ADC_OVERLOAD)
+                        //{
+                        //    txtErrorMessage.Text = "과전류 !! 에러";
+                        //}
+                        //else
+                        //{
+
+                        //g_csRecevData += cs;
+                        //string dis = (string.Format("SIZE:{0} :", g_csRecevData.Length) + g_csRecevData);
+                        //LogDis(dis, NEW_LINE);
+
+                        //g_csRecevData = "";
+
+                        //txtAdc1.Text = AsctoHex(btTemp[4]).ToString();
+                        //txtAdc2.Text = AsctoHex(btTemp[5]).ToString();
+                        //txtAdc3.Text = AsctoHex(btTemp[6]).ToString();
+                        //============================================
+                        //============================================
+                        /*
+                        Adc = 0;
+                        Adc += g_byteData[4] << 8;
+                        Adc += g_byteData[5];
+                        txtAdc1.Text = Adc.ToString();
+
+                        if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                         //-----------------------------------
+                        Adc = 0;
+                        Adc += g_byteData[6] << 8;
+                        Adc += g_byteData[7];
+                        txtAdc2.Text = Adc.ToString();
+
+                        ///if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                        
+                        Adc = 0;
+                        Adc += g_byteData[8] << 8;
+                        Adc += g_byteData[9];
+                        txtAdc3.Text = Adc.ToString();
+
+                        ///if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                        txtAdcMax.Text = g_iAdcMax.ToString();
+
+                        //-----------------------------------
+                        //-----------------------------------
+                        //-----------------------------------
+                        Adc = 0;
+                        Adc += g_byteData[10] << 8;
+                        Adc += g_byteData[11];
+                        txtAdc4.Text = Adc.ToString();
+
+                        if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        //-----------------------------------
+                        Adc = 0;
+                        Adc += g_byteData[12] << 8;
+                        Adc += g_byteData[13];
+                        txtAdc5.Text = Adc.ToString();
+
+                        if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        //-----------------------------------
+
+                        Adc = 0;
+                        Adc += g_byteData[14] << 8;
+                        Adc += g_byteData[15];
+                        txtAdc6.Text = Adc.ToString();
+
+                        if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        txtAdcMax2.Text = g_iAdcMax2.ToString();
+                        */
+                        //-----------------------------------
+
+                        /*
+                        Adc = 0;
+                        Adc += g_byteData[4] << 24;
+                        Adc += g_byteData[5] <<16;
+                        //txtAdc1.Text = Adc.ToString();
+                        //if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                        //-----------------------------------
+                        //Adc = 0;
+                        Adc += g_byteData[6] << 8;
+                        Adc += g_byteData[7];
+                        txtAdc1.Text = Adc.ToString();
+                        Value1 = Adc;
+                        ///if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                        //-------------------------------------
+
+
+                        Adc = 0;
+                        Adc += g_byteData[8] << 24;
+                        Adc += g_byteData[9] << 16;
+                        //txtAdc3.Text = Adc.ToString();
+                        ///if (Adc > g_iAdcMax) g_iAdcMax = Adc;
+                        //txtAdcMax.Text = g_iAdcMax.ToString();
+                        //-------------------------------------
+                        //Adc = 0;
+                        Adc += g_byteData[10] << 8;
+                        Adc += g_byteData[11];
+                        txtAdc2.Text = Adc.ToString();
+                        Value2 = Adc;
+                        //if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        //-----------------------------------
+
+
+                        Adc = 0;
+                        Adc += g_byteData[12] << 24;
+                        Adc += g_byteData[13] << 16;
+                        //txtAdc5.Text = Adc.ToString();
+                        //if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        //-----------------------------------
+                        //Adc = 0;
+                        Adc += g_byteData[14] << 8;
+                        Adc += g_byteData[15];
+                        txtAdc3.Text = Adc.ToString();
+                        Value3 = Adc;
+                        //if (Adc > g_iAdcMax2) g_iAdcMax2 = Adc;
+                        //txtAdcMax2.Text = g_iAdcMax2.ToString();
+                        //============================================
+                        //============================================
+                        Rpm = 0;
+                        Rpm += g_byteData[16] << 8;
+                        Rpm += g_byteData[17];
+                        labAzMulti.Text = Rpm.ToString();
+
+                        Rpm = 0;
+                        Rpm += g_byteData[18] << 8;
+                        Rpm += g_byteData[19];
+                        labAzSingle.Text = Rpm.ToString();
+
+                        Rpm = 0;
+                        Rpm += g_byteData[20] << 8;
+                        Rpm += g_byteData[21];
+                        labElMulti.Text = Rpm.ToString();
+
+                        Rpm = 0;
+                        Rpm += g_byteData[22] << 8;
+                        Rpm += g_byteData[23];
+                        labElSingle.Text = Rpm.ToString();
+
+                        //=======================================================
+                        */
+
+                        
+                        if (g_RecevChk == 1)
+                        {
+                            Adc = 0;
+                            Adc += g_byteData[2] << 8;
+                            Adc += g_byteData[3];
+
+                            csHex += Adc.ToString() + ",";
+
+                            csHex += DateTime.Now.Second.ToString() + "S, " + DateTime.Now.Millisecond.ToString() + "mS, ";
+
+                            Adc = 0;
+                            Adc += g_byteData[4] << 8;
+                            Adc += g_byteData[5];
+
+                            csHex += Adc.ToString() + ",";
+
+                            IntervalTime = Adc- g_iSaveTime1;
+                            g_iSaveTime1 = Adc;
+
+                            csHex += IntervalTime.ToString();
+
+                            csHex += "\r\n";
+                            g_csSaveData += csHex;
+                            LogDis(csHex, 0);
+                         
+
+                            /*
+                            //DateTime.Today.ToString();
+                            //DateTime.Now.ToLongTimeString();
+                            string time = DateTime.Now.Second.ToString() + ",  " + DateTime.Now.Millisecond.ToString();
+                            //csHex += " (" + time + ")";//////
+                            ///csHex = " (" + time + ")"; //HEX 무 표시 
+                            ///csHex += "(" + Value1.ToString() + "," + Value2.ToString() + "," + Value3.ToString() + ")"+"\r";
+                            /// LogDis("HEX: " + csHex, NEW_LINE);
+                            /// 
+
+                            //g_iSaveStepNo
+                            //g_iSaveNo
+
+                            if(g_csOldTime != DateTime.Now.Second.ToString())
+                            {
+                                g_csOldTime = DateTime.Now.Second.ToString();
+                                g_iSaveStepNo = 0;
+                                g_csSaveData += "\r\n";
+                                g_iSaveSubStep = 0;
+                                g_iSaveTime2 =g_iSaveTime1=0;
+                            }
+
+                            g_iSaveSubStep++;
+                            if (g_iSaveSubStep == 1)
+                            {
+                                g_iSaveTime1 = DateTime.Now.Millisecond;
+                                IntervalTime = g_iSaveTime1 - g_iSendmSec;
+                            }
+                            else if (g_iSaveSubStep == 2)
+                            {
+                                g_iSaveTime2 = DateTime.Now.Millisecond;
+                                g_iSaveSubStep = 0;
+                                IntervalTime = g_iSaveTime2 - g_iSendmSec;
+                            }
+
+                            if (g_iSaveTime2> g_iSaveTime1)
+                             Steptime = g_iSaveTime2 - g_iSaveTime1;
+                            else
+                             Steptime = g_iSaveTime1 - g_iSaveTime2;
+
+                            if (g_iSaveStepNo == 0)
+                                Steptime = 0;
+
+                            
+
+                            g_iSaveStepNo++;
+                            //g_iSaveNo++;
+                            //if (g_iSaveNo > 65535) g_iSaveNo = 0;
+
+                            //  g_csSaveData += "("+g_iSaveNo.ToString() + ")"+ time + ":"+ g_iSaveStepNo.ToString() + "\r\n";
+                            g_csSaveData += Adc.ToString() + ", "+ g_iSaveStepNo.ToString() + ", " + g_iSendSec.ToString() + ", "+ g_iSendmSec.ToString() +", "+ time + ", " + Steptime.ToString() + "," + IntervalTime.ToString() + "\r\n";
+
+                            csHex = Adc.ToString() + ", " + g_iSaveStepNo.ToString() + ", " + g_iSendSec.ToString() + ", " + g_iSendmSec.ToString() + ", " + time + ", " + Steptime.ToString() + "," + IntervalTime.ToString()+ "\r\n";
+                            LogDis("Rev: " + csHex, 0);
+                            */
+                        }
+
+                        //=======================================================
+
+                        //for (i = 0; i < g_RecevCnt; i++)
+                        for (i = 0; i < ICD_DATA_MAX; i++)
+                        {
+                            g_byteData[i] = 0;
+                        }
+
+                        g_csRecevData = "";
+                        g_iRecevErrorCnt = 0;
+                        g_RecevCnt = 0;
+                    }
+                }
+
+
+                g_iRecevErrorCnt =0;
+                g_bSend = false;
+
+                /*
+                //Error
+                if (g_iRecevErrorCnt>4)
+                {
+                    g_iRecevErrorCnt = 0;
+                    g_bRecevStart = false;
+                    g_bRecevStop = false;
+                    g_csRecevData = "";
+                }
+                */
+
+                /*
+                if (nLength>= 17)//17
+                {
+                    MessageBox.Show(cs); return;
+                    //if (btTemp[0] == ICD_STX && btTemp[3-1] == 0xa0 && btTemp[16-1] == ICD_ETX)
+                    //if (btTemp[0] == ICD_STX && btTemp[3] == 0xa0 && btTemp[16] == ICD_ETX)
+                    //if (btTemp[0] == ICD_STX && btTemp[5] == 0xa0 && btTemp[18] == ICD_ETX)
+                    {
+                        //g_csRecevData += cs;
+                        //string dis = (string.Format("SIZE:{0} :", g_csRecevData.Length) + g_csRecevData);
+                        //LogDis(dis, NEW_LINE);
+
+                        //g_csRecevData = "";
+
+                        //txtAdc1.Text = AsctoHex(btTemp[4]).ToString();
+                        //txtAdc2.Text = AsctoHex(btTemp[5]).ToString();
+                        //txtAdc3.Text = AsctoHex(btTemp[6]).ToString();
+
+                        Adc += AsctoHex(btTemp[4]) << 12;
+                        Adc += AsctoHex(btTemp[5]) << 8;
+                        Adc += AsctoHex(btTemp[6]) << 4;
+                        Adc += AsctoHex(btTemp[7]);
+                        txtAdc1.Text = Adc.ToString();
+                        //-----------------------------------
+                        Adc = 0;
+                        Adc += AsctoHex(btTemp[8]) << 12;
+                        Adc += AsctoHex(btTemp[9]) << 8;
+                        Adc += AsctoHex(btTemp[10]) << 4;
+                        Adc += AsctoHex(btTemp[11]);
+                        txtAdc2.Text = Adc.ToString();
+                        //-----------------------------------
+
+                        Adc = 0;
+                        Adc += AsctoHex(btTemp[12]) << 12;
+                        Adc += AsctoHex(btTemp[13]) << 8;
+                        Adc += AsctoHex(btTemp[14]) << 4;
+                        Adc += AsctoHex(btTemp[15]);
+                        txtAdc3.Text = Adc.ToString();
+
+                        //-----------------------------------
+
+                        //sum = (buf1 << 12) + (buf2 << 8) + (buf3 << 4) + buf4;
+
+                        //txtAdc1.Text =sum.ToString();
+
+                        //txtAdc1.Text = buf1.ToString();
+                        //txtAdc2.Text = buf2.ToString();
+                        //txtAdc3.Text = buf3.ToString();
+
+                        //txtAdc1.Text = btTemp[4].ToString();
+                        //txtAdc2.Text = btTemp[5].ToString();
+                        //txtAdc3.Text = btTemp[6].ToString();
+
+                        Buf1 = btTemp[4] * 255;
+                        Buf2 = Buf1 + btTemp[5];
+                        txtAdc1.Text = Buf2.ToString();
+
+                        Buf1 = btTemp[6] * 255;
+                        Buf2 = Buf1 + btTemp[7];
+                        txtAdc2.Text = Buf2.ToString();
+
+                        Buf1 = btTemp[8] * 255;
+                        Buf2 = Buf1 + btTemp[9];
+                        txtAdc3.Text = Buf2.ToString();
+                    }
+                }
+                */
+                //------------------------------------------
+                //------------------------------------------
+                /*
+                //if (btTemp[0] == 0x02 || btTemp[nLnegth - 1] == 0x03)
+                //if (btTemp[0] == '$' || btTemp[nLnegth - 1] == '+')
+                if (btTemp[0] == '$' || btTemp[nLnegth - 1] == 0x0a)//LF
+                {
+                    string cs = Encoding.UTF8.GetString(btTemp, 0, btTemp.Length);
+                    g_csRecevData += cs;
+                    //------------------------------------------
+                    //$#lux1234+ CrLf  //조도
+                    //$#cot1234+ CrLf //색온도
+
+                    //if (btTemp[nLnegth - 1] == 0x03)
+                    //if (btTemp[nLnegth - 1] == '+')
+                    if (btTemp[nLnegth - 1] == 0x0a)//LF
+                    {
+                        string dis = (string.Format("SIZE:{0} :", g_csRecevData.Length) + g_csRecevData);
+                        LogDis(dis, NEW_LINE);
+
+
+                        if (g_csRecevData.Length >= 10 - 1)
+                        {
+                            string buf = g_csRecevData;
+                            byte[] buf2 = new byte[4];
+                            for (int i = 0; i < 4; i++) buf2[i] = (byte)buf[i + 1];
+                            string head = Encoding.UTF8.GetString(buf2, 0, buf2.Length);
+                            if (!String.IsNullOrEmpty(head))
+                            {
+                                if (head == "#lux")
+                                {
+                                    if (g_csRecevData.Length < 10 + 2 + 2)//5자리 이상일 경우 무시
+                                    {
+                                        string str = buf.Substring(5);
+                                        string[] result = str.Split('+');
+                                        int max = result.Length;
+                                        str = "";
+                                        for (int n = 0; n < max; n++)
+                                        {
+
+                                            str += result[n];
+                                        }
+
+                                        ///labLux1.Text = str;
+                                        dis = (string.Format("lux : {0}", str));
+                                        LogDis(dis, NEW_LINE);
+                                    }
+                                }
+                                else if (head == "#cot")
+                                {
+                                    if (g_csRecevData.Length < 10 + 2 + 2)//5자리 이상일 경우 무시
+                                    {
+                                        string str = buf.Substring(5);
+                                        string[] result = str.Split('+');
+                                        int max = result.Length;
+                                        str = "";
+                                        for (int n = 0; n < max; n++)
+                                        {
+                                            str += result[n];
+                                        }
+
+                                        ///labCorTmp1.Text = str;
+                                        dis = (string.Format("cot : {0}", str));
+                                        LogDis(dis, NEW_LINE);
+                                    }
+                                }
+                            }
+                        }
+                        g_csRecevData = string.Empty;
+                        g_bRecevChk = true;
+                    }
+                    //------------------------------------------ 
+                }
+                */
+                //------------------------------------------
+                //------------------------------------------
+            }
+            catch (Exception ex)
+            {
+                if (serialPort1.IsOpen)
+                {
+                    System.Windows.Forms.MessageBox.Show(ex.ToString());
+                }
+                g_iRecevErrorCnt = 0;
+                g_bRecevStart = false;
+                g_bRecevStop = false;
+                g_csRecevData = "";
+            }
+        }
+
+        public void AdcDataRead()
+        {
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_ADC_READ;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            g_iSendSec = DateTime.Now.Second;
+            g_iSendmSec = DateTime.Now.Millisecond;
+        }
+
+        public void AutoPosRun()
+        {
+
+            g_iAutoStep++;
+            if (g_iAutoStep==2)
+            {
+                AzGo1();
+               
+            }
+            if (g_iAutoStep == 4)
+            {
+               // ElGo1();              
+            }
+
+            if (g_iAutoStep == 18)
+            {
+                AzGo2();
+            }
+            if (g_iAutoStep == 20)
+            {
+              //  ElGo2();
+            }
+
+            if (g_iAutoStep >= 32)
+            {
+                g_iAutoStep = 0;
+            }
+        }
+
+        public void RpmAutoChg()
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+
+            g_iRpmChgVal++;
+            if (g_iRpmChgVal > Rpm + 5)
+                g_iRpmChgVal = Rpm;
+
+           /// Rpm= g_iRpmChgVal;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            if(g_iAutoMode == 0)
+            Buffer[3] = PELCOD_RIGHT;
+            else
+            Buffer[3] = PELCOD_LEFT;
+
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+            txtErrorMessage.Text = "";
+        
+            g_iSendSec = DateTime.Now.Second;
+            g_iSendmSec = DateTime.Now.Millisecond;
+        }
+
+        public void ServoStop(int mode)
+        {
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+
+            if(mode==MOTOR_AZ)
+            Buffer[3] = PELCOD_AZ_STOP;
+            if (mode == MOTOR_EL)
+            Buffer[3] = PELCOD_EL_STOP;
+
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+
+        //public static Byte[] ByteToBitGet(byte[] by, int StartBit, int BitSize)
+        public static Byte ByteToBitGet(byte[] by, int StartBit, int BitSize)
+        {
+            //byte[] by = new byte[1];
+            //byte[] data = new byte[1];
+            //int StartBit = 0;
+            //int BitSize = 8;
+            //by[0] = 0x69; //0110 1001
+            //by[0] = btTemp[4];
+            //buf = (int)ByteToBitGet(by, StartBit, BitSize);
+            //int data = 0;
+            byte[] data = new byte[1];
+            int r = 0;
+            int buf = 0;
+            int cnt = 0;
+            //by[0] = 0x69; //0110 1001
+
+            for (int i = 0; i < 8; i++)
+            {
+                Boolean bit = false;
+                if (i >= StartBit)
+                {
+                    if (i == 0) bit = (by[0] & 1) != 0;
+                    else bit = (by[0] >> i & 1) != 0;
+
+                    //Boolean bit = (by[0] << i & 0x80) != 0;
+                    if (cnt < BitSize)
+                    {
+                        //상하위 비트가 뒤바뀜
+                        buf = buf << 1;
+                        if (bit)
+                        {
+                            buf |= 1;
+                            // LogDis("[1],", Flg.OFF);
+                        }
+                        else
+                        {
+                            // LogDis("[0],", Flg.OFF);
+                        }
+                    }
+                    else break;
+                    cnt++;
+                }
+            }
+            by[0] = (Byte)buf;
+            //LogDis(by[0].ToString(), Flg.ON);
+
+            //위에서 뒤집힌 Bit 뒤집기
+            for (int i = 0; i < BitSize; i++)
+            {
+                r = r << 1;
+                Boolean bit = (by[0] >> i & 1) != 0;
+                if (bit) r |= 1;
+            }
+            // LogDis(by[0].ToString(), Flg.ON);
+            data[0] = (byte)r;
+            return data[0];
+        }
+
+        //=======================================================================================
+
+
+        public void SerialTextSend()
+        {
+            string cs = txtRpm.Text;
+            serialPort1.Write(cs);
+        }
+
+        public void SerialByteSend()
+        {
+        }
+
+        //--------------------------------------------------------------
+        //--------------------------------------------------------------
+        // << 
+        private void btnLeft_MouseDown(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_LEFT;
+            Buffer[4] = (byte)Rpm;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+        private void btnLeft_MouseUp(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            ServoStop(MOTOR_AZ);
+        }
+
+        //--------------------------------------------------------------
+        // >>
+        private void btnRight_MouseDown(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_RIGHT;
+            Buffer[4] = (byte)Rpm;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+        //--------------------------------------------------------------
+        private void btnRight_MouseUp(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            ServoStop(MOTOR_AZ);
+        }
+
+        private void btnUp_MouseDown(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_UP;
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        private void btnUp_MouseUp(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            ServoStop(MOTOR_EL);
+        }
+
+        private void btnDn_MouseDown(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_DN;
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x01;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        private void btnDn_MouseUp(object sender, MouseEventArgs e)
+        {
+            g_bSend = true;
+            ServoStop(MOTOR_EL);
+        }
+        private void btnUpSpeed_Click(object sender, EventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_UP;
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        //--------------------------------------------------------------
+        //--------------------------------------------------------------
+
+        private void btnEmergency_Click(object sender, EventArgs e)
+        {          
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EMERGENCY_STOP;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            g_bSend = true;
+        }
+
+        private void btnAdcRead_Click(object sender, EventArgs e)
+        {
+
+            AdcDataRead();
+            g_bSend = true;
+
+            /*
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_ADC_READ;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            g_bSend = true;
+            */
+        }
+
+        private void btnAutoStop_Click(object sender, EventArgs e)
+        {
+            //timer1.Enabled = false;
+            g_bAutoRun = false;
+            g_iAdcMax = 0;
+        }
+
+        
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            string csTmp = "";
+            byte[] Buffer = new byte[8];
+
+           // g_RunTestCnt++;
+
+
+            if (g_RunTestCnt == 1)
+            {
+                g_bSend = true;
+                PresetGo(1);
+                LogDis("Send1: ", NEW_LINE);
+                g_RunTestCnt = 2;
+            }
+            else if (g_RunTestCnt== 2)
+            {
+                g_bSend = true;
+                PresetGo(2);
+                LogDis("Send2: ", NEW_LINE);
+                g_RunTestCnt = 3;
+            }
+            else if (g_RunTestCnt == 3)
+            {
+                g_bSend = true;
+                PresetGo(3);
+                LogDis("Send3: ", NEW_LINE);
+                g_RunTestCnt = 4;
+            }
+            else if (g_RunTestCnt == 4)
+            {
+                g_bSend = true;
+                PresetGo(4);
+                LogDis("Send4: ", NEW_LINE);
+                g_RunTestCnt = 5;
+            }
+
+            else if (g_RunTestCnt == 5)
+            {
+                g_bSend = true;
+                PresetGo(5);
+                LogDis("Send5: ", NEW_LINE);
+                g_RunTestCnt = 6;
+            }
+
+            else if (g_RunTestCnt == 6)
+            {
+                g_bSend = true;
+                PresetGo(4);
+                LogDis("Send6: ", NEW_LINE);
+                g_RunTestCnt = 7;
+            }
+            else if (g_RunTestCnt == 7)
+            {
+                g_bSend = true;
+                PresetGo(3);
+                LogDis("Send7: ", NEW_LINE);
+                g_RunTestCnt = 1;
+            }
+        }
+
+        private void btnElPosMoveAuto_Click(object sender, EventArgs e)
+        {
+            string csTmp = "";
+            byte[] Buffer = new byte[8];
+
+            csTmp = txtElAutoTime.Text;
+            int time = Convert.ToInt32(csTmp);
+
+            timer3.Stop();
+            timer3.Start();
+            //g_RunTestCnt = 2;
+            timer3.Interval = time;
+
+            g_bSend = true;
+            csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+            PresetGo(3);
+
+            /*
+
+            Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_DN;
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x01;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+
+           // timer3.Interval = 100;    
+           */
+
+            //csTmp = txtElAutoTime.Text;
+            //int time = Convert.ToInt32(csTmp);
+
+
+            timer3.Stop();
+            timer3.Start();
+            g_RunTestCnt = 2;
+            //timer3.Interval = time;
+        }
+
+        private void btnOriginAZ_Click(object sender, EventArgs e)
+        {
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_ENCODE_AZ_SET;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            g_bSend = true;
+        }
+
+        private void btnOriginEL_Click(object sender, EventArgs e)
+        {
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_ENCODE_EL_SET;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            g_bSend = true;
+        }
+
+        private void btn_RunAutoL_Click(object sender, EventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_LEFT;
+            Buffer[4] = (byte)Rpm;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        private void btn_RunAutoR_Click(object sender, EventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_RIGHT;
+            Buffer[4] = (byte)Rpm;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        void AzGo1()
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+            g_bSend = true;
+            csTmp = txtPulse2.Text;
+            g_iSetPulse = Convert.ToInt32(csTmp);
+            int pulse = g_iSetPulse;
+
+            //pulse = 5;
+
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_AZ_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        void AzGo2()
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+            g_bSend = true;
+            csTmp = txtPulse1.Text;
+            g_iSetPulse = Convert.ToInt32(csTmp);
+            int pulse = g_iSetPulse;
+
+            //pulse = 90;
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_AZ_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        void AzGoStep()
+        {
+            int pulse = 0;
+
+
+            if(g_DirMode==0)
+               g_iRpmStep+=20;
+            else
+              g_iRpmStep -= 20;
+
+            if (g_iRpmStep > 250)
+            {
+                g_DirMode = 1;
+                g_iRpmStep = 250;
+            }
+            if (g_iRpmStep < 120)
+            {
+                g_DirMode = 0;
+                g_iRpmStep = 120;
+            }
+
+            pulse = g_iRpmStep;
+
+            byte[] Buffer = new byte[8];
+
+            //pulse = 90;
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_AZ_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        void ElGoStep()
+        {
+            int pulse = 0;
+
+
+            if (g_DirMode2 == 0)
+                g_iRpmStep2 += 10;
+            else
+                g_iRpmStep2 -= 10;
+
+            if (g_iRpmStep2 > 70)
+            {
+                g_DirMode2 = 1;
+                g_iRpmStep2 = 70;
+            }
+            if (g_iRpmStep2 < 20)
+            {
+                g_DirMode2 = 0;
+                g_iRpmStep2 = 20;
+            }
+
+            pulse = g_iRpmStep2;
+
+            byte[] Buffer = new byte[8];
+
+            //pulse = 90;
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EL_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        private void btnAzGo1_Click(object sender, EventArgs e)
+        {
+            AzGo1();
+        }
+
+        private void btnAzGo2_Click(object sender, EventArgs e)
+        {
+            AzGo2();
+        }
+
+        void ElGo1()
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+            g_bSend = true;
+            csTmp = txtPulse4.Text;
+            g_iSetPulse = Convert.ToInt32(csTmp);
+            int pulse = g_iSetPulse;
+
+            //pulse = 0;
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EL_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+        void ElGo2()
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+            g_bSend = true;
+            csTmp = txtPulse3.Text;
+            g_iSetPulse = Convert.ToInt32(csTmp);
+            int pulse = g_iSetPulse;
+
+            //pulse = 90;
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EL_POS_MOV;
+            Buffer[4] = (byte)((pulse & 0xffff) >> 8);
+            Buffer[5] = (byte)((pulse & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        private void ElGo_Click(object sender, EventArgs e)
+        {
+            ElGo1();
+        }
+
+        private void ElGo22_Click(object sender, EventArgs e)
+        {
+            ElGo2();
+        }
+
+        //Stop
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            g_bAutoRun = false;
+            g_bSend = true;
+            timer3.Stop();
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EL_STOP;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            ZogAzLeftchkBox.Checked = false;
+            ZogAzRightchkBox.Checked = false;
+            ZogElUpchkBox.Checked = false;
+            ZogElDnchkBox.Checked = false;
+        }
+
+        private void btnStop2_Click(object sender, EventArgs e)
+        {
+            g_bSend = true;
+            timer3.Stop();
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_EL_STOP;
+            Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        private void btnPresetSet_Click(object sender, EventArgs e)
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+
+            var result = MessageBox.Show("현재 프리셋 위치를 저장 하시겠습니까?", " 프리셋 위치 저장 ",
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+
+            // If the no button was pressed ...
+            if (result == DialogResult.Yes)
+            {
+                // cancel the closure of the form.
+                //MessageBox.Show("ok");
+                g_bSend = true;
+                csTmp = txtPresetnNo.Text;
+                //g_iSetPulse = Convert.ToInt32(csTmp);
+                int preset = Convert.ToInt32(csTmp);
+
+                if (preset > 0) preset = preset - 1;
+                if (preset > 15) preset = 14;
+
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_PRESET_SET;
+                Buffer[4] = (byte)(0);
+                Buffer[5] = (byte)((preset & 0x00ff));
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+            }
+        }
+
+        private void PresetGo(int addr)
+        {
+            byte[] Buffer = new byte[8];
+            int preset = addr;
+
+            if (preset > 0) preset = preset - 1;
+            if (preset > 15) preset = 14;
+
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_PRESET_GO;
+            Buffer[4] = (byte)(0);
+            Buffer[5] = (byte)((preset & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        private void btnPresetGo_Click(object sender, EventArgs e)
+        {
+            byte[] Buffer = new byte[8];
+            string csTmp = "";
+            g_bSend = true;
+            csTmp = txtPresetnNo.Text;
+            //g_iSetPulse = Convert.ToInt32(csTmp);
+            int preset = Convert.ToInt32(csTmp);
+
+            if (preset > 0) preset = preset - 1;
+            if (preset > 15) preset = 14;
+
+             Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_PRESET_GO;
+            Buffer[4] = (byte)(0);
+            Buffer[5] = (byte)((preset & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+        }
+
+        private void btnPresetUp_Click(object sender, EventArgs e)
+        {
+            string csTmp = "";
+            csTmp = txtPresetnNo.Text;
+            int preset = Convert.ToInt32(csTmp);
+
+            if (preset < PRESET_ADDR_MAX) preset++;
+            //g_iSetPulse = preset;
+            txtPresetnNo.Text = preset.ToString();
+        }
+
+        private void btnPresetDn_Click(object sender, EventArgs e)
+        {
+            string csTmp = "";
+            csTmp = txtPresetnNo.Text;
+            int preset = Convert.ToInt32(csTmp);
+            //표시는 1부터 시작 데이터는 0부터
+            if (preset >1) preset--;
+            //g_iSetPulse = preset;
+            txtPresetnNo.Text = preset.ToString();
+        }
+
+        private void btnSearchMove_Click(object sender, EventArgs e)
+        {
+            string csTmp = "";
+            csTmp = txtSearchMaxAddr.Text;
+            byte[] Buffer = new byte[8];
+       
+            int data = Convert.ToInt32(csTmp);
+
+            if (data > 15) data = 15;
+
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_SEARCH_MOVE_MODE;
+            Buffer[4] = (byte)(0);
+            Buffer[5] = (byte)((data & 0x00ff));
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+        }
+
+        //=====================================================================
+        private void ZogElUpchkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ZogElUpchkBox.Checked == true)
+            {
+                //MessageBox.Show("on");
+                g_bSend = true;
+                string csTmp = txtRpm.Text;
+                int Rpm = Convert.ToInt32(csTmp);
+                g_iSetRpm = Rpm;
+                //byte buf = 0;       
+                // buf = Convert.ToByte(g_TestCnt + 0x30);
+                labAzMulti.Text = g_iSetRpm.ToString();
+
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_UP;
+                Buffer[4] = (byte)Rpm;
+                //Buffer[4] = 0x00;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+
+                txtErrorMessage.Text = "";
+            }
+            else
+            {
+                //MessageBox.Show("off");
+                g_bSend = true;
+                timer3.Stop();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_EL_STOP;
+                Buffer[4] = 0x00;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+            }
+        }
+
+        //=====================================================================
+        private void ZogElDnchkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ZogElDnchkBox.Checked == true)
+            {
+                //MessageBox.Show("on");
+                g_bSend = true;
+                string csTmp = txtRpm.Text;
+                int Rpm = Convert.ToInt32(csTmp);
+                g_iSetRpm = Rpm;
+                //byte buf = 0;       
+                // buf = Convert.ToByte(g_TestCnt + 0x30);
+                labAzMulti.Text = g_iSetRpm.ToString();
+
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_DN;
+                Buffer[4] = (byte)Rpm;
+                //Buffer[4] = 0x01;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+
+                txtErrorMessage.Text = "";
+            }
+            else
+            {
+                //MessageBox.Show("off");
+                g_bSend = true;
+                timer3.Stop();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_AZ_STOP;
+                Buffer[4] = 0x00;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+            }
+
+        }
+        //=====================================================================
+        private void ZogAzLeftchkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ZogAzLeftchkBox.Checked == true)
+            {
+                g_bSend = true;
+                string csTmp = txtRpm.Text;
+                int Rpm = Convert.ToInt32(csTmp);
+                g_iSetRpm = Rpm;
+                //byte buf = 0;       
+                // buf = Convert.ToByte(g_TestCnt + 0x30);
+                labAzMulti.Text = g_iSetRpm.ToString();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_LEFT;
+                Buffer[4] = (byte)Rpm;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+
+                txtErrorMessage.Text = "";
+            }
+            else
+            {
+                //MessageBox.Show("off");
+                g_bSend = true;
+                timer3.Stop();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_AZ_STOP;
+                Buffer[4] = 0x00;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+            }
+        }
+
+        //=====================================================================
+        private void ZogAzRightchkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ZogAzRightchkBox.Checked == true)
+            {
+                g_bSend = true;
+                string csTmp = txtRpm.Text;
+                int Rpm = Convert.ToInt32(csTmp);
+                g_iSetRpm = Rpm;
+                //byte buf = 0;       
+                // buf = Convert.ToByte(g_TestCnt + 0x30);
+                labAzMulti.Text = g_iSetRpm.ToString();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_RIGHT;
+                Buffer[4] = (byte)Rpm;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+
+                txtErrorMessage.Text = "";
+            }
+            else
+            {
+                //MessageBox.Show("off");
+                g_bSend = true;
+                timer3.Stop();
+
+                byte[] Buffer = new byte[8];
+                Buffer[0] = PELCOD_STX;  //STX
+                Buffer[1] = PELCOD_ADDRESS1;
+                Buffer[2] = 0x00;
+                Buffer[3] = PELCOD_AZ_STOP;
+                Buffer[4] = 0x00;
+                Buffer[5] = 0x00;
+                Buffer[6] = 0x00;
+                serialPort1.Write(Buffer, 0, 7);
+            }
+        }
+
+        private void btnRightSpeed_Click(object sender, EventArgs e)
+        {
+            g_bSend = true;
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iSetRpm = Rpm;
+            //byte buf = 0;       
+            // buf = Convert.ToByte(g_TestCnt + 0x30);
+            labAzMulti.Text = g_iSetRpm.ToString();
+
+
+            byte[] Buffer = new byte[8];
+            Buffer[0] = PELCOD_STX;  //STX
+            Buffer[1] = PELCOD_ADDRESS1;
+            Buffer[2] = 0x00;
+            Buffer[3] = PELCOD_RIGHT;
+            Buffer[4] = (byte)Rpm;
+            //Buffer[4] = 0x00;
+            Buffer[5] = 0x00;
+            Buffer[6] = 0x00;
+            serialPort1.Write(Buffer, 0, 7);
+
+            txtErrorMessage.Text = "";
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            g_iAdcMax = 0;
+            g_iAdcMax2 = 0;
+            LogDisList.Clear();
+            txtAdc1.Text = "";
+            txtAdc2.Text = "";
+            txtAdc3.Text = "";
+            txtAdc4.Text = "";
+            txtAdc5.Text = "";
+            txtAdc6.Text = "";
+
+            labAzMulti.Text = "";
+            labAzSingle.Text = "";
+
+            labElMulti.Text = "";
+            labElSingle.Text = "";
+
+            txtAdcMax.Text = "";
+            txtAdcMax2.Text = "";
+            labAzMulti.Text = "";
+            txtErrorMessage.Text = "";
+
+            //----------------------
+
+            g_csSaveData = "";
+            g_csSaveData += "No/Sec" + "," + "Send Sec" + "," + "Send mSec" + "," + "Recev Sec" + "," + "Recev mSec" + "," + "Interval" + ",";
+            g_csOldTime = "";
+            g_iSaveStepNo = 0;
+            g_csSaveData += "\r\n";
+            g_iSaveSubStep = 0;
+            g_iSaveTime2 = g_iSaveTime1 = 0;
+
+        }
+
+        private void btFileSave_Click(object sender, EventArgs e)
+        {
+            //int Length = g_csRecevData.Length;
+            //string time = DateTime.Now.Second.ToString() + "초:" + DateTime.Now.Millisecond.ToString();
+            //string file = DateTime.Now.Second.ToString() + "초:" + DateTime.Now.Millisecond.ToString();
+            string file = (@"C:\Tester\Data\data.csv");
+            //csHex += " (" + time + ")";//////
+            //csHex = " (" + time + ")"; //HEX 무 표시 
+            //csHex += "(" + Value1.ToString() + "," + Value2.ToString() + "," + Value3.ToString() + ")" + "\r";
+
+            try
+            {
+                //string[] lines = System.IO.File.ReadAllLines(file);
+                int Length = g_csSaveData.Length;
+                int max = 0;
+                //max = lines.GetLength(0);
+                //------------------------------
+                //if (max > 0 && max < DEV_MAX) m_DrawMax = max;
+                //------------------------------
+                string cs = g_csSaveData;// string.Empty;
+
+                //for (int i = 0; i < max; i++)//DEV_MAX
+                //{
+                   // string[] ps;
+                   // ps = lines[i].Split(',');
+                   
+                //    cs += string.Format("{0},{1},{2},{3},{4}", "", "", "", "") + "\r\n";
+                //}
+                System.IO.File.WriteAllText(file, cs);
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show("", file + "파일을 저장하지 못하겠습니다.!");
+            }
+
+            g_csSaveData = "";
+        }
+
+        private void btnAutoRun_Click(object sender, EventArgs e)
+        {
+            //timer1.Enabled = true;
+            g_iAdcMax = 0;
+            g_bAutoRun = true;
+
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iRpmChgVal = g_iSetRpm = Rpm;
+
+            g_iAutoMode = 0;
+        }
+
+        private void btnAutoRun2_Click(object sender, EventArgs e)
+        {
+            //timer1.Enabled = true;
+            g_iAdcMax = 0;
+            g_bAutoRun = true;
+
+            string csTmp = txtRpm.Text;
+            int Rpm = Convert.ToInt32(csTmp);
+            g_iRpmChgVal = g_iSetRpm = Rpm;
+
+            g_iAutoMode = 1;
+        }
+
+        private void btTest_Click(object sender, EventArgs e)
+        {
+            /*
+           chart1.Series["Series1"].Points.Clear();
+           chart1.Series["Series1"].Points.Add(100);  // X=1
+           chart1.Series["Series1"].Points.Add(200);  // X=2
+           chart1.Series["Series1"].Points.Add(300);
+           chart1.Series["Series1"].Points.Add(400);
+           */
+
+            
+
+            SineDataGrap();
+        }
+
+        int gSineOutCnt = 0;
+        public void SineDataGrap()
+        {
+            //static readonly double = 3.14;
+
+            /*
+            float gtemp = (float)gSineOutCnt / 40000 * 360;
+            float SineData = 0;
+            //-------------------------------------------
+            //자이로 sin 테스트 데이터 출력
+            SineData = (float)(2 * Math.Sin(gtemp * Math.PI / 180));
+            gSineOutCnt++;
+            if (gSineOutCnt > 40000)//5000
+            {
+                gSineOutCnt = 0;
+                timer4.Stop();
+            }
+            chart1.Series[0].Points.Add(SineData);
+            */
+
+
+            float gtemp = 0;
+            float SineData = 0;
+            //-------------------------------------------
+            //자이로 sin 테스트 데이터 출력
+
+            for (int i = 0; i < 400; i++)
+            {
+                gtemp = (float)i / 400 * 360;
+                SineData = (float)(2 * Math.Sin(gtemp * Math.PI / 180));
+                //chart1.Series[0].Points.Add(SineData);
+                
+                chart1.Series[0].Points.AddXY(i,SineData);
+                chart1.Series[1].Points.AddXY(i,SineData+10);
+            }
+        }
+
+        private void btStop_Click(object sender, EventArgs e)
+        {
+            timer4.Stop();
+        }
+    }
+}

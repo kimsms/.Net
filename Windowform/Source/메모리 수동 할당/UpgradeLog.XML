@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GrablinkSnapshotTrigger90">
+</Property><Property Name="Solution File" Value="C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\GrablinkSnapshotTrigger90.sln">
+</Property><Property Name="Date" Value="Friday, May 12, 2017">
+</Property><Property Name="Time" Value="16:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GrablinkSnapshotTrigger90.sln" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\GrablinkSnapshotTrigger90.sln">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="GrablinkSnapshotTrigger90.csproj" Description="Project file successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\GrablinkSnapshotTrigger90.csproj">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="MainForm.cs" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="MultiCam.cs" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\MultiCam.cs">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="App.ico" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="MainForm.resx" Description="File successfully backed up as C:\Temp\Download\Euresys\Multicam\Samples\multicam-win-sample-programs-6.13.0.3180\multicam-sample-programs\MsCs\GrablinkSnapshotTrigger\Backup\MainForm.resx">
+</Event><Event ErrorLevel="1" Project="GrablinkSnapshotTrigger90" Source="GrablinkSnapshotTrigger90.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="GrablinkSnapshotTrigger90.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GrablinkSnapshotTrigger90" Source="GrablinkSnapshotTrigger90.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GrablinkSnapshotTrigger90.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GrablinkSnapshotTrigger90.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GrablinkSnapshotTrigger90" Source="GrablinkSnapshotTrigger90.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,1966 @@
+[2022-03-03 20:32:26:196] : Inspection Thread Start Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:32:26:243] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 13
+[2022-03-03 20:32:26:243] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 13
+[2022-03-03 20:32:26:243] : IntegrateResultAndSendPLC : 13, RESULTTrue
+[2022-03-03 20:32:26:243] : Inspection Thread End Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:32:26:368] : Inspection Thread Start Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:32:26:586] : Inspection Thread Start Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:32:26:726] : Inspection2 Start Cam No. :1 Buff No. :: 13
+[2022-03-03 20:32:26:726] : Inspection2 END Cam No. :1 Buff No. :: 13
+[2022-03-03 20:32:26:726] : IntegrateResultAndSendPLC : 13, RESULTTrue
+[2022-03-03 20:32:26:726] : Inspection Thread End Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:32:26:882] : Inspection Thread Start Cam No. :0  Buff No. ::: 14
+[2022-03-03 20:32:26:929] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 14
+[2022-03-03 20:32:26:929] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 14
+[2022-03-03 20:32:26:929] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:27:054] : Inspection Thread Start Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:32:27:148] : Inspection3 START Cam No. :2 Buff No. :: 13
+[2022-03-03 20:32:27:148] : Inspection3 END Cam No. :2 Buff No. :: 13
+[2022-03-03 20:32:27:148] : Single PLC Send START, Index : 13, nResult : 1
+[2022-03-03 20:32:27:194] : Single PLC Send END, Index : 13, nResult : 1
+[2022-03-03 20:32:27:194] : IntegrateResultAndSendPLC : 13, RESULTTrue
+[2022-03-03 20:32:27:194] : Inspection Thread End Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:32:27:272] : Inspection Thread Start Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:32:27:413] : Inspection2 Start Cam No. :1 Buff No. :: 14
+[2022-03-03 20:32:27:413] : Inspection2 END Cam No. :1 Buff No. :: 14
+[2022-03-03 20:32:27:413] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:27:413] : Inspection Thread End Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:32:27:460] : Inspection Thread Start Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:32:27:506] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 15
+[2022-03-03 20:32:27:506] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 15
+[2022-03-03 20:32:27:506] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:32:27:506] : Inspection Thread End Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:32:27:631] : Inspection Thread Start Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:32:27:834] : Inspection3 START Cam No. :2 Buff No. :: 14
+[2022-03-03 20:32:27:834] : Inspection3 END Cam No. :2 Buff No. :: 14
+[2022-03-03 20:32:27:834] : Single PLC Send START, Index : 14, nResult : 2
+[2022-03-03 20:32:27:850] : Inspection Thread Start Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:32:27:881] : Single PLC Send END, Index : 14, nResult : 2
+[2022-03-03 20:32:27:881] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:27:896] : Inspection Thread End Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:32:27:990] : Inspection2 Start Cam No. :1 Buff No. :: 15
+[2022-03-03 20:32:27:990] : Inspection2 END Cam No. :1 Buff No. :: 15
+[2022-03-03 20:32:27:990] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:32:27:990] : Inspection Thread End Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:32:28:006] : Inspection Thread Start Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:32:28:052] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 16
+[2022-03-03 20:32:28:052] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 16
+[2022-03-03 20:32:28:052] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:32:28:052] : Inspection Thread End Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:32:28:162] : Inspection Thread Start Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:32:28:396] : Inspection Thread Start Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:32:28:396] : Inspection3 START Cam No. :2 Buff No. :: 16
+[2022-03-03 20:32:28:396] : Inspection3 END Cam No. :2 Buff No. :: 16
+[2022-03-03 20:32:28:396] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:32:28:411] : Inspection Thread End Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:32:28:552] : Inspection2 Start Cam No. :1 Buff No. :: 16
+[2022-03-03 20:32:28:552] : Inspection2 END Cam No. :1 Buff No. :: 16
+[2022-03-03 20:32:28:552] : Single PLC Send START, Index : 16, nResult : 1
+[2022-03-03 20:32:28:552] : Inspection Thread Start Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:32:28:583] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 17
+[2022-03-03 20:32:28:583] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 17
+[2022-03-03 20:32:28:598] : Single PLC Send END, Index : 16, nResult : 1
+[2022-03-03 20:32:28:598] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:32:28:614] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:32:28:614] : Inspection Thread End Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:32:28:614] : Inspection Thread End Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:32:28:708] : Inspection Thread Start Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:32:28:926] : Inspection Thread Start Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:32:28:957] : Inspection3 START Cam No. :2 Buff No. :: 15
+[2022-03-03 20:32:28:957] : Inspection3 END Cam No. :2 Buff No. :: 15
+[2022-03-03 20:32:28:957] : Single PLC Send START, Index : 15, nResult : 1
+[2022-03-03 20:32:29:004] : Single PLC Send END, Index : 15, nResult : 1
+[2022-03-03 20:32:29:004] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:32:29:020] : Inspection Thread End Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:32:29:066] : Inspection2 Start Cam No. :1 Buff No. :: 17
+[2022-03-03 20:32:29:066] : Inspection2 END Cam No. :1 Buff No. :: 17
+[2022-03-03 20:32:29:066] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:32:29:066] : Inspection Thread End Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:32:29:113] : Inspection Thread Start Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:32:29:113] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 18
+[2022-03-03 20:32:29:113] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 18
+[2022-03-03 20:32:29:113] : IntegrateResultAndSendPLC : 18, RESULTFalse
+[2022-03-03 20:32:29:285] : Inspection Thread Start Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:32:29:488] : Inspection3 START Cam No. :2 Buff No. :: 17
+[2022-03-03 20:32:29:488] : Inspection3 END Cam No. :2 Buff No. :: 17
+[2022-03-03 20:32:29:488] : Single PLC Send START, Index : 17, nResult : 1
+[2022-03-03 20:32:29:488] : Inspection Thread Start Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:32:29:534] : Single PLC Send END, Index : 17, nResult : 1
+[2022-03-03 20:32:29:534] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:32:29:534] : Inspection Thread End Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:32:29:644] : Inspection2 Start Cam No. :1 Buff No. :: 18
+[2022-03-03 20:32:29:644] : Inspection2 END Cam No. :1 Buff No. :: 18
+[2022-03-03 20:32:29:644] : IntegrateResultAndSendPLC : 18, RESULTFalse
+[2022-03-03 20:32:29:644] : Inspection Thread End Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:32:29:846] : Inspection Thread Start Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:32:29:893] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 19
+[2022-03-03 20:32:29:893] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 19
+[2022-03-03 20:32:29:893] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:30:018] : Inspection Thread Start Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:32:30:049] : Inspection3 START Cam No. :2 Buff No. :: 18
+[2022-03-03 20:32:30:049] : Inspection3 END Cam No. :2 Buff No. :: 18
+[2022-03-03 20:32:30:049] : Single PLC Send START, Index : 18, nResult : 2
+[2022-03-03 20:32:30:096] : Single PLC Send END, Index : 18, nResult : 2
+[2022-03-03 20:32:30:096] : IntegrateResultAndSendPLC : 18, RESULTFalse
+[2022-03-03 20:32:30:096] : Inspection Thread End Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:32:30:236] : Inspection Thread Start Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:32:30:361] : Inspection2 Start Cam No. :1 Buff No. :: 19
+[2022-03-03 20:32:30:361] : Inspection2 END Cam No. :1 Buff No. :: 19
+[2022-03-03 20:32:30:361] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:30:361] : Inspection Thread End Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:32:30:455] : Inspection Thread Start Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:32:30:486] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 20
+[2022-03-03 20:32:30:486] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 20
+[2022-03-03 20:32:30:486] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:30:486] : Inspection Thread End Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:32:30:611] : Inspection Thread Start Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:32:30:798] : Inspection3 START Cam No. :2 Buff No. :: 19
+[2022-03-03 20:32:30:798] : Inspection3 END Cam No. :2 Buff No. :: 19
+[2022-03-03 20:32:30:798] : Single PLC Send START, Index : 19, nResult : 2
+[2022-03-03 20:32:30:829] : Inspection Thread Start Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:32:30:845] : Single PLC Send END, Index : 19, nResult : 2
+[2022-03-03 20:32:30:845] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:30:985] : Inspection2 Start Cam No. :1 Buff No. :: 20
+[2022-03-03 20:32:30:985] : Inspection2 END Cam No. :1 Buff No. :: 20
+[2022-03-03 20:32:30:985] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:30:985] : Inspection Thread End Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:32:31:016] : Inspection Thread Start Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:32:31:063] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 21
+[2022-03-03 20:32:31:063] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 21
+[2022-03-03 20:32:31:063] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:31:063] : Inspection Thread End Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:32:31:188] : Inspection Thread Start Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:32:31:391] : Inspection3 START Cam No. :2 Buff No. :: 20
+[2022-03-03 20:32:31:391] : Inspection3 END Cam No. :2 Buff No. :: 20
+[2022-03-03 20:32:31:391] : Single PLC Send START, Index : 20, nResult : 1
+[2022-03-03 20:32:31:406] : Inspection Thread Start Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:32:31:438] : Single PLC Send END, Index : 20, nResult : 1
+[2022-03-03 20:32:31:438] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:31:453] : Inspection Thread End Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:32:31:562] : Inspection2 Start Cam No. :1 Buff No. :: 21
+[2022-03-03 20:32:31:562] : Inspection2 END Cam No. :1 Buff No. :: 21
+[2022-03-03 20:32:31:562] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:31:562] : Inspection Thread End Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:32:31:594] : Inspection Thread Start Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:32:31:640] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 22
+[2022-03-03 20:32:31:640] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 22
+[2022-03-03 20:32:31:640] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:31:640] : Inspection Thread End Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:32:31:750] : Inspection Thread Start Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:32:31:968] : Inspection3 START Cam No. :2 Buff No. :: 21
+[2022-03-03 20:32:31:968] : Inspection3 END Cam No. :2 Buff No. :: 21
+[2022-03-03 20:32:31:968] : Single PLC Send START, Index : 21, nResult : 1
+[2022-03-03 20:32:31:984] : Inspection Thread Start Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:32:32:015] : Single PLC Send END, Index : 21, nResult : 1
+[2022-03-03 20:32:32:015] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:32:015] : Inspection Thread End Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:32:32:108] : Inspection2 Start Cam No. :1 Buff No. :: 22
+[2022-03-03 20:32:32:108] : Inspection2 END Cam No. :1 Buff No. :: 22
+[2022-03-03 20:32:32:108] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:32:108] : Inspection Thread End Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:32:32:171] : Inspection Thread Start Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:32:32:202] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 23
+[2022-03-03 20:32:32:202] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 23
+[2022-03-03 20:32:32:202] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:32:202] : Inspection Thread End Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:32:32:342] : Inspection Thread Start Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:32:32:545] : Inspection3 START Cam No. :2 Buff No. :: 22
+[2022-03-03 20:32:32:545] : Inspection3 END Cam No. :2 Buff No. :: 22
+[2022-03-03 20:32:32:545] : Single PLC Send START, Index : 22, nResult : 1
+[2022-03-03 20:32:32:561] : Inspection Thread Start Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:32:32:592] : Single PLC Send END, Index : 22, nResult : 1
+[2022-03-03 20:32:32:592] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:32:592] : Inspection Thread End Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:32:32:686] : Inspection2 Start Cam No. :1 Buff No. :: 23
+[2022-03-03 20:32:32:686] : Inspection2 END Cam No. :1 Buff No. :: 23
+[2022-03-03 20:32:32:686] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:32:686] : Inspection Thread End Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:32:32:748] : Inspection Thread Start Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:32:32:795] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 24
+[2022-03-03 20:32:32:795] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 24
+[2022-03-03 20:32:32:795] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:32:795] : Inspection Thread End Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:32:32:904] : Inspection Thread Start Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:32:33:122] : Inspection3 START Cam No. :2 Buff No. :: 23
+[2022-03-03 20:32:33:122] : Inspection3 END Cam No. :2 Buff No. :: 23
+[2022-03-03 20:32:33:122] : Single PLC Send START, Index : 23, nResult : 1
+[2022-03-03 20:32:33:122] : Inspection Thread Start Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:32:33:169] : Single PLC Send END, Index : 23, nResult : 1
+[2022-03-03 20:32:33:169] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:33:169] : Inspection Thread End Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:32:33:278] : Inspection2 Start Cam No. :1 Buff No. :: 24
+[2022-03-03 20:32:33:278] : Inspection2 END Cam No. :1 Buff No. :: 24
+[2022-03-03 20:32:33:278] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:33:278] : Inspection Thread End Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:32:33:341] : Inspection Thread Start Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:32:33:356] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 25
+[2022-03-03 20:32:33:356] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 25
+[2022-03-03 20:32:33:356] : IntegrateResultAndSendPLC : 25, RESULTFalse
+[2022-03-03 20:32:33:481] : Inspection Thread Start Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:32:33:684] : Inspection3 START Cam No. :2 Buff No. :: 24
+[2022-03-03 20:32:33:684] : Inspection3 END Cam No. :2 Buff No. :: 24
+[2022-03-03 20:32:33:684] : Single PLC Send START, Index : 24, nResult : 1
+[2022-03-03 20:32:33:715] : Inspection Thread Start Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:32:33:731] : Single PLC Send END, Index : 24, nResult : 1
+[2022-03-03 20:32:33:731] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:33:731] : Inspection Thread End Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:32:33:856] : Inspection2 Start Cam No. :1 Buff No. :: 25
+[2022-03-03 20:32:33:856] : Inspection2 END Cam No. :1 Buff No. :: 25
+[2022-03-03 20:32:33:856] : IntegrateResultAndSendPLC : 25, RESULTFalse
+[2022-03-03 20:32:33:856] : Inspection Thread End Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:32:33:902] : Inspection Thread Start Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:32:33:949] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 26
+[2022-03-03 20:32:33:949] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 26
+[2022-03-03 20:32:33:949] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:32:33:949] : Inspection Thread End Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:32:34:058] : Inspection Thread Start Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:32:34:261] : Inspection3 START Cam No. :2 Buff No. :: 25
+[2022-03-03 20:32:34:261] : Inspection3 END Cam No. :2 Buff No. :: 25
+[2022-03-03 20:32:34:261] : Single PLC Send START, Index : 25, nResult : 2
+[2022-03-03 20:32:34:292] : Inspection Thread Start Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:32:34:308] : Single PLC Send END, Index : 25, nResult : 2
+[2022-03-03 20:32:34:308] : IntegrateResultAndSendPLC : 25, RESULTFalse
+[2022-03-03 20:32:34:324] : Inspection Thread End Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:32:34:433] : Inspection2 Start Cam No. :1 Buff No. :: 26
+[2022-03-03 20:32:34:433] : Inspection2 END Cam No. :1 Buff No. :: 26
+[2022-03-03 20:32:34:433] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:32:34:433] : Inspection Thread End Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:32:34:448] : Inspection Thread Start Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:32:34:480] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 27
+[2022-03-03 20:32:34:480] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 27
+[2022-03-03 20:32:34:480] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:32:34:480] : Inspection Thread End Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:32:34:604] : Inspection Thread Start Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:32:34:823] : Inspection Thread Start Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:32:34:838] : Inspection3 START Cam No. :2 Buff No. :: 27
+[2022-03-03 20:32:34:838] : Inspection3 END Cam No. :2 Buff No. :: 27
+[2022-03-03 20:32:34:838] : IntegrateResultAndSendPLC : 27, RESULTFalse
+[2022-03-03 20:32:34:994] : Inspection2 Start Cam No. :1 Buff No. :: 27
+[2022-03-03 20:32:34:994] : Inspection2 END Cam No. :1 Buff No. :: 27
+[2022-03-03 20:32:34:994] : Single PLC Send START, Index : 27, nResult : 2
+[2022-03-03 20:32:34:994] : Inspection Thread Start Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:32:35:026] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 28
+[2022-03-03 20:32:35:026] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 28
+[2022-03-03 20:32:35:041] : Single PLC Send END, Index : 27, nResult : 2
+[2022-03-03 20:32:35:041] : IntegrateResultAndSendPLC : 27, RESULTFalse
+[2022-03-03 20:32:35:041] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:32:35:041] : Inspection Thread End Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:32:35:150] : Inspection Thread Start Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:32:35:384] : Inspection3 START Cam No. :2 Buff No. :: 26
+[2022-03-03 20:32:35:384] : Inspection Thread Start Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:32:35:384] : Inspection3 END Cam No. :2 Buff No. :: 26
+[2022-03-03 20:32:35:384] : Single PLC Send START, Index : 26, nResult : 1
+[2022-03-03 20:32:35:431] : Single PLC Send END, Index : 26, nResult : 1
+[2022-03-03 20:32:35:431] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:32:35:447] : Inspection Thread End Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:32:35:540] : Inspection2 Start Cam No. :1 Buff No. :: 28
+[2022-03-03 20:32:35:540] : Inspection2 END Cam No. :1 Buff No. :: 28
+[2022-03-03 20:32:35:540] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:32:35:540] : Inspection Thread End Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:32:35:556] : Inspection Thread Start Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:32:35:603] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 29
+[2022-03-03 20:32:35:603] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 29
+[2022-03-03 20:32:35:603] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:35:603] : Inspection Thread End Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:32:35:728] : Inspection Thread Start Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:32:35:946] : Inspection3 START Cam No. :2 Buff No. :: 28
+[2022-03-03 20:32:35:946] : Inspection Thread Start Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:32:35:946] : Inspection3 END Cam No. :2 Buff No. :: 28
+[2022-03-03 20:32:35:946] : Single PLC Send START, Index : 28, nResult : 2
+[2022-03-03 20:32:35:993] : Single PLC Send END, Index : 28, nResult : 2
+[2022-03-03 20:32:35:993] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:32:35:993] : Inspection Thread End Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:32:36:086] : Inspection2 Start Cam No. :1 Buff No. :: 29
+[2022-03-03 20:32:36:086] : Inspection2 END Cam No. :1 Buff No. :: 29
+[2022-03-03 20:32:36:086] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:36:086] : Inspection Thread End Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:32:36:118] : Inspection Thread Start Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:32:36:164] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 30
+[2022-03-03 20:32:36:164] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 30
+[2022-03-03 20:32:36:164] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:36:164] : Inspection Thread End Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:32:36:289] : Inspection Thread Start Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:32:36:508] : Inspection3 START Cam No. :2 Buff No. :: 29
+[2022-03-03 20:32:36:508] : Inspection Thread Start Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:32:36:508] : Inspection3 END Cam No. :2 Buff No. :: 29
+[2022-03-03 20:32:36:508] : Single PLC Send START, Index : 29, nResult : 1
+[2022-03-03 20:32:36:554] : Single PLC Send END, Index : 29, nResult : 1
+[2022-03-03 20:32:36:554] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:36:570] : Inspection Thread End Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:32:36:632] : Inspection2 Start Cam No. :1 Buff No. :: 30
+[2022-03-03 20:32:36:632] : Inspection2 END Cam No. :1 Buff No. :: 30
+[2022-03-03 20:32:36:632] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:36:632] : Inspection Thread End Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:32:36:679] : Inspection Thread Start Cam No. :0  Buff No. ::: 31
+[2022-03-03 20:32:36:710] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 31
+[2022-03-03 20:32:36:710] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 31
+[2022-03-03 20:32:36:710] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:36:851] : Inspection Thread Start Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:32:37:069] : Inspection3 START Cam No. :2 Buff No. :: 30
+[2022-03-03 20:32:37:069] : Inspection Thread Start Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:32:37:069] : Inspection3 END Cam No. :2 Buff No. :: 30
+[2022-03-03 20:32:37:069] : Single PLC Send START, Index : 30, nResult : 2
+[2022-03-03 20:32:37:116] : Single PLC Send END, Index : 30, nResult : 2
+[2022-03-03 20:32:37:116] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:37:116] : Inspection Thread End Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:32:37:210] : Inspection2 Start Cam No. :1 Buff No. :: 31
+[2022-03-03 20:32:37:210] : Inspection2 END Cam No. :1 Buff No. :: 31
+[2022-03-03 20:32:37:210] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:37:210] : Inspection Thread End Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:32:37:241] : Inspection Thread Start Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:32:37:288] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 0
+[2022-03-03 20:32:37:288] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 0
+[2022-03-03 20:32:37:288] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:37:397] : Inspection Thread Start Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:32:37:615] : Inspection Thread Start Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:32:37:615] : Inspection3 START Cam No. :2 Buff No. :: 0
+[2022-03-03 20:32:37:631] : Inspection3 END Cam No. :2 Buff No. :: 0
+[2022-03-03 20:32:37:631] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:37:631] : Inspection Thread End Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:32:37:771] : Inspection2 Start Cam No. :1 Buff No. :: 0
+[2022-03-03 20:32:37:771] : Inspection2 END Cam No. :1 Buff No. :: 0
+[2022-03-03 20:32:37:771] : Single PLC Send START, Index : 0, nResult : 2
+[2022-03-03 20:32:37:787] : Inspection Thread Start Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:32:37:818] : Single PLC Send END, Index : 0, nResult : 2
+[2022-03-03 20:32:37:818] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:37:818] : Inspection Thread End Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:32:37:834] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 1
+[2022-03-03 20:32:37:834] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 1
+[2022-03-03 20:32:37:834] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:37:958] : Inspection Thread Start Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:32:38:177] : Inspection3 START Cam No. :2 Buff No. :: 31
+[2022-03-03 20:32:38:177] : Inspection Thread Start Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:32:38:177] : Inspection3 END Cam No. :2 Buff No. :: 31
+[2022-03-03 20:32:38:177] : Single PLC Send START, Index : 31, nResult : 2
+[2022-03-03 20:32:38:224] : Single PLC Send END, Index : 31, nResult : 2
+[2022-03-03 20:32:38:224] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:38:224] : Inspection Thread End Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:32:38:317] : Inspection2 Start Cam No. :1 Buff No. :: 1
+[2022-03-03 20:32:38:317] : Inspection2 END Cam No. :1 Buff No. :: 1
+[2022-03-03 20:32:38:317] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:38:317] : Inspection Thread End Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:32:38:364] : Inspection Thread Start Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:32:38:395] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 2
+[2022-03-03 20:32:38:395] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 2
+[2022-03-03 20:32:38:395] : IntegrateResultAndSendPLC : 2, RESULTTrue
+[2022-03-03 20:32:38:395] : Inspection Thread End Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:32:38:520] : Inspection Thread Start Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:32:38:738] : Inspection3 START Cam No. :2 Buff No. :: 1
+[2022-03-03 20:32:38:738] : Inspection3 END Cam No. :2 Buff No. :: 1
+[2022-03-03 20:32:38:738] : Single PLC Send START, Index : 1, nResult : 2
+[2022-03-03 20:32:38:738] : Inspection Thread Start Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:32:38:785] : Single PLC Send END, Index : 1, nResult : 2
+[2022-03-03 20:32:38:785] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:38:785] : Inspection Thread End Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:32:38:894] : Inspection2 Start Cam No. :1 Buff No. :: 2
+[2022-03-03 20:32:38:894] : Inspection2 END Cam No. :1 Buff No. :: 2
+[2022-03-03 20:32:38:894] : IntegrateResultAndSendPLC : 2, RESULTTrue
+[2022-03-03 20:32:38:894] : Inspection Thread End Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:32:38:894] : Inspection Thread Start Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:32:38:926] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 3
+[2022-03-03 20:32:38:926] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 3
+[2022-03-03 20:32:38:926] : IntegrateResultAndSendPLC : 3, RESULTFalse
+[2022-03-03 20:32:39:066] : Inspection Thread Start Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:32:39:284] : Inspection Thread Start Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:32:39:300] : Inspection3 START Cam No. :2 Buff No. :: 3
+[2022-03-03 20:32:39:300] : Inspection3 END Cam No. :2 Buff No. :: 3
+[2022-03-03 20:32:39:300] : IntegrateResultAndSendPLC : 3, RESULTFalse
+[2022-03-03 20:32:39:409] : Inspection2 Start Cam No. :1 Buff No. :: 3
+[2022-03-03 20:32:39:409] : Inspection2 END Cam No. :1 Buff No. :: 3
+[2022-03-03 20:32:39:409] : Single PLC Send START, Index : 3, nResult : 2
+[2022-03-03 20:32:39:440] : Inspection Thread Start Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:32:39:456] : Single PLC Send END, Index : 3, nResult : 2
+[2022-03-03 20:32:39:456] : IntegrateResultAndSendPLC : 3, RESULTFalse
+[2022-03-03 20:32:39:456] : Inspection Thread End Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:32:39:472] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 4
+[2022-03-03 20:32:39:472] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 4
+[2022-03-03 20:32:39:472] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:39:472] : Inspection Thread End Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:32:39:596] : Inspection Thread Start Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:32:39:815] : Inspection Thread Start Cam No. :2  Buff No. ::: 4
+[2022-03-03 20:32:39:846] : Inspection3 START Cam No. :2 Buff No. :: 4
+[2022-03-03 20:32:39:846] : Inspection3 END Cam No. :2 Buff No. :: 4
+[2022-03-03 20:32:39:846] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:39:862] : Inspection Thread End Cam No. :2  Buff No. ::: 4
+[2022-03-03 20:32:39:955] : Inspection2 Start Cam No. :1 Buff No. :: 4
+[2022-03-03 20:32:39:955] : Inspection2 END Cam No. :1 Buff No. :: 4
+[2022-03-03 20:32:39:955] : Single PLC Send START, Index : 4, nResult : 1
+[2022-03-03 20:32:39:971] : Inspection Thread Start Cam No. :0  Buff No. ::: 5
+[2022-03-03 20:32:40:002] : Single PLC Send END, Index : 4, nResult : 1
+[2022-03-03 20:32:40:002] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 5
+[2022-03-03 20:32:40:002] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 5
+[2022-03-03 20:32:40:002] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:40:002] : IntegrateResultAndSendPLC : 5, RESULTTrue
+[2022-03-03 20:32:40:018] : Inspection Thread End Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:32:40:018] : Inspection Thread End Cam No. :0  Buff No. ::: 5
+[2022-03-03 20:32:40:127] : Inspection Thread Start Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:32:40:345] : Inspection Thread Start Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:32:40:376] : Inspection3 START Cam No. :2 Buff No. :: 5
+[2022-03-03 20:32:40:376] : Inspection3 END Cam No. :2 Buff No. :: 5
+[2022-03-03 20:32:40:376] : IntegrateResultAndSendPLC : 5, RESULTTrue
+[2022-03-03 20:32:40:376] : Inspection Thread End Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:32:40:470] : Inspection2 Start Cam No. :1 Buff No. :: 5
+[2022-03-03 20:32:40:470] : Inspection2 END Cam No. :1 Buff No. :: 5
+[2022-03-03 20:32:40:470] : Single PLC Send START, Index : 5, nResult : 1
+[2022-03-03 20:32:40:486] : Inspection Thread Start Cam No. :0  Buff No. ::: 6
+[2022-03-03 20:32:40:517] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 6
+[2022-03-03 20:32:40:517] : Single PLC Send END, Index : 5, nResult : 1
+[2022-03-03 20:32:40:532] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 6
+[2022-03-03 20:32:40:532] : IntegrateResultAndSendPLC : 5, RESULTTrue
+[2022-03-03 20:32:40:532] : Inspection Thread End Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:32:40:532] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:32:40:532] : Inspection Thread End Cam No. :0  Buff No. ::: 6
+[2022-03-03 20:32:40:642] : Inspection Thread Start Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:32:40:860] : Inspection Thread Start Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:32:40:907] : Inspection3 START Cam No. :2 Buff No. :: 6
+[2022-03-03 20:32:40:907] : Inspection3 END Cam No. :2 Buff No. :: 6
+[2022-03-03 20:32:40:907] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:32:40:922] : Inspection Thread End Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:32:41:016] : Inspection2 Start Cam No. :1 Buff No. :: 6
+[2022-03-03 20:32:41:016] : Inspection2 END Cam No. :1 Buff No. :: 6
+[2022-03-03 20:32:41:032] : Single PLC Send START, Index : 6, nResult : 1
+[2022-03-03 20:32:41:047] : Inspection Thread Start Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:32:41:078] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 7
+[2022-03-03 20:32:41:078] : Single PLC Send END, Index : 6, nResult : 1
+[2022-03-03 20:32:41:078] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 7
+[2022-03-03 20:32:41:078] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:32:41:078] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:41:094] : Inspection Thread End Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:32:41:094] : Inspection Thread End Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:32:41:203] : Inspection Thread Start Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:32:41:422] : Inspection Thread Start Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:32:41:422] : Inspection3 START Cam No. :2 Buff No. :: 7
+[2022-03-03 20:32:41:437] : Inspection3 END Cam No. :2 Buff No. :: 7
+[2022-03-03 20:32:41:437] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:41:437] : Inspection Thread End Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:32:41:562] : Inspection2 Start Cam No. :1 Buff No. :: 7
+[2022-03-03 20:32:41:562] : Inspection2 END Cam No. :1 Buff No. :: 7
+[2022-03-03 20:32:41:562] : Single PLC Send START, Index : 7, nResult : 1
+[2022-03-03 20:32:41:578] : Inspection Thread Start Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:32:41:609] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 8
+[2022-03-03 20:32:41:609] : Single PLC Send END, Index : 7, nResult : 1
+[2022-03-03 20:32:41:609] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 8
+[2022-03-03 20:32:41:609] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:41:609] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:41:624] : Inspection Thread End Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:32:41:624] : Inspection Thread End Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:32:41:734] : Inspection Thread Start Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:32:41:952] : Inspection Thread Start Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:32:41:983] : Inspection3 START Cam No. :2 Buff No. :: 8
+[2022-03-03 20:32:41:983] : Inspection3 END Cam No. :2 Buff No. :: 8
+[2022-03-03 20:32:41:983] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:41:983] : Inspection Thread End Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:32:42:077] : Inspection2 Start Cam No. :1 Buff No. :: 8
+[2022-03-03 20:32:42:077] : Inspection2 END Cam No. :1 Buff No. :: 8
+[2022-03-03 20:32:42:077] : Single PLC Send START, Index : 8, nResult : 1
+[2022-03-03 20:32:42:124] : Single PLC Send END, Index : 8, nResult : 1
+[2022-03-03 20:32:42:124] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:42:124] : Inspection Thread End Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:32:42:124] : Inspection Thread Start Cam No. :0  Buff No. ::: 9
+[2022-03-03 20:32:42:170] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 9
+[2022-03-03 20:32:42:170] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 9
+[2022-03-03 20:32:42:170] : IntegrateResultAndSendPLC : 9, RESULTTrue
+[2022-03-03 20:32:42:170] : Inspection Thread End Cam No. :0  Buff No. ::: 9
+[2022-03-03 20:32:42:295] : Inspection Thread Start Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:32:42:514] : Inspection Thread Start Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:32:42:514] : Inspection3 START Cam No. :2 Buff No. :: 9
+[2022-03-03 20:32:42:514] : Inspection3 END Cam No. :2 Buff No. :: 9
+[2022-03-03 20:32:42:514] : IntegrateResultAndSendPLC : 9, RESULTTrue
+[2022-03-03 20:32:42:529] : Inspection Thread End Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:32:42:670] : Inspection2 Start Cam No. :1 Buff No. :: 9
+[2022-03-03 20:32:42:670] : Inspection2 END Cam No. :1 Buff No. :: 9
+[2022-03-03 20:32:42:670] : Single PLC Send START, Index : 9, nResult : 1
+[2022-03-03 20:32:42:701] : Inspection Thread Start Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:32:42:716] : Single PLC Send END, Index : 9, nResult : 1
+[2022-03-03 20:32:42:716] : IntegrateResultAndSendPLC : 9, RESULTTrue
+[2022-03-03 20:32:42:716] : Inspection Thread End Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:32:42:732] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 10
+[2022-03-03 20:32:42:732] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 10
+[2022-03-03 20:32:42:732] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:32:42:732] : Inspection Thread End Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:32:42:872] : Inspection Thread Start Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:32:43:091] : Inspection Thread Start Cam No. :2  Buff No. ::: 10
+[2022-03-03 20:32:43:091] : Inspection3 START Cam No. :2 Buff No. :: 10
+[2022-03-03 20:32:43:091] : Inspection3 END Cam No. :2 Buff No. :: 10
+[2022-03-03 20:32:43:091] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:32:43:106] : Inspection Thread End Cam No. :2  Buff No. ::: 10
+[2022-03-03 20:32:43:216] : Inspection2 Start Cam No. :1 Buff No. :: 10
+[2022-03-03 20:32:43:216] : Inspection2 END Cam No. :1 Buff No. :: 10
+[2022-03-03 20:32:43:216] : Single PLC Send START, Index : 10, nResult : 1
+[2022-03-03 20:32:43:262] : Single PLC Send END, Index : 10, nResult : 1
+[2022-03-03 20:32:43:262] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:32:43:262] : Inspection Thread End Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:32:43:278] : Inspection Thread Start Cam No. :0  Buff No. ::: 11
+[2022-03-03 20:32:43:325] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 11
+[2022-03-03 20:32:43:325] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 11
+[2022-03-03 20:32:43:325] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:32:43:450] : Inspection Thread Start Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:32:43:668] : Inspection Thread Start Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:32:43:668] : Inspection3 START Cam No. :2 Buff No. :: 11
+[2022-03-03 20:32:43:668] : Inspection3 END Cam No. :2 Buff No. :: 11
+[2022-03-03 20:32:43:668] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:32:43:684] : Inspection Thread End Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:32:43:793] : Inspection2 Start Cam No. :1 Buff No. :: 11
+[2022-03-03 20:32:43:793] : Inspection2 END Cam No. :1 Buff No. :: 11
+[2022-03-03 20:32:43:793] : Single PLC Send START, Index : 11, nResult : 2
+[2022-03-03 20:32:43:840] : Single PLC Send END, Index : 11, nResult : 2
+[2022-03-03 20:32:43:840] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:32:43:840] : Inspection Thread End Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:32:43:871] : Inspection Thread Start Cam No. :0  Buff No. ::: 12
+[2022-03-03 20:32:43:902] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 12
+[2022-03-03 20:32:43:902] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 12
+[2022-03-03 20:32:43:902] : IntegrateResultAndSendPLC : 12, RESULTTrue
+[2022-03-03 20:32:43:902] : Inspection Thread End Cam No. :0  Buff No. ::: 12
+[2022-03-03 20:32:44:027] : Inspection Thread Start Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:32:44:245] : Inspection Thread Start Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:32:44:245] : Inspection3 START Cam No. :2 Buff No. :: 12
+[2022-03-03 20:32:44:245] : Inspection3 END Cam No. :2 Buff No. :: 12
+[2022-03-03 20:32:44:261] : IntegrateResultAndSendPLC : 12, RESULTTrue
+[2022-03-03 20:32:44:261] : Inspection Thread End Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:32:44:370] : Inspection2 Start Cam No. :1 Buff No. :: 12
+[2022-03-03 20:32:44:370] : Inspection2 END Cam No. :1 Buff No. :: 12
+[2022-03-03 20:32:44:370] : Single PLC Send START, Index : 12, nResult : 1
+[2022-03-03 20:32:44:417] : Single PLC Send END, Index : 12, nResult : 1
+[2022-03-03 20:32:44:417] : IntegrateResultAndSendPLC : 12, RESULTTrue
+[2022-03-03 20:32:44:432] : Inspection Thread End Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:32:44:432] : Inspection Thread Start Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:32:44:464] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 13
+[2022-03-03 20:32:44:464] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 13
+[2022-03-03 20:32:44:464] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:32:44:588] : Inspection Thread Start Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:32:44:807] : Inspection Thread Start Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:32:44:807] : Inspection3 START Cam No. :2 Buff No. :: 13
+[2022-03-03 20:32:44:822] : Inspection3 END Cam No. :2 Buff No. :: 13
+[2022-03-03 20:32:44:822] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:32:44:822] : Inspection Thread End Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:32:44:963] : Inspection2 Start Cam No. :1 Buff No. :: 13
+[2022-03-03 20:32:44:963] : Inspection2 END Cam No. :1 Buff No. :: 13
+[2022-03-03 20:32:44:963] : Single PLC Send START, Index : 13, nResult : 2
+[2022-03-03 20:32:45:010] : Single PLC Send END, Index : 13, nResult : 2
+[2022-03-03 20:32:45:010] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:32:45:010] : Inspection Thread Start Cam No. :0  Buff No. ::: 14
+[2022-03-03 20:32:45:010] : Inspection Thread End Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:32:45:041] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 14
+[2022-03-03 20:32:45:041] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 14
+[2022-03-03 20:32:45:041] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:45:166] : Inspection Thread Start Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:32:45:384] : Inspection Thread Start Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:32:45:384] : Inspection3 START Cam No. :2 Buff No. :: 14
+[2022-03-03 20:32:45:400] : Inspection3 END Cam No. :2 Buff No. :: 14
+[2022-03-03 20:32:45:400] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:45:400] : Inspection Thread End Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:32:45:540] : Inspection2 Start Cam No. :1 Buff No. :: 14
+[2022-03-03 20:32:45:540] : Inspection2 END Cam No. :1 Buff No. :: 14
+[2022-03-03 20:32:45:540] : Single PLC Send START, Index : 14, nResult : 2
+[2022-03-03 20:32:45:556] : Inspection Thread Start Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:32:45:587] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 15
+[2022-03-03 20:32:45:587] : Single PLC Send END, Index : 14, nResult : 2
+[2022-03-03 20:32:45:602] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:32:45:602] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 15
+[2022-03-03 20:32:45:602] : IntegrateResultAndSendPLC : 15, RESULTFalse
+[2022-03-03 20:32:45:602] : Inspection Thread End Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:32:45:602] : Inspection Thread End Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:32:45:712] : Inspection Thread Start Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:32:45:930] : Inspection Thread Start Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:32:45:946] : Inspection3 START Cam No. :2 Buff No. :: 15
+[2022-03-03 20:32:45:946] : Inspection3 END Cam No. :2 Buff No. :: 15
+[2022-03-03 20:32:45:946] : IntegrateResultAndSendPLC : 15, RESULTFalse
+[2022-03-03 20:32:45:961] : Inspection Thread End Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:32:46:055] : Inspection2 Start Cam No. :1 Buff No. :: 15
+[2022-03-03 20:32:46:055] : Inspection2 END Cam No. :1 Buff No. :: 15
+[2022-03-03 20:32:46:055] : Single PLC Send START, Index : 15, nResult : 2
+[2022-03-03 20:32:46:070] : Inspection Thread Start Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:32:46:102] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 16
+[2022-03-03 20:32:46:102] : Single PLC Send END, Index : 15, nResult : 2
+[2022-03-03 20:32:46:102] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 16
+[2022-03-03 20:32:46:102] : IntegrateResultAndSendPLC : 15, RESULTFalse
+[2022-03-03 20:32:46:102] : IntegrateResultAndSendPLC : 16, RESULTFalse
+[2022-03-03 20:32:46:102] : Inspection Thread End Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:32:46:226] : Inspection Thread Start Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:32:46:445] : Inspection Thread Start Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:32:46:492] : Inspection3 START Cam No. :2 Buff No. :: 16
+[2022-03-03 20:32:46:492] : Inspection3 END Cam No. :2 Buff No. :: 16
+[2022-03-03 20:32:46:492] : IntegrateResultAndSendPLC : 16, RESULTFalse
+[2022-03-03 20:32:46:507] : Inspection Thread End Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:32:46:601] : Inspection2 Start Cam No. :1 Buff No. :: 16
+[2022-03-03 20:32:46:601] : Inspection2 END Cam No. :1 Buff No. :: 16
+[2022-03-03 20:32:46:601] : Single PLC Send START, Index : 16, nResult : 2
+[2022-03-03 20:32:46:632] : Inspection Thread Start Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:32:46:648] : Single PLC Send END, Index : 16, nResult : 2
+[2022-03-03 20:32:46:648] : IntegrateResultAndSendPLC : 16, RESULTFalse
+[2022-03-03 20:32:46:648] : Inspection Thread End Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:32:46:663] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 17
+[2022-03-03 20:32:46:663] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 17
+[2022-03-03 20:32:46:663] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:32:46:788] : Inspection Thread Start Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:32:47:006] : Inspection Thread Start Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:32:47:006] : Inspection3 START Cam No. :2 Buff No. :: 17
+[2022-03-03 20:32:47:022] : Inspection3 END Cam No. :2 Buff No. :: 17
+[2022-03-03 20:32:47:022] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:32:47:022] : Inspection Thread End Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:32:47:147] : Inspection2 Start Cam No. :1 Buff No. :: 17
+[2022-03-03 20:32:47:147] : Inspection2 END Cam No. :1 Buff No. :: 17
+[2022-03-03 20:32:47:147] : Single PLC Send START, Index : 17, nResult : 2
+[2022-03-03 20:32:47:147] : Inspection Thread Start Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:32:47:194] : Single PLC Send END, Index : 17, nResult : 2
+[2022-03-03 20:32:47:194] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 18
+[2022-03-03 20:32:47:194] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:32:47:194] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 18
+[2022-03-03 20:32:47:194] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:32:47:194] : Inspection Thread End Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:32:47:209] : Inspection Thread End Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:32:47:303] : Inspection Thread Start Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:32:47:537] : Inspection Thread Start Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:32:47:568] : Inspection3 START Cam No. :2 Buff No. :: 18
+[2022-03-03 20:32:47:568] : Inspection3 END Cam No. :2 Buff No. :: 18
+[2022-03-03 20:32:47:568] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:32:47:584] : Inspection Thread End Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:32:47:662] : Inspection2 Start Cam No. :1 Buff No. :: 18
+[2022-03-03 20:32:47:662] : Inspection Thread Start Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:32:47:662] : Inspection2 END Cam No. :1 Buff No. :: 18
+[2022-03-03 20:32:47:662] : Single PLC Send START, Index : 18, nResult : 1
+[2022-03-03 20:32:47:693] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 19
+[2022-03-03 20:32:47:693] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 19
+[2022-03-03 20:32:47:708] : Single PLC Send END, Index : 18, nResult : 1
+[2022-03-03 20:32:47:708] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:32:47:724] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:47:724] : Inspection Thread End Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:32:47:818] : Inspection Thread Start Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:32:48:036] : Inspection Thread Start Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:32:48:098] : Inspection3 START Cam No. :2 Buff No. :: 19
+[2022-03-03 20:32:48:098] : Inspection3 END Cam No. :2 Buff No. :: 19
+[2022-03-03 20:32:48:098] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:48:114] : Inspection Thread End Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:32:48:161] : Inspection Thread Start Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:32:48:176] : Inspection2 Start Cam No. :1 Buff No. :: 19
+[2022-03-03 20:32:48:176] : Inspection2 END Cam No. :1 Buff No. :: 19
+[2022-03-03 20:32:48:176] : Single PLC Send START, Index : 19, nResult : 2
+[2022-03-03 20:32:48:208] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 20
+[2022-03-03 20:32:48:208] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 20
+[2022-03-03 20:32:48:223] : Single PLC Send END, Index : 19, nResult : 2
+[2022-03-03 20:32:48:223] : IntegrateResultAndSendPLC : 19, RESULTFalse
+[2022-03-03 20:32:48:223] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:48:223] : Inspection Thread End Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:32:48:239] : Inspection Thread End Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:32:48:332] : Inspection Thread Start Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:32:48:551] : Inspection Thread Start Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:32:48:598] : Inspection3 START Cam No. :2 Buff No. :: 20
+[2022-03-03 20:32:48:598] : Inspection3 END Cam No. :2 Buff No. :: 20
+[2022-03-03 20:32:48:598] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:48:613] : Inspection Thread End Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:32:48:644] : Inspection Thread Start Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:32:48:676] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 21
+[2022-03-03 20:32:48:676] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 21
+[2022-03-03 20:32:48:676] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:48:676] : Inspection Thread End Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:32:48:691] : Inspection2 Start Cam No. :1 Buff No. :: 20
+[2022-03-03 20:32:48:691] : Inspection2 END Cam No. :1 Buff No. :: 20
+[2022-03-03 20:32:48:691] : Single PLC Send START, Index : 20, nResult : 1
+[2022-03-03 20:32:48:738] : Single PLC Send END, Index : 20, nResult : 1
+[2022-03-03 20:32:48:738] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:32:48:754] : Inspection Thread End Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:32:48:800] : Inspection Thread Start Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:32:49:034] : Inspection Thread Start Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:32:49:112] : Inspection3 START Cam No. :2 Buff No. :: 21
+[2022-03-03 20:32:49:112] : Inspection3 END Cam No. :2 Buff No. :: 21
+[2022-03-03 20:32:49:112] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:49:128] : Inspection Thread End Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:32:49:144] : Inspection Thread Start Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:32:49:175] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 22
+[2022-03-03 20:32:49:175] : Inspection2 Start Cam No. :1 Buff No. :: 21
+[2022-03-03 20:32:49:175] : Inspection2 END Cam No. :1 Buff No. :: 21
+[2022-03-03 20:32:49:175] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 22
+[2022-03-03 20:32:49:175] : Single PLC Send START, Index : 21, nResult : 1
+[2022-03-03 20:32:49:222] : Single PLC Send END, Index : 21, nResult : 1
+[2022-03-03 20:32:49:222] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:32:49:222] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:49:222] : Inspection Thread End Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:32:49:237] : Inspection Thread End Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:32:49:300] : Inspection Thread Start Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:32:49:534] : Inspection Thread Start Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:32:49:580] : Inspection3 START Cam No. :2 Buff No. :: 22
+[2022-03-03 20:32:49:580] : Inspection3 END Cam No. :2 Buff No. :: 22
+[2022-03-03 20:32:49:580] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:49:596] : Inspection Thread End Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:32:49:658] : Inspection2 Start Cam No. :1 Buff No. :: 22
+[2022-03-03 20:32:49:658] : Inspection2 END Cam No. :1 Buff No. :: 22
+[2022-03-03 20:32:49:658] : Single PLC Send START, Index : 22, nResult : 1
+[2022-03-03 20:32:49:674] : Inspection Thread Start Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:32:49:705] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 23
+[2022-03-03 20:32:49:705] : Single PLC Send END, Index : 22, nResult : 1
+[2022-03-03 20:32:49:705] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 23
+[2022-03-03 20:32:49:705] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:32:49:705] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:49:705] : Inspection Thread End Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:32:49:721] : Inspection Thread End Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:32:49:830] : Inspection Thread Start Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:32:50:048] : Inspection Thread Start Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:32:50:095] : Inspection3 START Cam No. :2 Buff No. :: 23
+[2022-03-03 20:32:50:095] : Inspection3 END Cam No. :2 Buff No. :: 23
+[2022-03-03 20:32:50:095] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:50:111] : Inspection Thread End Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:32:50:189] : Inspection Thread Start Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:32:50:204] : Inspection2 Start Cam No. :1 Buff No. :: 23
+[2022-03-03 20:32:50:204] : Inspection2 END Cam No. :1 Buff No. :: 23
+[2022-03-03 20:32:50:204] : Single PLC Send START, Index : 23, nResult : 1
+[2022-03-03 20:32:50:220] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 24
+[2022-03-03 20:32:50:220] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 24
+[2022-03-03 20:32:50:251] : Single PLC Send END, Index : 23, nResult : 1
+[2022-03-03 20:32:50:251] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:32:50:251] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:50:251] : Inspection Thread End Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:32:50:267] : Inspection Thread End Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:32:50:345] : Inspection Thread Start Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:32:50:563] : Inspection Thread Start Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:32:50:610] : Inspection3 START Cam No. :2 Buff No. :: 24
+[2022-03-03 20:32:50:610] : Inspection3 END Cam No. :2 Buff No. :: 24
+[2022-03-03 20:32:50:610] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:50:626] : Inspection Thread End Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:32:50:704] : Inspection Thread Start Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:32:50:719] : Inspection2 Start Cam No. :1 Buff No. :: 24
+[2022-03-03 20:32:50:719] : Inspection2 END Cam No. :1 Buff No. :: 24
+[2022-03-03 20:32:50:719] : Single PLC Send START, Index : 24, nResult : 1
+[2022-03-03 20:32:50:735] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 25
+[2022-03-03 20:32:50:735] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 25
+[2022-03-03 20:32:50:766] : Single PLC Send END, Index : 24, nResult : 1
+[2022-03-03 20:32:50:766] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:32:50:766] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:32:50:766] : Inspection Thread End Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:32:50:782] : Inspection Thread End Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:32:50:860] : Inspection Thread Start Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:32:51:078] : Inspection Thread Start Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:32:51:125] : Inspection3 START Cam No. :2 Buff No. :: 25
+[2022-03-03 20:32:51:125] : Inspection3 END Cam No. :2 Buff No. :: 25
+[2022-03-03 20:32:51:125] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:32:51:140] : Inspection Thread End Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:32:51:203] : Inspection Thread Start Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:32:51:234] : Inspection2 Start Cam No. :1 Buff No. :: 25
+[2022-03-03 20:32:51:234] : Inspection2 END Cam No. :1 Buff No. :: 25
+[2022-03-03 20:32:51:234] : Single PLC Send START, Index : 25, nResult : 1
+[2022-03-03 20:32:51:250] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 26
+[2022-03-03 20:32:51:250] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 26
+[2022-03-03 20:32:51:281] : Single PLC Send END, Index : 25, nResult : 1
+[2022-03-03 20:32:51:281] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:32:51:281] : IntegrateResultAndSendPLC : 26, RESULTFalse
+[2022-03-03 20:32:51:281] : Inspection Thread End Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:32:51:359] : Inspection Thread Start Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:32:51:577] : Inspection Thread Start Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:32:51:640] : Inspection3 START Cam No. :2 Buff No. :: 26
+[2022-03-03 20:32:51:640] : Inspection3 END Cam No. :2 Buff No. :: 26
+[2022-03-03 20:32:51:640] : IntegrateResultAndSendPLC : 26, RESULTFalse
+[2022-03-03 20:32:51:655] : Inspection Thread End Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:32:51:718] : Inspection2 Start Cam No. :1 Buff No. :: 26
+[2022-03-03 20:32:51:718] : Inspection2 END Cam No. :1 Buff No. :: 26
+[2022-03-03 20:32:51:718] : Single PLC Send START, Index : 26, nResult : 2
+[2022-03-03 20:32:51:733] : Inspection Thread Start Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:32:51:764] : Single PLC Send END, Index : 26, nResult : 2
+[2022-03-03 20:32:51:764] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 27
+[2022-03-03 20:32:51:764] : IntegrateResultAndSendPLC : 26, RESULTFalse
+[2022-03-03 20:32:51:764] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 27
+[2022-03-03 20:32:51:764] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:32:51:764] : Inspection Thread End Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:32:51:780] : Inspection Thread End Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:32:51:889] : Inspection Thread Start Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:32:52:108] : Inspection Thread Start Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:32:52:139] : Inspection3 START Cam No. :2 Buff No. :: 27
+[2022-03-03 20:32:52:139] : Inspection3 END Cam No. :2 Buff No. :: 27
+[2022-03-03 20:32:52:139] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:32:52:154] : Inspection Thread End Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:32:52:217] : Inspection Thread Start Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:32:52:264] : Inspection2 Start Cam No. :1 Buff No. :: 27
+[2022-03-03 20:32:52:264] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 28
+[2022-03-03 20:32:52:264] : Inspection2 END Cam No. :1 Buff No. :: 27
+[2022-03-03 20:32:52:264] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 28
+[2022-03-03 20:32:52:264] : Single PLC Send START, Index : 27, nResult : 1
+[2022-03-03 20:32:52:310] : Single PLC Send END, Index : 27, nResult : 1
+[2022-03-03 20:32:52:310] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:32:52:326] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:32:52:326] : Inspection Thread End Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:32:52:326] : Inspection Thread End Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:32:52:373] : Inspection Thread Start Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:32:52:607] : Inspection Thread Start Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:32:52:669] : Inspection3 START Cam No. :2 Buff No. :: 28
+[2022-03-03 20:32:52:669] : Inspection3 END Cam No. :2 Buff No. :: 28
+[2022-03-03 20:32:52:669] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:32:52:685] : Inspection Thread End Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:32:52:732] : Inspection2 Start Cam No. :1 Buff No. :: 28
+[2022-03-03 20:32:52:732] : Inspection2 END Cam No. :1 Buff No. :: 28
+[2022-03-03 20:32:52:732] : Single PLC Send START, Index : 28, nResult : 1
+[2022-03-03 20:32:52:732] : Inspection Thread Start Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:32:52:763] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 29
+[2022-03-03 20:32:52:763] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 29
+[2022-03-03 20:32:52:778] : Single PLC Send END, Index : 28, nResult : 1
+[2022-03-03 20:32:52:778] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:32:52:778] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:52:778] : Inspection Thread End Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:32:52:794] : Inspection Thread End Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:32:52:888] : Inspection Thread Start Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:32:53:106] : Inspection Thread Start Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:32:53:153] : Inspection3 START Cam No. :2 Buff No. :: 29
+[2022-03-03 20:32:53:153] : Inspection3 END Cam No. :2 Buff No. :: 29
+[2022-03-03 20:32:53:153] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:53:168] : Inspection Thread End Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:32:53:231] : Inspection Thread Start Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:32:53:246] : Inspection2 Start Cam No. :1 Buff No. :: 29
+[2022-03-03 20:32:53:246] : Inspection2 END Cam No. :1 Buff No. :: 29
+[2022-03-03 20:32:53:246] : Single PLC Send START, Index : 29, nResult : 1
+[2022-03-03 20:32:53:278] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 30
+[2022-03-03 20:32:53:278] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 30
+[2022-03-03 20:32:53:293] : Single PLC Send END, Index : 29, nResult : 1
+[2022-03-03 20:32:53:293] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:32:53:293] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:53:293] : Inspection Thread End Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:32:53:402] : Inspection Thread Start Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:32:53:621] : Inspection Thread Start Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:32:53:668] : Inspection3 START Cam No. :2 Buff No. :: 30
+[2022-03-03 20:32:53:668] : Inspection3 END Cam No. :2 Buff No. :: 30
+[2022-03-03 20:32:53:668] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:53:683] : Inspection Thread End Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:32:53:761] : Inspection2 Start Cam No. :1 Buff No. :: 30
+[2022-03-03 20:32:53:761] : Inspection2 END Cam No. :1 Buff No. :: 30
+[2022-03-03 20:32:53:761] : Single PLC Send START, Index : 30, nResult : 2
+[2022-03-03 20:32:53:808] : Single PLC Send END, Index : 30, nResult : 2
+[2022-03-03 20:32:53:808] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:32:53:808] : Inspection Thread Start Cam No. :0  Buff No. ::: 31
+[2022-03-03 20:32:53:824] : Inspection Thread End Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:32:53:855] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 31
+[2022-03-03 20:32:53:855] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 31
+[2022-03-03 20:32:53:855] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:53:980] : Inspection Thread Start Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:32:54:198] : Inspection Thread Start Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:32:54:198] : Inspection3 START Cam No. :2 Buff No. :: 31
+[2022-03-03 20:32:54:214] : Inspection3 END Cam No. :2 Buff No. :: 31
+[2022-03-03 20:32:54:214] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:54:214] : Inspection Thread End Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:32:54:354] : Inspection2 Start Cam No. :1 Buff No. :: 31
+[2022-03-03 20:32:54:354] : Inspection2 END Cam No. :1 Buff No. :: 31
+[2022-03-03 20:32:54:354] : Single PLC Send START, Index : 31, nResult : 2
+[2022-03-03 20:32:54:354] : Inspection Thread Start Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:32:54:401] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 0
+[2022-03-03 20:32:54:401] : Single PLC Send END, Index : 31, nResult : 2
+[2022-03-03 20:32:54:401] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:32:54:401] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 0
+[2022-03-03 20:32:54:401] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:54:416] : Inspection Thread End Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:32:54:526] : Inspection Thread Start Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:32:54:744] : Inspection Thread Start Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:32:54:744] : Inspection3 START Cam No. :2 Buff No. :: 0
+[2022-03-03 20:32:54:760] : Inspection3 END Cam No. :2 Buff No. :: 0
+[2022-03-03 20:32:54:760] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:54:760] : Inspection Thread End Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:32:54:900] : Inspection2 Start Cam No. :1 Buff No. :: 0
+[2022-03-03 20:32:54:900] : Inspection2 END Cam No. :1 Buff No. :: 0
+[2022-03-03 20:32:54:900] : Single PLC Send START, Index : 0, nResult : 2
+[2022-03-03 20:32:54:900] : Inspection Thread Start Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:32:54:947] : Single PLC Send END, Index : 0, nResult : 2
+[2022-03-03 20:32:54:947] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:32:54:947] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 1
+[2022-03-03 20:32:54:947] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 1
+[2022-03-03 20:32:54:947] : Inspection Thread End Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:32:54:962] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:55:056] : Inspection Thread Start Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:32:55:290] : Inspection Thread Start Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:32:55:306] : Inspection3 START Cam No. :2 Buff No. :: 1
+[2022-03-03 20:32:55:306] : Inspection3 END Cam No. :2 Buff No. :: 1
+[2022-03-03 20:32:55:306] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:55:306] : Inspection Thread End Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:32:55:415] : Inspection2 Start Cam No. :1 Buff No. :: 1
+[2022-03-03 20:32:55:415] : Inspection2 END Cam No. :1 Buff No. :: 1
+[2022-03-03 20:32:55:415] : Single PLC Send START, Index : 1, nResult : 2
+[2022-03-03 20:32:55:430] : Inspection Thread Start Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:32:55:462] : Single PLC Send END, Index : 1, nResult : 2
+[2022-03-03 20:32:55:462] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 2
+[2022-03-03 20:32:55:462] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 2
+[2022-03-03 20:32:55:462] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:32:55:462] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:32:55:477] : Inspection Thread End Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:32:55:477] : Inspection Thread End Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:32:55:602] : Inspection Thread Start Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:32:55:820] : Inspection Thread Start Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:32:55:852] : Inspection3 START Cam No. :2 Buff No. :: 2
+[2022-03-03 20:32:55:852] : Inspection3 END Cam No. :2 Buff No. :: 2
+[2022-03-03 20:32:55:852] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:32:55:852] : Inspection Thread End Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:32:55:945] : Inspection Thread Start Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:32:55:961] : Inspection2 Start Cam No. :1 Buff No. :: 2
+[2022-03-03 20:32:55:961] : Inspection2 END Cam No. :1 Buff No. :: 2
+[2022-03-03 20:32:55:961] : Single PLC Send START, Index : 2, nResult : 2
+[2022-03-03 20:32:55:976] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 3
+[2022-03-03 20:32:55:976] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 3
+[2022-03-03 20:32:56:008] : Single PLC Send END, Index : 2, nResult : 2
+[2022-03-03 20:32:56:008] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:32:56:008] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:32:56:008] : Inspection Thread End Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:32:56:023] : Inspection Thread End Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:32:56:101] : Inspection Thread Start Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:32:56:335] : Inspection Thread Start Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:32:56:382] : Inspection3 START Cam No. :2 Buff No. :: 3
+[2022-03-03 20:32:56:382] : Inspection3 END Cam No. :2 Buff No. :: 3
+[2022-03-03 20:32:56:382] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:32:56:398] : Inspection Thread End Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:32:56:476] : Inspection2 Start Cam No. :1 Buff No. :: 3
+[2022-03-03 20:32:56:476] : Inspection2 END Cam No. :1 Buff No. :: 3
+[2022-03-03 20:32:56:476] : Single PLC Send START, Index : 3, nResult : 1
+[2022-03-03 20:32:56:476] : Inspection Thread Start Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:32:56:522] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 4
+[2022-03-03 20:32:56:522] : Single PLC Send END, Index : 3, nResult : 1
+[2022-03-03 20:32:56:522] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 4
+[2022-03-03 20:32:56:522] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:32:56:522] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:56:522] : Inspection Thread End Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:32:56:538] : Inspection Thread End Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:32:56:632] : Inspection Thread Start Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:32:56:866] : Inspection Thread Start Cam No. :2  Buff No. ::: 4
+[2022-03-03 20:32:56:881] : Inspection3 START Cam No. :2 Buff No. :: 4
+[2022-03-03 20:32:56:881] : Inspection3 END Cam No. :2 Buff No. :: 4
+[2022-03-03 20:32:56:881] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:56:881] : Inspection Thread End Cam No. :2  Buff No. ::: 4
+[2022-03-03 20:32:56:990] : Inspection2 Start Cam No. :1 Buff No. :: 4
+[2022-03-03 20:32:56:990] : Inspection2 END Cam No. :1 Buff No. :: 4
+[2022-03-03 20:32:56:990] : Single PLC Send START, Index : 4, nResult : 1
+[2022-03-03 20:32:57:037] : Single PLC Send END, Index : 4, nResult : 1
+[2022-03-03 20:32:57:037] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:32:57:037] : Inspection Thread End Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:32:57:053] : Inspection Thread Start Cam No. :0  Buff No. ::: 5
+[2022-03-03 20:32:57:100] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 5
+[2022-03-03 20:32:57:100] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 5
+[2022-03-03 20:32:57:100] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:32:57:224] : Inspection Thread Start Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:32:57:443] : Inspection Thread Start Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:32:57:443] : Inspection3 START Cam No. :2 Buff No. :: 5
+[2022-03-03 20:32:57:443] : Inspection3 END Cam No. :2 Buff No. :: 5
+[2022-03-03 20:32:57:443] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:32:57:458] : Inspection Thread End Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:32:57:521] : Inspection Thread Start Cam No. :0  Buff No. ::: 6
+[2022-03-03 20:32:57:568] : Inspection2 Start Cam No. :1 Buff No. :: 5
+[2022-03-03 20:32:57:568] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 6
+[2022-03-03 20:32:57:568] : Inspection2 END Cam No. :1 Buff No. :: 5
+[2022-03-03 20:32:57:568] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 6
+[2022-03-03 20:32:57:568] : IntegrateResultAndSendPLC : 6, RESULTFalse
+[2022-03-03 20:32:57:568] : Single PLC Send START, Index : 5, nResult : 2
+[2022-03-03 20:32:57:614] : Single PLC Send END, Index : 5, nResult : 2
+[2022-03-03 20:32:57:614] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:32:57:614] : Inspection Thread End Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:32:57:677] : Inspection Thread Start Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:32:57:911] : Inspection Thread Start Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:32:58:004] : Inspection3 START Cam No. :2 Buff No. :: 6
+[2022-03-03 20:32:58:004] : Inspection3 END Cam No. :2 Buff No. :: 6
+[2022-03-03 20:32:58:004] : IntegrateResultAndSendPLC : 6, RESULTFalse
+[2022-03-03 20:32:58:004] : Inspection Thread End Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:32:58:036] : Inspection Thread Start Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:32:58:051] : Inspection2 Start Cam No. :1 Buff No. :: 6
+[2022-03-03 20:32:58:051] : Inspection2 END Cam No. :1 Buff No. :: 6
+[2022-03-03 20:32:58:051] : Single PLC Send START, Index : 6, nResult : 2
+[2022-03-03 20:32:58:067] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 7
+[2022-03-03 20:32:58:067] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 7
+[2022-03-03 20:32:58:098] : Single PLC Send END, Index : 6, nResult : 2
+[2022-03-03 20:32:58:098] : IntegrateResultAndSendPLC : 6, RESULTFalse
+[2022-03-03 20:32:58:098] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:58:098] : Inspection Thread End Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:32:58:098] : Inspection Thread End Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:32:58:192] : Inspection Thread Start Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:32:58:410] : Inspection Thread Start Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:32:58:472] : Inspection3 START Cam No. :2 Buff No. :: 7
+[2022-03-03 20:32:58:472] : Inspection3 END Cam No. :2 Buff No. :: 7
+[2022-03-03 20:32:58:472] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:58:472] : Inspection Thread End Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:32:58:566] : Inspection2 Start Cam No. :1 Buff No. :: 7
+[2022-03-03 20:32:58:566] : Inspection2 END Cam No. :1 Buff No. :: 7
+[2022-03-03 20:32:58:566] : Single PLC Send START, Index : 7, nResult : 1
+[2022-03-03 20:32:58:566] : Inspection Thread Start Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:32:58:613] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 8
+[2022-03-03 20:32:58:613] : Single PLC Send END, Index : 7, nResult : 1
+[2022-03-03 20:32:58:613] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 8
+[2022-03-03 20:32:58:613] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:32:58:613] : Inspection Thread End Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:32:58:628] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:58:628] : Inspection Thread End Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:32:58:738] : Inspection Thread Start Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:32:58:956] : Inspection Thread Start Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:32:58:972] : Inspection3 START Cam No. :2 Buff No. :: 8
+[2022-03-03 20:32:58:972] : Inspection3 END Cam No. :2 Buff No. :: 8
+[2022-03-03 20:32:58:972] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:58:987] : Inspection Thread End Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:32:59:112] : Inspection2 Start Cam No. :1 Buff No. :: 8
+[2022-03-03 20:32:59:112] : Inspection2 END Cam No. :1 Buff No. :: 8
+[2022-03-03 20:32:59:112] : Single PLC Send START, Index : 8, nResult : 1
+[2022-03-03 20:32:59:143] : Inspection Thread Start Cam No. :0  Buff No. ::: 9
+[2022-03-03 20:32:59:159] : Single PLC Send END, Index : 8, nResult : 1
+[2022-03-03 20:32:59:159] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:32:59:159] : Inspection Thread End Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:32:59:190] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 9
+[2022-03-03 20:32:59:190] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 9
+[2022-03-03 20:32:59:190] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:32:59:299] : Inspection Thread Start Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:32:59:518] : Inspection Thread Start Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:32:59:518] : Inspection3 START Cam No. :2 Buff No. :: 9
+[2022-03-03 20:32:59:533] : Inspection3 END Cam No. :2 Buff No. :: 9
+[2022-03-03 20:32:59:533] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:32:59:533] : Inspection Thread End Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:32:59:658] : Inspection2 Start Cam No. :1 Buff No. :: 9
+[2022-03-03 20:32:59:658] : Inspection2 END Cam No. :1 Buff No. :: 9
+[2022-03-03 20:32:59:658] : Single PLC Send START, Index : 9, nResult : 2
+[2022-03-03 20:32:59:674] : Inspection Thread Start Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:32:59:705] : Single PLC Send END, Index : 9, nResult : 2
+[2022-03-03 20:32:59:705] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:32:59:705] : Inspection Thread End Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:32:59:721] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 10
+[2022-03-03 20:32:59:721] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 10
+[2022-03-03 20:32:59:721] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:32:59:721] : Inspection Thread End Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:32:59:830] : Inspection Thread Start Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:33:00:064] : Inspection Thread Start Cam No. :2  Buff No. ::: 10
+[2022-03-03 20:33:00:095] : Inspection3 START Cam No. :2 Buff No. :: 10
+[2022-03-03 20:33:00:095] : Inspection3 END Cam No. :2 Buff No. :: 10
+[2022-03-03 20:33:00:095] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:33:00:111] : Inspection Thread End Cam No. :2  Buff No. ::: 10
+[2022-03-03 20:33:00:204] : Inspection2 Start Cam No. :1 Buff No. :: 10
+[2022-03-03 20:33:00:204] : Inspection2 END Cam No. :1 Buff No. :: 10
+[2022-03-03 20:33:00:204] : Single PLC Send START, Index : 10, nResult : 1
+[2022-03-03 20:33:00:251] : Single PLC Send END, Index : 10, nResult : 1
+[2022-03-03 20:33:00:251] : Inspection Thread Start Cam No. :0  Buff No. ::: 11
+[2022-03-03 20:33:00:251] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:33:00:267] : Inspection Thread End Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:33:00:282] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 11
+[2022-03-03 20:33:00:298] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 11
+[2022-03-03 20:33:00:298] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:33:00:298] : Inspection Thread End Cam No. :0  Buff No. ::: 11
+[2022-03-03 20:33:00:407] : Inspection Thread Start Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:33:00:625] : Inspection Thread Start Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:33:00:625] : Inspection3 START Cam No. :2 Buff No. :: 11
+[2022-03-03 20:33:00:641] : Inspection3 END Cam No. :2 Buff No. :: 11
+[2022-03-03 20:33:00:641] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:33:00:641] : Inspection Thread End Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:33:00:750] : Inspection2 Start Cam No. :1 Buff No. :: 11
+[2022-03-03 20:33:00:750] : Inspection2 END Cam No. :1 Buff No. :: 11
+[2022-03-03 20:33:00:750] : Single PLC Send START, Index : 11, nResult : 2
+[2022-03-03 20:33:00:797] : Single PLC Send END, Index : 11, nResult : 2
+[2022-03-03 20:33:00:797] : IntegrateResultAndSendPLC : 11, RESULTFalse
+[2022-03-03 20:33:00:813] : Inspection Thread Start Cam No. :0  Buff No. ::: 12
+[2022-03-03 20:33:00:813] : Inspection Thread End Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:33:00:844] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 12
+[2022-03-03 20:33:00:844] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:00:844] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 12
+[2022-03-03 20:33:00:953] : Inspection Thread Start Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:33:01:171] : Inspection Thread Start Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:33:01:171] : Inspection3 START Cam No. :2 Buff No. :: 12
+[2022-03-03 20:33:01:187] : Inspection3 END Cam No. :2 Buff No. :: 12
+[2022-03-03 20:33:01:187] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:01:187] : Inspection Thread End Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:33:01:312] : Inspection2 Start Cam No. :1 Buff No. :: 12
+[2022-03-03 20:33:01:312] : Inspection2 END Cam No. :1 Buff No. :: 12
+[2022-03-03 20:33:01:312] : Single PLC Send START, Index : 12, nResult : 2
+[2022-03-03 20:33:01:327] : Inspection Thread Start Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:33:01:359] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 13
+[2022-03-03 20:33:01:359] : Single PLC Send END, Index : 12, nResult : 2
+[2022-03-03 20:33:01:359] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:01:359] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 13
+[2022-03-03 20:33:01:359] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:33:01:359] : Inspection Thread End Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:33:01:483] : Inspection Thread Start Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:33:01:702] : Inspection Thread Start Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:33:01:733] : Inspection3 START Cam No. :2 Buff No. :: 13
+[2022-03-03 20:33:01:733] : Inspection3 END Cam No. :2 Buff No. :: 13
+[2022-03-03 20:33:01:733] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:33:01:749] : Inspection Thread End Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:33:01:858] : Inspection2 Start Cam No. :1 Buff No. :: 13
+[2022-03-03 20:33:01:858] : Inspection2 END Cam No. :1 Buff No. :: 13
+[2022-03-03 20:33:01:858] : Single PLC Send START, Index : 13, nResult : 2
+[2022-03-03 20:33:01:873] : Inspection Thread Start Cam No. :0  Buff No. ::: 14
+[2022-03-03 20:33:01:905] : Single PLC Send END, Index : 13, nResult : 2
+[2022-03-03 20:33:01:905] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:33:01:905] : Inspection Thread End Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:33:01:920] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 14
+[2022-03-03 20:33:01:920] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 14
+[2022-03-03 20:33:01:920] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:33:02:045] : Inspection Thread Start Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:33:02:263] : Inspection Thread Start Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:33:02:263] : Inspection3 START Cam No. :2 Buff No. :: 14
+[2022-03-03 20:33:02:279] : Inspection3 END Cam No. :2 Buff No. :: 14
+[2022-03-03 20:33:02:279] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:33:02:279] : Inspection Thread End Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:33:02:373] : Inspection Thread Start Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:33:02:404] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 15
+[2022-03-03 20:33:02:404] : Inspection2 Start Cam No. :1 Buff No. :: 14
+[2022-03-03 20:33:02:404] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 15
+[2022-03-03 20:33:02:404] : Inspection2 END Cam No. :1 Buff No. :: 14
+[2022-03-03 20:33:02:404] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:02:404] : Single PLC Send START, Index : 14, nResult : 2
+[2022-03-03 20:33:02:404] : Inspection Thread End Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:33:02:466] : Single PLC Send END, Index : 14, nResult : 2
+[2022-03-03 20:33:02:466] : IntegrateResultAndSendPLC : 14, RESULTFalse
+[2022-03-03 20:33:02:466] : Inspection Thread End Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:33:02:529] : Inspection Thread Start Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:33:02:747] : Inspection Thread Start Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:33:02:825] : Inspection3 START Cam No. :2 Buff No. :: 15
+[2022-03-03 20:33:02:825] : Inspection3 END Cam No. :2 Buff No. :: 15
+[2022-03-03 20:33:02:825] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:02:841] : Inspection Thread End Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:33:02:887] : Inspection2 Start Cam No. :1 Buff No. :: 15
+[2022-03-03 20:33:02:887] : Inspection2 END Cam No. :1 Buff No. :: 15
+[2022-03-03 20:33:02:887] : Single PLC Send START, Index : 15, nResult : 1
+[2022-03-03 20:33:02:919] : Inspection Thread Start Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:33:02:934] : Single PLC Send END, Index : 15, nResult : 1
+[2022-03-03 20:33:02:934] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:02:934] : Inspection Thread End Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:33:02:965] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 16
+[2022-03-03 20:33:02:965] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 16
+[2022-03-03 20:33:02:965] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:33:02:965] : Inspection Thread End Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:33:03:075] : Inspection Thread Start Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:33:03:309] : Inspection Thread Start Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:33:03:309] : Inspection3 START Cam No. :2 Buff No. :: 16
+[2022-03-03 20:33:03:309] : Inspection3 END Cam No. :2 Buff No. :: 16
+[2022-03-03 20:33:03:309] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:33:03:324] : Inspection Thread End Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:33:03:418] : Inspection Thread Start Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:33:03:433] : Inspection2 Start Cam No. :1 Buff No. :: 16
+[2022-03-03 20:33:03:433] : Inspection2 END Cam No. :1 Buff No. :: 16
+[2022-03-03 20:33:03:433] : Single PLC Send START, Index : 16, nResult : 1
+[2022-03-03 20:33:03:465] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 17
+[2022-03-03 20:33:03:465] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 17
+[2022-03-03 20:33:03:480] : Single PLC Send END, Index : 16, nResult : 1
+[2022-03-03 20:33:03:480] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:33:03:480] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:33:03:480] : Inspection Thread End Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:33:03:574] : Inspection Thread Start Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:33:03:792] : Inspection Thread Start Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:33:03:870] : Inspection3 START Cam No. :2 Buff No. :: 17
+[2022-03-03 20:33:03:870] : Inspection3 END Cam No. :2 Buff No. :: 17
+[2022-03-03 20:33:03:870] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:33:03:886] : Inspection Thread End Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:33:03:948] : Inspection2 Start Cam No. :1 Buff No. :: 17
+[2022-03-03 20:33:03:948] : Inspection2 END Cam No. :1 Buff No. :: 17
+[2022-03-03 20:33:03:948] : Single PLC Send START, Index : 17, nResult : 2
+[2022-03-03 20:33:03:979] : Inspection Thread Start Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:33:03:995] : Single PLC Send END, Index : 17, nResult : 2
+[2022-03-03 20:33:03:995] : IntegrateResultAndSendPLC : 17, RESULTFalse
+[2022-03-03 20:33:04:011] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 18
+[2022-03-03 20:33:04:011] : Inspection Thread End Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:33:04:026] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 18
+[2022-03-03 20:33:04:026] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:33:04:026] : Inspection Thread End Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:33:04:135] : Inspection Thread Start Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:33:04:354] : Inspection Thread Start Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:33:04:354] : Inspection3 START Cam No. :2 Buff No. :: 18
+[2022-03-03 20:33:04:369] : Inspection3 END Cam No. :2 Buff No. :: 18
+[2022-03-03 20:33:04:369] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:33:04:369] : Inspection Thread End Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:33:04:494] : Inspection2 Start Cam No. :1 Buff No. :: 18
+[2022-03-03 20:33:04:494] : Inspection2 END Cam No. :1 Buff No. :: 18
+[2022-03-03 20:33:04:494] : Single PLC Send START, Index : 18, nResult : 1
+[2022-03-03 20:33:04:525] : Inspection Thread Start Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:33:04:541] : Single PLC Send END, Index : 18, nResult : 1
+[2022-03-03 20:33:04:541] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:33:04:557] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 19
+[2022-03-03 20:33:04:557] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 19
+[2022-03-03 20:33:04:557] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:33:04:557] : Inspection Thread End Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:33:04:557] : Inspection Thread End Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:33:04:681] : Inspection Thread Start Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:33:04:900] : Inspection Thread Start Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:33:04:915] : Inspection3 START Cam No. :2 Buff No. :: 19
+[2022-03-03 20:33:04:915] : Inspection3 END Cam No. :2 Buff No. :: 19
+[2022-03-03 20:33:04:915] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:33:04:915] : Inspection Thread End Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:33:05:040] : Inspection2 Start Cam No. :1 Buff No. :: 19
+[2022-03-03 20:33:05:040] : Inspection2 END Cam No. :1 Buff No. :: 19
+[2022-03-03 20:33:05:040] : Single PLC Send START, Index : 19, nResult : 1
+[2022-03-03 20:33:05:056] : Inspection Thread Start Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:33:05:087] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 20
+[2022-03-03 20:33:05:087] : Single PLC Send END, Index : 19, nResult : 1
+[2022-03-03 20:33:05:087] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:33:05:087] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 20
+[2022-03-03 20:33:05:087] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:33:05:087] : Inspection Thread End Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:33:05:103] : Inspection Thread End Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:33:05:227] : Inspection Thread Start Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:33:05:446] : Inspection Thread Start Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:33:05:461] : Inspection3 START Cam No. :2 Buff No. :: 20
+[2022-03-03 20:33:05:461] : Inspection3 END Cam No. :2 Buff No. :: 20
+[2022-03-03 20:33:05:461] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:33:05:477] : Inspection Thread End Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:33:05:571] : Inspection Thread Start Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:33:05:586] : Inspection2 Start Cam No. :1 Buff No. :: 20
+[2022-03-03 20:33:05:586] : Inspection2 END Cam No. :1 Buff No. :: 20
+[2022-03-03 20:33:05:586] : Single PLC Send START, Index : 20, nResult : 1
+[2022-03-03 20:33:05:602] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 21
+[2022-03-03 20:33:05:602] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 21
+[2022-03-03 20:33:05:633] : Single PLC Send END, Index : 20, nResult : 1
+[2022-03-03 20:33:05:633] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:33:05:633] : IntegrateResultAndSendPLC : 21, RESULTFalse
+[2022-03-03 20:33:05:633] : Inspection Thread End Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:33:05:742] : Inspection Thread Start Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:33:05:961] : Inspection Thread Start Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:33:06:007] : Inspection3 START Cam No. :2 Buff No. :: 21
+[2022-03-03 20:33:06:007] : Inspection3 END Cam No. :2 Buff No. :: 21
+[2022-03-03 20:33:06:007] : IntegrateResultAndSendPLC : 21, RESULTFalse
+[2022-03-03 20:33:06:007] : Inspection Thread End Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:33:06:085] : Inspection Thread Start Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:33:06:101] : Inspection2 Start Cam No. :1 Buff No. :: 21
+[2022-03-03 20:33:06:101] : Inspection2 END Cam No. :1 Buff No. :: 21
+[2022-03-03 20:33:06:101] : Single PLC Send START, Index : 21, nResult : 2
+[2022-03-03 20:33:06:132] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 22
+[2022-03-03 20:33:06:132] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 22
+[2022-03-03 20:33:06:148] : Single PLC Send END, Index : 21, nResult : 2
+[2022-03-03 20:33:06:148] : IntegrateResultAndSendPLC : 21, RESULTFalse
+[2022-03-03 20:33:06:148] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:33:06:163] : Inspection Thread End Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:33:06:163] : Inspection Thread End Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:33:06:241] : Inspection Thread Start Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:33:06:460] : Inspection Thread Start Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:33:06:522] : Inspection3 START Cam No. :2 Buff No. :: 22
+[2022-03-03 20:33:06:522] : Inspection3 END Cam No. :2 Buff No. :: 22
+[2022-03-03 20:33:06:522] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:33:06:522] : Inspection Thread End Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:33:06:616] : Inspection2 Start Cam No. :1 Buff No. :: 22
+[2022-03-03 20:33:06:616] : Inspection2 END Cam No. :1 Buff No. :: 22
+[2022-03-03 20:33:06:616] : Single PLC Send START, Index : 22, nResult : 1
+[2022-03-03 20:33:06:663] : Single PLC Send END, Index : 22, nResult : 1
+[2022-03-03 20:33:06:663] : IntegrateResultAndSendPLC : 22, RESULTTrue
+[2022-03-03 20:33:06:663] : Inspection Thread Start Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:33:06:678] : Inspection Thread End Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:33:06:709] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 23
+[2022-03-03 20:33:06:709] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 23
+[2022-03-03 20:33:06:709] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:33:06:709] : Inspection Thread End Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:33:06:834] : Inspection Thread Start Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:33:07:053] : Inspection Thread Start Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:33:07:053] : Inspection3 START Cam No. :2 Buff No. :: 23
+[2022-03-03 20:33:07:053] : Inspection3 END Cam No. :2 Buff No. :: 23
+[2022-03-03 20:33:07:053] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:33:07:068] : Inspection Thread End Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:33:07:209] : Inspection2 Start Cam No. :1 Buff No. :: 23
+[2022-03-03 20:33:07:209] : Inspection2 END Cam No. :1 Buff No. :: 23
+[2022-03-03 20:33:07:209] : Single PLC Send START, Index : 23, nResult : 1
+[2022-03-03 20:33:07:224] : Inspection Thread Start Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:33:07:255] : Single PLC Send END, Index : 23, nResult : 1
+[2022-03-03 20:33:07:255] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 24
+[2022-03-03 20:33:07:255] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:33:07:255] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 24
+[2022-03-03 20:33:07:255] : Inspection Thread End Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:33:07:271] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:33:07:271] : Inspection Thread End Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:33:07:396] : Inspection Thread Start Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:33:07:614] : Inspection Thread Start Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:33:07:614] : Inspection3 START Cam No. :2 Buff No. :: 24
+[2022-03-03 20:33:07:614] : Inspection3 END Cam No. :2 Buff No. :: 24
+[2022-03-03 20:33:07:614] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:33:07:630] : Inspection Thread End Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:33:07:755] : Inspection2 Start Cam No. :1 Buff No. :: 24
+[2022-03-03 20:33:07:755] : Inspection2 END Cam No. :1 Buff No. :: 24
+[2022-03-03 20:33:07:755] : Single PLC Send START, Index : 24, nResult : 1
+[2022-03-03 20:33:07:786] : Inspection Thread Start Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:33:07:801] : Single PLC Send END, Index : 24, nResult : 1
+[2022-03-03 20:33:07:801] : IntegrateResultAndSendPLC : 24, RESULTTrue
+[2022-03-03 20:33:07:801] : Inspection Thread End Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:33:07:833] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 25
+[2022-03-03 20:33:07:833] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 25
+[2022-03-03 20:33:07:833] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:33:07:833] : Inspection Thread End Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:33:07:957] : Inspection Thread Start Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:33:08:176] : Inspection Thread Start Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:33:08:176] : Inspection3 START Cam No. :2 Buff No. :: 25
+[2022-03-03 20:33:08:176] : Inspection3 END Cam No. :2 Buff No. :: 25
+[2022-03-03 20:33:08:176] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:33:08:191] : Inspection Thread End Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:33:08:332] : Inspection2 Start Cam No. :1 Buff No. :: 25
+[2022-03-03 20:33:08:332] : Inspection2 END Cam No. :1 Buff No. :: 25
+[2022-03-03 20:33:08:332] : Single PLC Send START, Index : 25, nResult : 1
+[2022-03-03 20:33:08:379] : Single PLC Send END, Index : 25, nResult : 1
+[2022-03-03 20:33:08:379] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:33:08:379] : Inspection Thread End Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:33:08:410] : Inspection Thread Start Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:33:08:441] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 26
+[2022-03-03 20:33:08:441] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 26
+[2022-03-03 20:33:08:441] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:33:08:457] : Inspection Thread End Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:33:08:566] : Inspection Thread Start Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:33:08:800] : Inspection Thread Start Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:33:08:800] : Inspection3 START Cam No. :2 Buff No. :: 26
+[2022-03-03 20:33:08:800] : Inspection3 END Cam No. :2 Buff No. :: 26
+[2022-03-03 20:33:08:800] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:33:08:815] : Inspection Thread End Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:33:08:956] : Inspection2 Start Cam No. :1 Buff No. :: 26
+[2022-03-03 20:33:08:956] : Inspection2 END Cam No. :1 Buff No. :: 26
+[2022-03-03 20:33:08:956] : Single PLC Send START, Index : 26, nResult : 1
+[2022-03-03 20:33:09:003] : Inspection Thread Start Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:33:09:003] : Single PLC Send END, Index : 26, nResult : 1
+[2022-03-03 20:33:09:003] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:33:09:003] : Inspection Thread End Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:33:09:034] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 27
+[2022-03-03 20:33:09:034] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 27
+[2022-03-03 20:33:09:034] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:33:09:034] : Inspection Thread End Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:33:09:159] : Inspection Thread Start Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:33:09:377] : Inspection Thread Start Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:33:09:377] : Inspection3 START Cam No. :2 Buff No. :: 27
+[2022-03-03 20:33:09:377] : Inspection3 END Cam No. :2 Buff No. :: 27
+[2022-03-03 20:33:09:377] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:33:09:393] : Inspection Thread End Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:33:09:533] : Inspection2 Start Cam No. :1 Buff No. :: 27
+[2022-03-03 20:33:09:533] : Inspection2 END Cam No. :1 Buff No. :: 27
+[2022-03-03 20:33:09:533] : Single PLC Send START, Index : 27, nResult : 1
+[2022-03-03 20:33:09:580] : Single PLC Send END, Index : 27, nResult : 1
+[2022-03-03 20:33:09:580] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:33:09:580] : Inspection Thread End Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:33:09:611] : Inspection Thread Start Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:33:09:642] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 28
+[2022-03-03 20:33:09:642] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 28
+[2022-03-03 20:33:09:642] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:33:09:767] : Inspection Thread Start Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:33:09:985] : Inspection Thread Start Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:33:09:985] : Inspection3 START Cam No. :2 Buff No. :: 28
+[2022-03-03 20:33:10:001] : Inspection3 END Cam No. :2 Buff No. :: 28
+[2022-03-03 20:33:10:017] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:33:10:017] : Inspection Thread End Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:33:10:141] : Inspection2 Start Cam No. :1 Buff No. :: 28
+[2022-03-03 20:33:10:141] : Inspection2 END Cam No. :1 Buff No. :: 28
+[2022-03-03 20:33:10:141] : Single PLC Send START, Index : 28, nResult : 2
+[2022-03-03 20:33:10:188] : Single PLC Send END, Index : 28, nResult : 2
+[2022-03-03 20:33:10:188] : IntegrateResultAndSendPLC : 28, RESULTFalse
+[2022-03-03 20:33:10:188] : Inspection Thread End Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:33:10:235] : Inspection Thread Start Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:33:10:282] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 29
+[2022-03-03 20:33:10:282] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 29
+[2022-03-03 20:33:10:282] : IntegrateResultAndSendPLC : 29, RESULTFalse
+[2022-03-03 20:33:10:391] : Inspection Thread Start Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:33:10:625] : Inspection Thread Start Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:33:10:625] : Inspection3 START Cam No. :2 Buff No. :: 29
+[2022-03-03 20:33:10:625] : Inspection3 END Cam No. :2 Buff No. :: 29
+[2022-03-03 20:33:10:625] : IntegrateResultAndSendPLC : 29, RESULTFalse
+[2022-03-03 20:33:10:641] : Inspection Thread End Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:33:10:765] : Inspection2 Start Cam No. :1 Buff No. :: 29
+[2022-03-03 20:33:10:765] : Inspection2 END Cam No. :1 Buff No. :: 29
+[2022-03-03 20:33:10:765] : Single PLC Send START, Index : 29, nResult : 2
+[2022-03-03 20:33:10:812] : Single PLC Send END, Index : 29, nResult : 2
+[2022-03-03 20:33:10:812] : IntegrateResultAndSendPLC : 29, RESULTFalse
+[2022-03-03 20:33:10:812] : Inspection Thread End Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:33:10:890] : Inspection Thread Start Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:33:10:921] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 30
+[2022-03-03 20:33:10:921] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 30
+[2022-03-03 20:33:10:921] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:33:11:046] : Inspection Thread Start Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:33:11:265] : Inspection Thread Start Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:33:11:265] : Inspection3 START Cam No. :2 Buff No. :: 30
+[2022-03-03 20:33:11:280] : Inspection3 END Cam No. :2 Buff No. :: 30
+[2022-03-03 20:33:11:280] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:33:11:280] : Inspection Thread End Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:33:11:421] : Inspection2 Start Cam No. :1 Buff No. :: 30
+[2022-03-03 20:33:11:421] : Inspection2 END Cam No. :1 Buff No. :: 30
+[2022-03-03 20:33:11:421] : Single PLC Send START, Index : 30, nResult : 2
+[2022-03-03 20:33:11:467] : Single PLC Send END, Index : 30, nResult : 2
+[2022-03-03 20:33:11:467] : IntegrateResultAndSendPLC : 30, RESULTFalse
+[2022-03-03 20:33:11:467] : Inspection Thread End Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:33:11:545] : Inspection Thread Start Cam No. :0  Buff No. ::: 31
+[2022-03-03 20:33:11:577] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 31
+[2022-03-03 20:33:11:577] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 31
+[2022-03-03 20:33:11:577] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:33:11:717] : Inspection Thread Start Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:33:11:935] : Inspection Thread Start Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:33:12:060] : Inspection2 Start Cam No. :1 Buff No. :: 31
+[2022-03-03 20:33:12:060] : Inspection2 END Cam No. :1 Buff No. :: 31
+[2022-03-03 20:33:12:060] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:33:12:076] : Inspection Thread End Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:33:12:247] : Inspection Thread Start Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:33:12:279] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 0
+[2022-03-03 20:33:12:279] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 0
+[2022-03-03 20:33:12:279] : IntegrateResultAndSendPLC : 0, RESULTTrue
+[2022-03-03 20:33:12:279] : Inspection Thread End Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:33:12:403] : Inspection Thread Start Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:33:12:497] : Inspection3 START Cam No. :2 Buff No. :: 31
+[2022-03-03 20:33:12:497] : Inspection3 END Cam No. :2 Buff No. :: 31
+[2022-03-03 20:33:12:497] : Single PLC Send START, Index : 31, nResult : 2
+[2022-03-03 20:33:12:544] : Single PLC Send END, Index : 31, nResult : 2
+[2022-03-03 20:33:12:544] : IntegrateResultAndSendPLC : 31, RESULTFalse
+[2022-03-03 20:33:12:637] : Inspection Thread Start Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:33:12:793] : Inspection2 Start Cam No. :1 Buff No. :: 0
+[2022-03-03 20:33:12:793] : Inspection2 END Cam No. :1 Buff No. :: 0
+[2022-03-03 20:33:12:793] : IntegrateResultAndSendPLC : 0, RESULTTrue
+[2022-03-03 20:33:12:793] : Inspection Thread End Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:33:12:981] : Inspection Thread Start Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:33:13:012] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 1
+[2022-03-03 20:33:13:012] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 1
+[2022-03-03 20:33:13:012] : IntegrateResultAndSendPLC : 1, RESULTTrue
+[2022-03-03 20:33:13:012] : Inspection Thread End Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:33:13:137] : Inspection Thread Start Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:33:13:199] : Inspection3 START Cam No. :2 Buff No. :: 0
+[2022-03-03 20:33:13:199] : Inspection3 END Cam No. :2 Buff No. :: 0
+[2022-03-03 20:33:13:199] : Single PLC Send START, Index : 0, nResult : 1
+[2022-03-03 20:33:13:246] : Single PLC Send END, Index : 0, nResult : 1
+[2022-03-03 20:33:13:246] : IntegrateResultAndSendPLC : 0, RESULTTrue
+[2022-03-03 20:33:13:261] : Inspection Thread End Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:33:13:371] : Inspection Thread Start Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:33:13:511] : Inspection2 Start Cam No. :1 Buff No. :: 1
+[2022-03-03 20:33:13:511] : Inspection2 END Cam No. :1 Buff No. :: 1
+[2022-03-03 20:33:13:511] : IntegrateResultAndSendPLC : 1, RESULTTrue
+[2022-03-03 20:33:13:511] : Inspection Thread End Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:33:13:776] : Inspection Thread Start Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:33:13:823] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 2
+[2022-03-03 20:33:13:823] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 2
+[2022-03-03 20:33:13:823] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:33:13:932] : Inspection3 START Cam No. :2 Buff No. :: 1
+[2022-03-03 20:33:13:932] : Inspection3 END Cam No. :2 Buff No. :: 1
+[2022-03-03 20:33:13:932] : Single PLC Send START, Index : 1, nResult : 1
+[2022-03-03 20:33:13:932] : Inspection Thread Start Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:33:13:979] : Single PLC Send END, Index : 1, nResult : 1
+[2022-03-03 20:33:13:979] : IntegrateResultAndSendPLC : 1, RESULTTrue
+[2022-03-03 20:33:13:979] : Inspection Thread End Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:33:14:151] : Inspection Thread Start Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:33:14:291] : Inspection2 Start Cam No. :1 Buff No. :: 2
+[2022-03-03 20:33:14:291] : Inspection2 END Cam No. :1 Buff No. :: 2
+[2022-03-03 20:33:14:291] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:33:14:291] : Inspection Thread End Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:33:14:697] : Inspection Thread Start Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:33:14:712] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 3
+[2022-03-03 20:33:14:712] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 3
+[2022-03-03 20:33:14:712] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:33:14:712] : Inspection Thread End Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:33:14:728] : Inspection3 START Cam No. :2 Buff No. :: 2
+[2022-03-03 20:33:14:728] : Inspection3 END Cam No. :2 Buff No. :: 2
+[2022-03-03 20:33:14:728] : Single PLC Send START, Index : 2, nResult : 2
+[2022-03-03 20:33:14:775] : Single PLC Send END, Index : 2, nResult : 2
+[2022-03-03 20:33:14:775] : IntegrateResultAndSendPLC : 2, RESULTFalse
+[2022-03-03 20:33:14:790] : Inspection Thread End Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:33:14:853] : Inspection Thread Start Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:33:15:071] : Inspection Thread Start Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:33:15:227] : Inspection2 Start Cam No. :1 Buff No. :: 3
+[2022-03-03 20:33:15:227] : Inspection2 END Cam No. :1 Buff No. :: 3
+[2022-03-03 20:33:15:227] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:33:15:227] : Inspection Thread End Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:33:15:633] : Inspection3 START Cam No. :2 Buff No. :: 3
+[2022-03-03 20:33:15:648] : Inspection3 END Cam No. :2 Buff No. :: 3
+[2022-03-03 20:33:15:648] : Single PLC Send START, Index : 3, nResult : 1
+[2022-03-03 20:33:15:695] : Single PLC Send END, Index : 3, nResult : 1
+[2022-03-03 20:33:15:695] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:33:15:695] : Inspection Thread Start Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:33:15:711] : Inspection Thread End Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:33:15:742] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 4
+[2022-03-03 20:33:15:742] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 4
+[2022-03-03 20:33:15:742] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:33:15:742] : Inspection Thread End Cam No. :0  Buff No. ::: 4
+[2022-03-03 20:33:15:851] : Inspection Thread Start Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:33:16:069] : Inspection Thread Start Cam No. :2  Buff No. ::: 4
+[2022-03-03 20:33:16:210] : Inspection2 Start Cam No. :1 Buff No. :: 4
+[2022-03-03 20:33:16:210] : Inspection2 END Cam No. :1 Buff No. :: 4
+[2022-03-03 20:33:16:210] : IntegrateResultAndSendPLC : 4, RESULTTrue
+[2022-03-03 20:33:16:210] : Inspection Thread End Cam No. :1  Buff No. ::: 4
+[2022-03-03 20:33:16:631] : Inspection3 START Cam No. :2 Buff No. :: 4
+[2022-03-03 20:33:16:631] : Inspection3 END Cam No. :2 Buff No. :: 4
+[2022-03-03 20:33:16:631] : Single PLC Send START, Index : 4, nResult : 2
+[2022-03-03 20:33:16:678] : Single PLC Send END, Index : 4, nResult : 2
+[2022-03-03 20:33:16:693] : IntegrateResultAndSendPLC : 4, RESULTFalse
+[2022-03-03 20:33:16:725] : Inspection Thread Start Cam No. :0  Buff No. ::: 5
+[2022-03-03 20:33:16:771] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 5
+[2022-03-03 20:33:16:771] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 5
+[2022-03-03 20:33:16:771] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:33:16:896] : Inspection Thread Start Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:33:17:115] : Inspection Thread Start Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:33:17:239] : Inspection2 Start Cam No. :1 Buff No. :: 5
+[2022-03-03 20:33:17:239] : Inspection2 END Cam No. :1 Buff No. :: 5
+[2022-03-03 20:33:17:239] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:33:17:239] : Inspection Thread End Cam No. :1  Buff No. ::: 5
+[2022-03-03 20:33:17:676] : Inspection3 START Cam No. :2 Buff No. :: 5
+[2022-03-03 20:33:17:676] : Inspection3 END Cam No. :2 Buff No. :: 5
+[2022-03-03 20:33:17:676] : Single PLC Send START, Index : 5, nResult : 2
+[2022-03-03 20:33:17:723] : Single PLC Send END, Index : 5, nResult : 2
+[2022-03-03 20:33:17:723] : IntegrateResultAndSendPLC : 5, RESULTFalse
+[2022-03-03 20:33:17:723] : Inspection Thread End Cam No. :2  Buff No. ::: 5
+[2022-03-03 20:33:17:863] : Inspection Thread Start Cam No. :0  Buff No. ::: 6
+[2022-03-03 20:33:17:910] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 6
+[2022-03-03 20:33:17:910] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 6
+[2022-03-03 20:33:17:910] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:33:17:910] : Inspection Thread End Cam No. :0  Buff No. ::: 6
+[2022-03-03 20:33:18:019] : Inspection Thread Start Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:33:18:238] : Inspection Thread Start Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:33:18:378] : Inspection2 Start Cam No. :1 Buff No. :: 6
+[2022-03-03 20:33:18:378] : Inspection2 END Cam No. :1 Buff No. :: 6
+[2022-03-03 20:33:18:378] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:33:18:378] : Inspection Thread End Cam No. :1  Buff No. ::: 6
+[2022-03-03 20:33:18:799] : Inspection3 START Cam No. :2 Buff No. :: 6
+[2022-03-03 20:33:18:799] : Inspection3 END Cam No. :2 Buff No. :: 6
+[2022-03-03 20:33:18:799] : Single PLC Send START, Index : 6, nResult : 1
+[2022-03-03 20:33:18:846] : Single PLC Send END, Index : 6, nResult : 1
+[2022-03-03 20:33:18:846] : IntegrateResultAndSendPLC : 6, RESULTTrue
+[2022-03-03 20:33:18:862] : Inspection Thread End Cam No. :2  Buff No. ::: 6
+[2022-03-03 20:33:19:127] : Inspection Thread Start Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:33:19:158] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 7
+[2022-03-03 20:33:19:158] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 7
+[2022-03-03 20:33:19:158] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:33:19:158] : Inspection Thread End Cam No. :0  Buff No. ::: 7
+[2022-03-03 20:33:19:283] : Inspection Thread Start Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:33:19:501] : Inspection Thread Start Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:33:19:642] : Inspection2 Start Cam No. :1 Buff No. :: 7
+[2022-03-03 20:33:19:642] : Inspection2 END Cam No. :1 Buff No. :: 7
+[2022-03-03 20:33:19:642] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:33:19:642] : Inspection Thread End Cam No. :1  Buff No. ::: 7
+[2022-03-03 20:33:20:063] : Inspection3 START Cam No. :2 Buff No. :: 7
+[2022-03-03 20:33:20:063] : Inspection3 END Cam No. :2 Buff No. :: 7
+[2022-03-03 20:33:20:063] : Single PLC Send START, Index : 7, nResult : 1
+[2022-03-03 20:33:20:110] : Single PLC Send END, Index : 7, nResult : 1
+[2022-03-03 20:33:20:110] : IntegrateResultAndSendPLC : 7, RESULTTrue
+[2022-03-03 20:33:20:125] : Inspection Thread End Cam No. :2  Buff No. ::: 7
+[2022-03-03 20:33:20:453] : Inspection Thread Start Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:33:20:484] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 8
+[2022-03-03 20:33:20:484] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 8
+[2022-03-03 20:33:20:484] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:33:20:484] : Inspection Thread End Cam No. :0  Buff No. ::: 8
+[2022-03-03 20:33:20:609] : Inspection Thread Start Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:33:20:827] : Inspection Thread Start Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:33:20:983] : Inspection2 Start Cam No. :1 Buff No. :: 8
+[2022-03-03 20:33:20:983] : Inspection2 END Cam No. :1 Buff No. :: 8
+[2022-03-03 20:33:20:983] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:33:20:983] : Inspection Thread End Cam No. :1  Buff No. ::: 8
+[2022-03-03 20:33:21:389] : Inspection3 START Cam No. :2 Buff No. :: 8
+[2022-03-03 20:33:21:389] : Inspection3 END Cam No. :2 Buff No. :: 8
+[2022-03-03 20:33:21:389] : Single PLC Send START, Index : 8, nResult : 1
+[2022-03-03 20:33:21:436] : Single PLC Send END, Index : 8, nResult : 1
+[2022-03-03 20:33:21:436] : IntegrateResultAndSendPLC : 8, RESULTTrue
+[2022-03-03 20:33:21:436] : Inspection Thread End Cam No. :2  Buff No. ::: 8
+[2022-03-03 20:33:21:935] : Inspection Thread Start Cam No. :0  Buff No. ::: 9
+[2022-03-03 20:33:21:982] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 9
+[2022-03-03 20:33:21:982] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 9
+[2022-03-03 20:33:21:982] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:33:22:091] : Inspection Thread Start Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:33:22:309] : Inspection Thread Start Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:33:22:450] : Inspection2 Start Cam No. :1 Buff No. :: 9
+[2022-03-03 20:33:22:450] : Inspection2 END Cam No. :1 Buff No. :: 9
+[2022-03-03 20:33:22:450] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:33:22:450] : Inspection Thread End Cam No. :1  Buff No. ::: 9
+[2022-03-03 20:33:22:871] : Inspection3 START Cam No. :2 Buff No. :: 9
+[2022-03-03 20:33:22:871] : Inspection3 END Cam No. :2 Buff No. :: 9
+[2022-03-03 20:33:22:871] : Single PLC Send START, Index : 9, nResult : 2
+[2022-03-03 20:33:22:918] : Single PLC Send END, Index : 9, nResult : 2
+[2022-03-03 20:33:22:918] : IntegrateResultAndSendPLC : 9, RESULTFalse
+[2022-03-03 20:33:22:949] : Inspection Thread End Cam No. :2  Buff No. ::: 9
+[2022-03-03 20:33:23:620] : Inspection Thread Start Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:33:23:667] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 10
+[2022-03-03 20:33:23:667] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 10
+[2022-03-03 20:33:23:667] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:33:23:667] : Inspection Thread End Cam No. :0  Buff No. ::: 10
+[2022-03-03 20:33:23:776] : Inspection Thread Start Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:33:24:010] : Inspection Thread Start Cam No. :2  Buff No. ::: 10
+[2022-03-03 20:33:24:135] : Inspection2 Start Cam No. :1 Buff No. :: 10
+[2022-03-03 20:33:24:135] : Inspection2 END Cam No. :1 Buff No. :: 10
+[2022-03-03 20:33:24:135] : IntegrateResultAndSendPLC : 10, RESULTTrue
+[2022-03-03 20:33:24:135] : Inspection Thread End Cam No. :1  Buff No. ::: 10
+[2022-03-03 20:33:24:571] : Inspection3 START Cam No. :2 Buff No. :: 10
+[2022-03-03 20:33:24:571] : Inspection3 END Cam No. :2 Buff No. :: 10
+[2022-03-03 20:33:24:571] : Single PLC Send START, Index : 10, nResult : 2
+[2022-03-03 20:33:24:618] : Single PLC Send END, Index : 10, nResult : 2
+[2022-03-03 20:33:24:618] : IntegrateResultAndSendPLC : 10, RESULTFalse
+[2022-03-03 20:33:25:944] : Inspection Thread Start Cam No. :0  Buff No. ::: 11
+[2022-03-03 20:33:25:975] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 11
+[2022-03-03 20:33:25:975] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 11
+[2022-03-03 20:33:25:975] : IntegrateResultAndSendPLC : 11, RESULTTrue
+[2022-03-03 20:33:25:975] : Inspection Thread End Cam No. :0  Buff No. ::: 11
+[2022-03-03 20:33:26:100] : Inspection Thread Start Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:33:26:319] : Inspection Thread Start Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:33:26:459] : Inspection2 Start Cam No. :1 Buff No. :: 11
+[2022-03-03 20:33:26:459] : Inspection2 END Cam No. :1 Buff No. :: 11
+[2022-03-03 20:33:26:459] : IntegrateResultAndSendPLC : 11, RESULTTrue
+[2022-03-03 20:33:26:459] : Inspection Thread End Cam No. :1  Buff No. ::: 11
+[2022-03-03 20:33:26:880] : Inspection3 START Cam No. :2 Buff No. :: 11
+[2022-03-03 20:33:26:880] : Inspection3 END Cam No. :2 Buff No. :: 11
+[2022-03-03 20:33:26:880] : Single PLC Send START, Index : 11, nResult : 1
+[2022-03-03 20:33:26:927] : Single PLC Send END, Index : 11, nResult : 1
+[2022-03-03 20:33:26:927] : IntegrateResultAndSendPLC : 11, RESULTTrue
+[2022-03-03 20:33:26:943] : Inspection Thread End Cam No. :2  Buff No. ::: 11
+[2022-03-03 20:33:27:972] : Inspection Thread Start Cam No. :0  Buff No. ::: 12
+[2022-03-03 20:33:28:019] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 12
+[2022-03-03 20:33:28:019] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 12
+[2022-03-03 20:33:28:019] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:28:144] : Inspection Thread Start Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:33:28:362] : Inspection Thread Start Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:33:28:518] : Inspection2 Start Cam No. :1 Buff No. :: 12
+[2022-03-03 20:33:28:518] : Inspection2 END Cam No. :1 Buff No. :: 12
+[2022-03-03 20:33:28:518] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:28:518] : Inspection Thread End Cam No. :1  Buff No. ::: 12
+[2022-03-03 20:33:28:924] : Inspection3 START Cam No. :2 Buff No. :: 12
+[2022-03-03 20:33:28:924] : Inspection3 END Cam No. :2 Buff No. :: 12
+[2022-03-03 20:33:28:924] : Single PLC Send START, Index : 12, nResult : 2
+[2022-03-03 20:33:28:971] : Single PLC Send END, Index : 12, nResult : 2
+[2022-03-03 20:33:28:971] : IntegrateResultAndSendPLC : 12, RESULTFalse
+[2022-03-03 20:33:28:986] : Inspection Thread End Cam No. :2  Buff No. ::: 12
+[2022-03-03 20:33:36:178] : Inspection Thread Start Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:33:36:209] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 13
+[2022-03-03 20:33:36:209] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 13
+[2022-03-03 20:33:36:209] : IntegrateResultAndSendPLC : 13, RESULTTrue
+[2022-03-03 20:33:36:209] : Inspection Thread End Cam No. :0  Buff No. ::: 13
+[2022-03-03 20:33:36:334] : Inspection Thread Start Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:33:36:568] : Inspection Thread Start Cam No. :2  Buff No. ::: 13
+[2022-03-03 20:33:36:708] : Inspection2 Start Cam No. :1 Buff No. :: 13
+[2022-03-03 20:33:36:708] : Inspection2 END Cam No. :1 Buff No. :: 13
+[2022-03-03 20:33:36:708] : IntegrateResultAndSendPLC : 13, RESULTTrue
+[2022-03-03 20:33:36:708] : Inspection Thread End Cam No. :1  Buff No. ::: 13
+[2022-03-03 20:33:37:114] : Inspection3 START Cam No. :2 Buff No. :: 13
+[2022-03-03 20:33:37:114] : Inspection3 END Cam No. :2 Buff No. :: 13
+[2022-03-03 20:33:37:114] : Single PLC Send START, Index : 13, nResult : 2
+[2022-03-03 20:33:37:161] : Single PLC Send END, Index : 13, nResult : 2
+[2022-03-03 20:33:37:161] : IntegrateResultAndSendPLC : 13, RESULTFalse
+[2022-03-03 20:33:40:047] : Inspection Thread Start Cam No. :0  Buff No. ::: 14
+[2022-03-03 20:33:40:093] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 14
+[2022-03-03 20:33:40:093] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 14
+[2022-03-03 20:33:40:093] : IntegrateResultAndSendPLC : 14, RESULTTrue
+[2022-03-03 20:33:40:093] : Inspection Thread End Cam No. :0  Buff No. ::: 14
+[2022-03-03 20:33:40:218] : Inspection Thread Start Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:33:40:437] : Inspection Thread Start Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:33:40:577] : Inspection2 Start Cam No. :1 Buff No. :: 14
+[2022-03-03 20:33:40:577] : Inspection2 END Cam No. :1 Buff No. :: 14
+[2022-03-03 20:33:40:577] : IntegrateResultAndSendPLC : 14, RESULTTrue
+[2022-03-03 20:33:40:577] : Inspection Thread End Cam No. :1  Buff No. ::: 14
+[2022-03-03 20:33:40:998] : Inspection3 START Cam No. :2 Buff No. :: 14
+[2022-03-03 20:33:40:998] : Inspection3 END Cam No. :2 Buff No. :: 14
+[2022-03-03 20:33:40:998] : Single PLC Send START, Index : 14, nResult : 1
+[2022-03-03 20:33:41:045] : Single PLC Send END, Index : 14, nResult : 1
+[2022-03-03 20:33:41:045] : IntegrateResultAndSendPLC : 14, RESULTTrue
+[2022-03-03 20:33:41:061] : Inspection Thread End Cam No. :2  Buff No. ::: 14
+[2022-03-03 20:33:43:635] : Inspection Thread Start Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:33:43:666] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 15
+[2022-03-03 20:33:43:666] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 15
+[2022-03-03 20:33:43:666] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:43:666] : Inspection Thread End Cam No. :0  Buff No. ::: 15
+[2022-03-03 20:33:43:791] : Inspection Thread Start Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:33:44:009] : Inspection Thread Start Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:33:44:149] : Inspection2 Start Cam No. :1 Buff No. :: 15
+[2022-03-03 20:33:44:149] : Inspection2 END Cam No. :1 Buff No. :: 15
+[2022-03-03 20:33:44:149] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:44:149] : Inspection Thread End Cam No. :1  Buff No. ::: 15
+[2022-03-03 20:33:44:571] : Inspection3 START Cam No. :2 Buff No. :: 15
+[2022-03-03 20:33:44:571] : Inspection3 END Cam No. :2 Buff No. :: 15
+[2022-03-03 20:33:44:571] : Single PLC Send START, Index : 15, nResult : 1
+[2022-03-03 20:33:44:617] : Single PLC Send END, Index : 15, nResult : 1
+[2022-03-03 20:33:44:617] : IntegrateResultAndSendPLC : 15, RESULTTrue
+[2022-03-03 20:33:44:617] : Inspection Thread End Cam No. :2  Buff No. ::: 15
+[2022-03-03 20:33:45:241] : Inspection Thread Start Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:33:45:288] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 16
+[2022-03-03 20:33:45:288] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 16
+[2022-03-03 20:33:45:288] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:33:45:288] : Inspection Thread End Cam No. :0  Buff No. ::: 16
+[2022-03-03 20:33:45:413] : Inspection Thread Start Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:33:45:631] : Inspection Thread Start Cam No. :2  Buff No. ::: 16
+[2022-03-03 20:33:45:787] : Inspection2 Start Cam No. :1 Buff No. :: 16
+[2022-03-03 20:33:45:787] : Inspection2 END Cam No. :1 Buff No. :: 16
+[2022-03-03 20:33:45:787] : IntegrateResultAndSendPLC : 16, RESULTTrue
+[2022-03-03 20:33:45:787] : Inspection Thread End Cam No. :1  Buff No. ::: 16
+[2022-03-03 20:33:46:193] : Inspection3 START Cam No. :2 Buff No. :: 16
+[2022-03-03 20:33:46:193] : Inspection3 END Cam No. :2 Buff No. :: 16
+[2022-03-03 20:33:46:193] : Single PLC Send START, Index : 16, nResult : 2
+[2022-03-03 20:33:46:240] : Single PLC Send END, Index : 16, nResult : 2
+[2022-03-03 20:33:46:240] : IntegrateResultAndSendPLC : 16, RESULTFalse
+[2022-03-03 20:33:47:067] : Inspection Thread Start Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:33:47:098] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 17
+[2022-03-03 20:33:47:098] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 17
+[2022-03-03 20:33:47:098] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:33:47:098] : Inspection Thread End Cam No. :0  Buff No. ::: 17
+[2022-03-03 20:33:47:223] : Inspection Thread Start Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:33:47:457] : Inspection Thread Start Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:33:47:597] : Inspection2 Start Cam No. :1 Buff No. :: 17
+[2022-03-03 20:33:47:597] : Inspection2 END Cam No. :1 Buff No. :: 17
+[2022-03-03 20:33:47:597] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:33:47:597] : Inspection Thread End Cam No. :1  Buff No. ::: 17
+[2022-03-03 20:33:48:018] : Inspection3 START Cam No. :2 Buff No. :: 17
+[2022-03-03 20:33:48:018] : Inspection3 END Cam No. :2 Buff No. :: 17
+[2022-03-03 20:33:48:018] : Single PLC Send START, Index : 17, nResult : 1
+[2022-03-03 20:33:48:065] : Single PLC Send END, Index : 17, nResult : 1
+[2022-03-03 20:33:48:065] : IntegrateResultAndSendPLC : 17, RESULTTrue
+[2022-03-03 20:33:48:081] : Inspection Thread End Cam No. :2  Buff No. ::: 17
+[2022-03-03 20:34:39:919] : Inspection Thread Start Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:34:39:951] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 18
+[2022-03-03 20:34:39:951] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 18
+[2022-03-03 20:34:39:951] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:34:39:951] : Inspection Thread End Cam No. :0  Buff No. ::: 18
+[2022-03-03 20:34:40:091] : Inspection Thread Start Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:34:40:309] : Inspection Thread Start Cam No. :2  Buff No. ::: 18
+[2022-03-03 20:34:40:450] : Inspection2 Start Cam No. :1 Buff No. :: 18
+[2022-03-03 20:34:40:450] : Inspection2 END Cam No. :1 Buff No. :: 18
+[2022-03-03 20:34:40:450] : IntegrateResultAndSendPLC : 18, RESULTTrue
+[2022-03-03 20:34:40:450] : Inspection Thread End Cam No. :1  Buff No. ::: 18
+[2022-03-03 20:34:40:871] : Inspection3 START Cam No. :2 Buff No. :: 18
+[2022-03-03 20:34:40:871] : Inspection3 END Cam No. :2 Buff No. :: 18
+[2022-03-03 20:34:40:871] : Single PLC Send START, Index : 18, nResult : 2
+[2022-03-03 20:34:40:918] : Single PLC Send END, Index : 18, nResult : 2
+[2022-03-03 20:34:40:918] : IntegrateResultAndSendPLC : 18, RESULTFalse
+[2022-03-03 20:35:11:759] : Inspection Thread Start Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:35:11:790] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 19
+[2022-03-03 20:35:11:790] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 19
+[2022-03-03 20:35:11:790] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:35:11:790] : Inspection Thread End Cam No. :0  Buff No. ::: 19
+[2022-03-03 20:35:11:915] : Inspection Thread Start Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:35:12:134] : Inspection Thread Start Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:35:12:290] : Inspection2 Start Cam No. :1 Buff No. :: 19
+[2022-03-03 20:35:12:290] : Inspection2 END Cam No. :1 Buff No. :: 19
+[2022-03-03 20:35:12:290] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:35:12:290] : Inspection Thread End Cam No. :1  Buff No. ::: 19
+[2022-03-03 20:35:12:695] : Inspection3 START Cam No. :2 Buff No. :: 19
+[2022-03-03 20:35:12:695] : Inspection3 END Cam No. :2 Buff No. :: 19
+[2022-03-03 20:35:12:695] : Single PLC Send START, Index : 19, nResult : 1
+[2022-03-03 20:35:12:742] : Single PLC Send END, Index : 19, nResult : 1
+[2022-03-03 20:35:12:742] : IntegrateResultAndSendPLC : 19, RESULTTrue
+[2022-03-03 20:35:12:758] : Inspection Thread End Cam No. :2  Buff No. ::: 19
+[2022-03-03 20:35:12:960] : Inspection Thread Start Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:35:13:007] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 20
+[2022-03-03 20:35:13:007] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 20
+[2022-03-03 20:35:13:007] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:35:13:007] : Inspection Thread End Cam No. :0  Buff No. ::: 20
+[2022-03-03 20:35:13:116] : Inspection Thread Start Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:35:13:350] : Inspection Thread Start Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:35:13:475] : Inspection2 Start Cam No. :1 Buff No. :: 20
+[2022-03-03 20:35:13:475] : Inspection2 END Cam No. :1 Buff No. :: 20
+[2022-03-03 20:35:13:475] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:35:13:475] : Inspection Thread End Cam No. :1  Buff No. ::: 20
+[2022-03-03 20:35:13:912] : Inspection3 START Cam No. :2 Buff No. :: 20
+[2022-03-03 20:35:13:912] : Inspection3 END Cam No. :2 Buff No. :: 20
+[2022-03-03 20:35:13:912] : Single PLC Send START, Index : 20, nResult : 1
+[2022-03-03 20:35:13:959] : Single PLC Send END, Index : 20, nResult : 1
+[2022-03-03 20:35:13:959] : IntegrateResultAndSendPLC : 20, RESULTTrue
+[2022-03-03 20:35:13:959] : Inspection Thread End Cam No. :2  Buff No. ::: 20
+[2022-03-03 20:35:14:255] : Inspection Thread Start Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:35:14:286] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 21
+[2022-03-03 20:35:14:286] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 21
+[2022-03-03 20:35:14:286] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:35:14:286] : Inspection Thread End Cam No. :0  Buff No. ::: 21
+[2022-03-03 20:35:14:411] : Inspection Thread Start Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:35:14:630] : Inspection Thread Start Cam No. :2  Buff No. ::: 21
+[2022-03-03 20:35:14:786] : Inspection2 Start Cam No. :1 Buff No. :: 21
+[2022-03-03 20:35:14:786] : Inspection2 END Cam No. :1 Buff No. :: 21
+[2022-03-03 20:35:14:786] : IntegrateResultAndSendPLC : 21, RESULTTrue
+[2022-03-03 20:35:14:786] : Inspection Thread End Cam No. :1  Buff No. ::: 21
+[2022-03-03 20:35:15:191] : Inspection3 START Cam No. :2 Buff No. :: 21
+[2022-03-03 20:35:15:191] : Inspection3 END Cam No. :2 Buff No. :: 21
+[2022-03-03 20:35:15:191] : Single PLC Send START, Index : 21, nResult : 2
+[2022-03-03 20:35:15:238] : Single PLC Send END, Index : 21, nResult : 2
+[2022-03-03 20:35:15:238] : IntegrateResultAndSendPLC : 21, RESULTFalse
+[2022-03-03 20:35:15:768] : Inspection Thread Start Cam No. :0  Buff No. ::: 22
+[2022-03-03 20:35:15:800] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 22
+[2022-03-03 20:35:15:800] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 22
+[2022-03-03 20:35:15:800] : IntegrateResultAndSendPLC : 22, RESULTFalse
+[2022-03-03 20:35:15:924] : Inspection Thread Start Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:35:16:143] : Inspection Thread Start Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:35:16:299] : Inspection2 Start Cam No. :1 Buff No. :: 22
+[2022-03-03 20:35:16:299] : Inspection2 END Cam No. :1 Buff No. :: 22
+[2022-03-03 20:35:16:299] : IntegrateResultAndSendPLC : 22, RESULTFalse
+[2022-03-03 20:35:16:299] : Inspection Thread End Cam No. :1  Buff No. ::: 22
+[2022-03-03 20:35:16:704] : Inspection3 START Cam No. :2 Buff No. :: 22
+[2022-03-03 20:35:16:704] : Inspection3 END Cam No. :2 Buff No. :: 22
+[2022-03-03 20:35:16:704] : Single PLC Send START, Index : 22, nResult : 2
+[2022-03-03 20:35:16:751] : Single PLC Send END, Index : 22, nResult : 2
+[2022-03-03 20:35:16:751] : IntegrateResultAndSendPLC : 22, RESULTFalse
+[2022-03-03 20:35:16:767] : Inspection Thread End Cam No. :2  Buff No. ::: 22
+[2022-03-03 20:35:17:578] : Inspection Thread Start Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:35:17:609] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 23
+[2022-03-03 20:35:17:609] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 23
+[2022-03-03 20:35:17:609] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:35:17:609] : Inspection Thread End Cam No. :0  Buff No. ::: 23
+[2022-03-03 20:35:17:734] : Inspection Thread Start Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:35:17:952] : Inspection Thread Start Cam No. :2  Buff No. ::: 23
+[2022-03-03 20:35:18:108] : Inspection2 Start Cam No. :1 Buff No. :: 23
+[2022-03-03 20:35:18:108] : Inspection2 END Cam No. :1 Buff No. :: 23
+[2022-03-03 20:35:18:108] : IntegrateResultAndSendPLC : 23, RESULTTrue
+[2022-03-03 20:35:18:108] : Inspection Thread End Cam No. :1  Buff No. ::: 23
+[2022-03-03 20:35:18:514] : Inspection3 START Cam No. :2 Buff No. :: 23
+[2022-03-03 20:35:18:514] : Inspection3 END Cam No. :2 Buff No. :: 23
+[2022-03-03 20:35:18:514] : Single PLC Send START, Index : 23, nResult : 2
+[2022-03-03 20:35:18:561] : Single PLC Send END, Index : 23, nResult : 2
+[2022-03-03 20:35:18:561] : IntegrateResultAndSendPLC : 23, RESULTFalse
+[2022-03-03 20:36:00:790] : Inspection Thread Start Cam No. :0  Buff No. ::: 24
+[2022-03-03 20:36:00:821] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 24
+[2022-03-03 20:36:00:821] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 24
+[2022-03-03 20:36:00:821] : IntegrateResultAndSendPLC : 24, RESULTFalse
+[2022-03-03 20:36:00:946] : Inspection Thread Start Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:36:01:164] : Inspection Thread Start Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:36:01:320] : Inspection2 Start Cam No. :1 Buff No. :: 24
+[2022-03-03 20:36:01:320] : Inspection2 END Cam No. :1 Buff No. :: 24
+[2022-03-03 20:36:01:320] : IntegrateResultAndSendPLC : 24, RESULTFalse
+[2022-03-03 20:36:01:320] : Inspection Thread End Cam No. :1  Buff No. ::: 24
+[2022-03-03 20:36:01:726] : Inspection3 START Cam No. :2 Buff No. :: 24
+[2022-03-03 20:36:01:726] : Inspection3 END Cam No. :2 Buff No. :: 24
+[2022-03-03 20:36:01:726] : Single PLC Send START, Index : 24, nResult : 2
+[2022-03-03 20:36:01:773] : Single PLC Send END, Index : 24, nResult : 2
+[2022-03-03 20:36:01:773] : IntegrateResultAndSendPLC : 24, RESULTFalse
+[2022-03-03 20:36:01:788] : Inspection Thread End Cam No. :2  Buff No. ::: 24
+[2022-03-03 20:36:02:054] : Inspection Thread Start Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:36:02:085] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 25
+[2022-03-03 20:36:02:085] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 25
+[2022-03-03 20:36:02:085] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:36:02:085] : Inspection Thread End Cam No. :0  Buff No. ::: 25
+[2022-03-03 20:36:02:225] : Inspection Thread Start Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:36:02:444] : Inspection Thread Start Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:36:02:584] : Inspection2 Start Cam No. :1 Buff No. :: 25
+[2022-03-03 20:36:02:584] : Inspection2 END Cam No. :1 Buff No. :: 25
+[2022-03-03 20:36:02:584] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:36:02:600] : Inspection Thread End Cam No. :1  Buff No. ::: 25
+[2022-03-03 20:36:03:005] : Inspection3 START Cam No. :2 Buff No. :: 25
+[2022-03-03 20:36:03:005] : Inspection3 END Cam No. :2 Buff No. :: 25
+[2022-03-03 20:36:03:005] : Single PLC Send START, Index : 25, nResult : 1
+[2022-03-03 20:36:03:052] : Single PLC Send END, Index : 25, nResult : 1
+[2022-03-03 20:36:03:052] : IntegrateResultAndSendPLC : 25, RESULTTrue
+[2022-03-03 20:36:03:068] : Inspection Thread End Cam No. :2  Buff No. ::: 25
+[2022-03-03 20:36:03:582] : Inspection Thread Start Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:36:03:629] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 26
+[2022-03-03 20:36:03:629] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 26
+[2022-03-03 20:36:03:629] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:36:03:629] : Inspection Thread End Cam No. :0  Buff No. ::: 26
+[2022-03-03 20:36:03:738] : Inspection Thread Start Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:36:03:957] : Inspection Thread Start Cam No. :2  Buff No. ::: 26
+[2022-03-03 20:36:04:097] : Inspection2 Start Cam No. :1 Buff No. :: 26
+[2022-03-03 20:36:04:097] : Inspection2 END Cam No. :1 Buff No. :: 26
+[2022-03-03 20:36:04:097] : IntegrateResultAndSendPLC : 26, RESULTTrue
+[2022-03-03 20:36:04:097] : Inspection Thread End Cam No. :1  Buff No. ::: 26
+[2022-03-03 20:36:04:518] : Inspection3 START Cam No. :2 Buff No. :: 26
+[2022-03-03 20:36:04:518] : Inspection3 END Cam No. :2 Buff No. :: 26
+[2022-03-03 20:36:04:518] : Single PLC Send START, Index : 26, nResult : 2
+[2022-03-03 20:36:04:565] : Single PLC Send END, Index : 26, nResult : 2
+[2022-03-03 20:36:04:565] : IntegrateResultAndSendPLC : 26, RESULTFalse
+[2022-03-03 20:36:05:111] : Inspection Thread Start Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:36:05:142] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 27
+[2022-03-03 20:36:05:142] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 27
+[2022-03-03 20:36:05:142] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:36:05:142] : Inspection Thread End Cam No. :0  Buff No. ::: 27
+[2022-03-03 20:36:05:267] : Inspection Thread Start Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:36:05:486] : Inspection Thread Start Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:36:05:642] : Inspection2 Start Cam No. :1 Buff No. :: 27
+[2022-03-03 20:36:05:642] : Inspection2 END Cam No. :1 Buff No. :: 27
+[2022-03-03 20:36:05:642] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:36:05:642] : Inspection Thread End Cam No. :1  Buff No. ::: 27
+[2022-03-03 20:36:06:047] : Inspection3 START Cam No. :2 Buff No. :: 27
+[2022-03-03 20:36:06:047] : Inspection3 END Cam No. :2 Buff No. :: 27
+[2022-03-03 20:36:06:047] : Single PLC Send START, Index : 27, nResult : 1
+[2022-03-03 20:36:06:094] : Single PLC Send END, Index : 27, nResult : 1
+[2022-03-03 20:36:06:094] : IntegrateResultAndSendPLC : 27, RESULTTrue
+[2022-03-03 20:36:06:110] : Inspection Thread End Cam No. :2  Buff No. ::: 27
+[2022-03-03 20:36:06:858] : Inspection Thread Start Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:36:06:890] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 28
+[2022-03-03 20:36:06:890] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 28
+[2022-03-03 20:36:06:890] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:36:06:890] : Inspection Thread End Cam No. :0  Buff No. ::: 28
+[2022-03-03 20:36:07:014] : Inspection Thread Start Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:36:07:233] : Inspection Thread Start Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:36:07:389] : Inspection2 Start Cam No. :1 Buff No. :: 28
+[2022-03-03 20:36:07:389] : Inspection2 END Cam No. :1 Buff No. :: 28
+[2022-03-03 20:36:07:389] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:36:07:389] : Inspection Thread End Cam No. :1  Buff No. ::: 28
+[2022-03-03 20:36:07:794] : Inspection3 START Cam No. :2 Buff No. :: 28
+[2022-03-03 20:36:07:794] : Inspection3 END Cam No. :2 Buff No. :: 28
+[2022-03-03 20:36:07:794] : Single PLC Send START, Index : 28, nResult : 1
+[2022-03-03 20:36:07:841] : Single PLC Send END, Index : 28, nResult : 1
+[2022-03-03 20:36:07:841] : IntegrateResultAndSendPLC : 28, RESULTTrue
+[2022-03-03 20:36:07:841] : Inspection Thread End Cam No. :2  Buff No. ::: 28
+[2022-03-03 20:36:33:940] : Inspection Thread Start Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:36:33:971] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 29
+[2022-03-03 20:36:33:971] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 29
+[2022-03-03 20:36:33:971] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:36:33:971] : Inspection Thread End Cam No. :0  Buff No. ::: 29
+[2022-03-03 20:36:34:096] : Inspection Thread Start Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:36:34:314] : Inspection Thread Start Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:36:34:455] : Inspection2 Start Cam No. :1 Buff No. :: 29
+[2022-03-03 20:36:34:455] : Inspection2 END Cam No. :1 Buff No. :: 29
+[2022-03-03 20:36:34:455] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:36:34:455] : Inspection Thread End Cam No. :1  Buff No. ::: 29
+[2022-03-03 20:36:34:876] : Inspection3 START Cam No. :2 Buff No. :: 29
+[2022-03-03 20:36:34:876] : Inspection3 END Cam No. :2 Buff No. :: 29
+[2022-03-03 20:36:34:876] : Single PLC Send START, Index : 29, nResult : 1
+[2022-03-03 20:36:34:923] : Single PLC Send END, Index : 29, nResult : 1
+[2022-03-03 20:36:34:923] : IntegrateResultAndSendPLC : 29, RESULTTrue
+[2022-03-03 20:36:34:938] : Inspection Thread End Cam No. :2  Buff No. ::: 29
+[2022-03-03 20:36:40:414] : Inspection Thread Start Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:36:40:445] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 30
+[2022-03-03 20:36:40:445] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 30
+[2022-03-03 20:36:40:445] : IntegrateResultAndSendPLC : 30, RESULTTrue
+[2022-03-03 20:36:40:445] : Inspection Thread End Cam No. :0  Buff No. ::: 30
+[2022-03-03 20:36:40:570] : Inspection Thread Start Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:36:40:788] : Inspection Thread Start Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:36:40:944] : Inspection2 Start Cam No. :1 Buff No. :: 30
+[2022-03-03 20:36:40:944] : Inspection2 END Cam No. :1 Buff No. :: 30
+[2022-03-03 20:36:40:944] : IntegrateResultAndSendPLC : 30, RESULTTrue
+[2022-03-03 20:36:40:944] : Inspection Thread End Cam No. :1  Buff No. ::: 30
+[2022-03-03 20:36:41:350] : Inspection3 START Cam No. :2 Buff No. :: 30
+[2022-03-03 20:36:41:350] : Inspection3 END Cam No. :2 Buff No. :: 30
+[2022-03-03 20:36:41:350] : Single PLC Send START, Index : 30, nResult : 1
+[2022-03-03 20:36:41:397] : Single PLC Send END, Index : 30, nResult : 1
+[2022-03-03 20:36:41:397] : IntegrateResultAndSendPLC : 30, RESULTTrue
+[2022-03-03 20:36:41:397] : Inspection Thread End Cam No. :2  Buff No. ::: 30
+[2022-03-03 20:36:48:245] : Inspection Thread Start Cam No. :0  Buff No. ::: 31
+[2022-03-03 20:36:48:277] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 31
+[2022-03-03 20:36:48:277] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 31
+[2022-03-03 20:36:48:277] : IntegrateResultAndSendPLC : 31, RESULTTrue
+[2022-03-03 20:36:48:277] : Inspection Thread End Cam No. :0  Buff No. ::: 31
+[2022-03-03 20:36:48:401] : Inspection Thread Start Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:36:48:620] : Inspection Thread Start Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:36:48:745] : Inspection2 Start Cam No. :1 Buff No. :: 31
+[2022-03-03 20:36:48:745] : Inspection2 END Cam No. :1 Buff No. :: 31
+[2022-03-03 20:36:48:745] : IntegrateResultAndSendPLC : 31, RESULTTrue
+[2022-03-03 20:36:48:745] : Inspection Thread End Cam No. :1  Buff No. ::: 31
+[2022-03-03 20:36:49:181] : Inspection3 START Cam No. :2 Buff No. :: 31
+[2022-03-03 20:36:49:181] : Inspection3 END Cam No. :2 Buff No. :: 31
+[2022-03-03 20:36:49:181] : Single PLC Send START, Index : 31, nResult : 1
+[2022-03-03 20:36:49:228] : Single PLC Send END, Index : 31, nResult : 1
+[2022-03-03 20:36:49:228] : IntegrateResultAndSendPLC : 31, RESULTTrue
+[2022-03-03 20:36:49:228] : Inspection Thread End Cam No. :2  Buff No. ::: 31
+[2022-03-03 20:37:00:944] : Inspection Thread Start Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:37:00:975] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 0
+[2022-03-03 20:37:00:975] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 0
+[2022-03-03 20:37:00:975] : IntegrateResultAndSendPLC : 0, RESULTTrue
+[2022-03-03 20:37:00:975] : Inspection Thread End Cam No. :0  Buff No. ::: 0
+[2022-03-03 20:37:01:100] : Inspection Thread Start Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:37:01:318] : Inspection Thread Start Cam No. :2  Buff No. ::: 0
+[2022-03-03 20:37:01:459] : Inspection2 Start Cam No. :1 Buff No. :: 0
+[2022-03-03 20:37:01:459] : Inspection2 END Cam No. :1 Buff No. :: 0
+[2022-03-03 20:37:01:459] : IntegrateResultAndSendPLC : 0, RESULTTrue
+[2022-03-03 20:37:01:459] : Inspection Thread End Cam No. :1  Buff No. ::: 0
+[2022-03-03 20:37:01:880] : Inspection3 START Cam No. :2 Buff No. :: 0
+[2022-03-03 20:37:01:880] : Inspection3 END Cam No. :2 Buff No. :: 0
+[2022-03-03 20:37:01:880] : Single PLC Send START, Index : 0, nResult : 2
+[2022-03-03 20:37:01:927] : Single PLC Send END, Index : 0, nResult : 2
+[2022-03-03 20:37:01:927] : IntegrateResultAndSendPLC : 0, RESULTFalse
+[2022-03-03 20:37:24:827] : Inspection Thread Start Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:37:24:874] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 1
+[2022-03-03 20:37:24:874] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 1
+[2022-03-03 20:37:24:874] : IntegrateResultAndSendPLC : 1, RESULTTrue
+[2022-03-03 20:37:24:874] : Inspection Thread End Cam No. :0  Buff No. ::: 1
+[2022-03-03 20:37:24:983] : Inspection Thread Start Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:37:25:217] : Inspection Thread Start Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:37:25:358] : Inspection2 Start Cam No. :1 Buff No. :: 1
+[2022-03-03 20:37:25:358] : Inspection2 END Cam No. :1 Buff No. :: 1
+[2022-03-03 20:37:25:358] : IntegrateResultAndSendPLC : 1, RESULTTrue
+[2022-03-03 20:37:25:358] : Inspection Thread End Cam No. :1  Buff No. ::: 1
+[2022-03-03 20:37:25:779] : Inspection3 START Cam No. :2 Buff No. :: 1
+[2022-03-03 20:37:25:779] : Inspection3 END Cam No. :2 Buff No. :: 1
+[2022-03-03 20:37:25:779] : Single PLC Send START, Index : 1, nResult : 2
+[2022-03-03 20:37:25:826] : Single PLC Send END, Index : 1, nResult : 2
+[2022-03-03 20:37:25:826] : IntegrateResultAndSendPLC : 1, RESULTFalse
+[2022-03-03 20:37:25:826] : Inspection Thread End Cam No. :2  Buff No. ::: 1
+[2022-03-03 20:37:36:824] : Inspection Thread Start Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:37:36:855] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 2
+[2022-03-03 20:37:36:855] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 2
+[2022-03-03 20:37:36:855] : IntegrateResultAndSendPLC : 2, RESULTTrue
+[2022-03-03 20:37:36:855] : Inspection Thread End Cam No. :0  Buff No. ::: 2
+[2022-03-03 20:37:36:980] : Inspection Thread Start Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:37:37:198] : Inspection Thread Start Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:37:37:339] : Inspection2 Start Cam No. :1 Buff No. :: 2
+[2022-03-03 20:37:37:339] : Inspection2 END Cam No. :1 Buff No. :: 2
+[2022-03-03 20:37:37:339] : IntegrateResultAndSendPLC : 2, RESULTTrue
+[2022-03-03 20:37:37:339] : Inspection Thread End Cam No. :1  Buff No. ::: 2
+[2022-03-03 20:37:37:760] : Inspection3 START Cam No. :2 Buff No. :: 2
+[2022-03-03 20:37:37:760] : Inspection3 END Cam No. :2 Buff No. :: 2
+[2022-03-03 20:37:37:760] : Single PLC Send START, Index : 2, nResult : 1
+[2022-03-03 20:37:37:807] : Single PLC Send END, Index : 2, nResult : 1
+[2022-03-03 20:37:37:807] : IntegrateResultAndSendPLC : 2, RESULTTrue
+[2022-03-03 20:37:37:822] : Inspection Thread End Cam No. :2  Buff No. ::: 2
+[2022-03-03 20:37:44:312] : Inspection Thread Start Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:37:44:343] : Inspection1_HeadDiameter Start Cam No. :0 Buff No. :: 3
+[2022-03-03 20:37:44:343] : Inspection1_HeadDiameter END Cam No. :0 Buff No. :: 3
+[2022-03-03 20:37:44:343] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:37:44:343] : Inspection Thread End Cam No. :0  Buff No. ::: 3
+[2022-03-03 20:37:44:468] : Inspection Thread Start Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:37:44:686] : Inspection Thread Start Cam No. :2  Buff No. ::: 3
+[2022-03-03 20:37:44:811] : Inspection2 Start Cam No. :1 Buff No. :: 3
+[2022-03-03 20:37:44:811] : Inspection2 END Cam No. :1 Buff No. :: 3
+[2022-03-03 20:37:44:811] : IntegrateResultAndSendPLC : 3, RESULTTrue
+[2022-03-03 20:37:44:811] : Inspection Thread End Cam No. :1  Buff No. ::: 3
+[2022-03-03 20:37:45:248] : Inspection3 START Cam No. :2 Buff No. :: 3
+[2022-03-03 20:37:45:248] : Inspection3 END Cam No. :2 Buff No. :: 3
+[2022-03-03 20:37:45:248] : Single PLC Send START, Index : 3, nResult : 2
+[2022-03-03 20:37:45:295] : Single PLC Send END, Index : 3, nResult : 2
+[2022-03-03 20:37:45:295] : IntegrateResultAndSendPLC : 3, RESULTFalse
+[2022-03-03 20:37:45:310] : Inspection Thread End Cam No. :2  Buff No. ::: 3

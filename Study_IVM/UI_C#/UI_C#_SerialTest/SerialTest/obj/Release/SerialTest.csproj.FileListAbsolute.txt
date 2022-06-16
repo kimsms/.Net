@@ -1,0 +1,15 @@
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\SerialTest.exe.config
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\SerialTest.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Microsoft.DirectX.DirectInput.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Multimedia.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Microsoft.DirectX.dll
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Microsoft.DirectX.DirectInput.xml
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Multimedia.pdb
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\bin\Release\Microsoft.DirectX.xml
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.Form1.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.Properties.Resources.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.SetupDlg.resources
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.csproj.GenerateResource.Cache
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.exe
+D:\1_Data\1_Data_BM_2017\00_UI 프로그램 Work\TAS_LADAR_Motion_Ui_C#_TAS ICD 기준\SerialTest\obj\Release\SerialTest.pdb

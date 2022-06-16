@@ -1,0 +1,14 @@
+﻿<Window x:Class="Clinet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Clinet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="473,173,0,0" Click="Button_Click"/>
+        <TextBox x:Name="txtMemory" HorizontalAlignment="Left" Height="233" TextWrapping="Wrap" Text="Clinet" VerticalAlignment="Top" Width="250" Margin="73,92,0,0"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\bin\Debug\RainbowSixOper.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\bin\Debug\RainbowSixOper.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\bin\Debug\RainbowSixOper.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\RainbowSixOper\RainbowSixOper\obj\Debug\RainbowSixOper.pdb

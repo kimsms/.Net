@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\bin\Debug\KeyboardControl.exe.config
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\bin\Debug\KeyboardControl.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\bin\Debug\KeyboardControl.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.Form1.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\KeyboardControl\KeyboardControl\obj\Debug\KeyboardControl.pdb

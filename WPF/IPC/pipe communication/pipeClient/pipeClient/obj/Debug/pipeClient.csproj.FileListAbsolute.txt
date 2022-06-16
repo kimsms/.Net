@@ -1,0 +1,7 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\bin\Debug\pipeClient.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\bin\Debug\pipeClient.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\bin\Debug\pipeClient.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\obj\Debug\pipeClient.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\obj\Debug\pipeClient.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\obj\Debug\pipeClient.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\pipe communication\pipeClient\pipeClient\obj\Debug\pipeClient.pdb

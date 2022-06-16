@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\bin\Debug\Lucky game.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\bin\Debug\Lucky game.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\bin\Debug\Lucky game.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky_game.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky_game.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky game.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky game.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky game.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky game.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Lucky game\Lucky game\obj\Debug\Lucky game.csprojAssemblyReference.cache

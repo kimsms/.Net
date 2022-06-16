@@ -1,0 +1,12 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\bin\Debug\MakeQRcode.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\bin\Debug\MakeQRcode.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\bin\Debug\MakeQRcode.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\bin\Debug\BusinessRefinery.Barcode.Win.dll
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.csproj.CopyComplete
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\MakeQRcode\MakeQRcode\obj\Debug\MakeQRcode.csproj.AssemblyReference.cache

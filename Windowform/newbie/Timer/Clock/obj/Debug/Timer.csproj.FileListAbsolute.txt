@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\bin\Debug\Clock.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\bin\Debug\Clock.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\bin\Debug\Clock.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Timer.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Clock.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Clock.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Timer.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Timer.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Clock.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Timer\Clock\obj\Debug\Clock.pdb

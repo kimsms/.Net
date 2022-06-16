@@ -1,0 +1,133 @@
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe.config
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Bead_Test.pdb
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csprojResolveAssemblyReference.cache
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.Form1.resources
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.Properties.Resources.resources
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.GenerateResource.Cache
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.exe
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\obj\Debug\Bead_Test.pdb
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.Blob.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.CPlusPlus.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.Extensions.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.UserInterface.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.Imaging.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.Math.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.Blob.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.CPlusPlus.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.Extensions.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.UserInterface.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_calib3d2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_calib3d2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_contrib2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_contrib2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_core2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_core2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_features2d2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_features2d2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ffmpeg2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_flann2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_flann2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_gpu2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_gpu2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_highgui2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_highgui2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_imgproc2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_imgproc2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_legacy2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_legacy2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ml2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ml2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_nonfree2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_nonfree2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_objdetect2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_objdetect2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ocl2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ocl2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_photo2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_photo2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_stitching2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_stitching2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_superres2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_superres2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_video2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_video2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_videostab2410.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_videostab2410d.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\AForge.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\AForge.Imaging.dll
+c:\users\kim\documents\visual studio 2015\Projects\Bead_Test\Bead_Test\bin\Debug\AForge.Math.dll
+C:\Users\KIM\Desktop\BEAD\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe.config
+C:\Users\KIM\Desktop\BEAD\Bead_Test\Bead_Test\obj\Debug\Bead_Test.exe
+C:\Users\KIM\Desktop\BEAD\Bead_Test\Bead_Test\obj\Debug\Bead_Test.pdb
+E:\새 폴더\BEAD\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe.config
+E:\새 폴더\BEAD\Bead_Test\Bead_Test\obj\Debug\Bead_Test.exe
+E:\새 폴더\BEAD\Bead_Test\Bead_Test\obj\Debug\Bead_Test.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.Imaging.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\AForge.Math.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.Blob.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.CPlusPlus.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.Extensions.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\OpenCvSharp.UserInterface.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_calib3d2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_calib3d2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_contrib2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_contrib2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_core2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_core2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_features2d2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_features2d2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ffmpeg2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_flann2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_flann2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_gpu2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_gpu2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_highgui2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_highgui2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_imgproc2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_imgproc2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_legacy2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_legacy2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ml2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ml2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_nonfree2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_nonfree2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_objdetect2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_objdetect2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ocl2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_ocl2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_photo2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_photo2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_stitching2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_stitching2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_superres2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_superres2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_video2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_video2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_videostab2410.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Dlls\opencv_videostab2410d.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe.config
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Bead_Test.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\Bead_Test.pdb
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\AForge.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\AForge.Math.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.CPlusPlus.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\bin\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.Form1.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.csproj.CopyComplete
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.exe
+C:\Users\Administrator\Documents\GitHub\.Net-Framework\Windowform\Source\OpenCV\Bead_Test\Bead_Test\obj\Debug\Bead_Test.pdb

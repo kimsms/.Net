@@ -1,0 +1,16 @@
+﻿<Window x:Class="Thumbnail_extractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Thumbnail_extractor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="imagebox" HorizontalAlignment="Left" Height="258" VerticalAlignment="Bottom" Width="514" Margin="114,0,0,73"/>
+        <TextBox x:Name="inputbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="514" Margin="114,41,0,0" KeyDown="TextBox_KeyDown" Text="https://www.youtube.com/watch?v=uyCWAs5tW1Y"/>
+        <CheckBox Content="자동저장" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="676,114,0,0"/>
+        <Button Content="저장" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="676,175,0,0" Click="Button_Click"/>
+        <Label Content="링크" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,38,0,0"/>
+    </Grid>
+</Window>

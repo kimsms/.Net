@@ -1,0 +1,68 @@
+/// <summary>
+        /// 좌표계 변환하기
+        /// </summary>
+        /// <param name="pictureBox">픽처 박스</param>
+        /// <param name="targetX">설정할 X 좌표</param>
+        /// <param name="targetY">설정할 Y 좌표</param>
+        /// <param name="sourceX">현재 X 좌표(e.X)</param>
+        /// <param name="sourceY">현재 Y 좌표(e.Y)</param>
+        private void ConvertCoordinates(PictureBox pictureBox, out int targetX, out int targetY, int sourceX, int sourceY)
+        {
+            int pictureBoxWidth = pictureBox.ClientSize.Width;
+            int pictureBoxHeight = pictureBox.ClientSize.Height;
+            int imageWidth = pictureBox.Image.Width;
+            int imageHeight = pictureBox.Image.Height;
+
+            targetX = sourceX;
+            targetY = sourceY;
+
+            switch (pictureBox.SizeMode)
+            {
+                case PictureBoxSizeMode.AutoSize:
+                case PictureBoxSizeMode.Normal:
+
+                    break;
+
+                case PictureBoxSizeMode.CenterImage:
+
+                    targetX = sourceX - (pictureBoxWidth - imageWidth) / 2;
+                    targetY = sourceY - (pictureBoxHeight - imageHeight) / 2;
+
+                    break;
+
+                case PictureBoxSizeMode.StretchImage:
+
+                    targetX = (int)(imageWidth * sourceX / (float)pictureBoxWidth);
+                    targetY = (int)(imageHeight * sourceY / (float)pictureBoxHeight);
+
+                    break;
+
+                case PictureBoxSizeMode.Zoom:
+
+                    float pictureBoxAspectRatio = pictureBoxWidth / (float)pictureBoxHeight;
+                    float imageAspectRatio = imageWidth / (float)imageHeight;
+
+                    if (pictureBoxAspectRatio > imageAspectRatio)
+                    {
+                        targetY = (int)(imageHeight * sourceY / (float)pictureBoxHeight);
+
+                        float scaledWidth = imageWidth * pictureBoxHeight / imageHeight;
+
+                        float deltaX = (pictureBoxWidth - scaledWidth) / 2;
+
+                        targetX = (int)((sourceX - deltaX) * imageHeight / (float)pictureBoxHeight);
+                    }
+                    else
+                    {
+                        targetX = (int)(imageWidth * sourceX / (float)pictureBoxWidth);
+
+                        float scaledHeight = imageHeight * pictureBoxWidth / imageWidth;
+
+                        float deltaY = (pictureBoxHeight - scaledHeight) / 2;
+
+                        targetY = (int)((sourceY - deltaY) * imageWidth / pictureBoxWidth);
+                    }
+
+                    break;
+            }
+        }

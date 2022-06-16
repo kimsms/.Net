@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\bin\Debug\Hidden.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\bin\Debug\Hidden.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\bin\Debug\Hidden.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\Hidden\Hidden\obj\Debug\Hidden.csproj.AssemblyReference.cache

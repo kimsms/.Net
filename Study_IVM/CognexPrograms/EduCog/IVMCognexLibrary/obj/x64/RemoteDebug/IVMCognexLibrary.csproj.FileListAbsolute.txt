@@ -1,0 +1,49 @@
+\\192.168.0.252\Execute\dll\x64\OpenCvSharpExtern.dll
+\\192.168.0.252\Execute\IVMCognexLibrary.dll
+\\192.168.0.252\Execute\dll\x86\OpenCvSharpExtern.dll
+\\192.168.0.252\Execute\dll\x86\opencv_ffmpeg400.dll
+\\192.168.0.252\Execute\dll\x64\opencv_ffmpeg400_64.dll
+\\192.168.0.252\Execute\IVMCognexLibrary.pdb
+D:\2. Development\2. VisionInspection\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csprojAssemblyReference.cache
+D:\2. Development\2. VisionInspection\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CoreCompileInputs.cache
+D:\2. Development\2. VisionInspection\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CopyComplete
+D:\2. Development\2. VisionInspection\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.dll
+D:\2. Development\2. VisionInspection\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.pdb
+D:\2. Development\2. VisionInspection\2. MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csprojAssemblyReference.cache
+D:\2. Development\2. VisionInspection\2. MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CoreCompileInputs.cache
+D:\2. Development\2. VisionInspection\2. MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CopyComplete
+D:\2. Development\2. VisionInspection\2. MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.dll
+D:\2. Development\2. VisionInspection\2. MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.pdb
+\\192.168.0.184\Execute\dll\x86\OpenCvSharpExtern.dll
+\\192.168.0.184\Execute\dll\x86\opencv_ffmpeg400.dll
+\\192.168.0.184\Execute\dll\x64\OpenCvSharpExtern.dll
+\\192.168.0.184\Execute\dll\x64\opencv_ffmpeg400_64.dll
+\\192.168.0.184\Execute\IVMCognexLibrary.dll
+\\192.168.0.184\Execute\IVMCognexLibrary.pdb
+D:\2. Development\2. VisionInspection\3. MultiStationInspection(Server, Client)\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csprojAssemblyReference.cache
+D:\2. Development\2. VisionInspection\3. MultiStationInspection(Server, Client)\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CoreCompileInputs.cache
+D:\2. Development\2. VisionInspection\3. MultiStationInspection(Server, Client)\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CopyComplete
+D:\2. Development\2. VisionInspection\3. MultiStationInspection(Server, Client)\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.dll
+D:\2. Development\2. VisionInspection\3. MultiStationInspection(Server, Client)\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.pdb
+\\192.168.137.7\Execute\dll\x86\OpenCvSharpExtern.dll
+\\192.168.137.7\Execute\dll\x86\opencv_ffmpeg400.dll
+\\192.168.137.7\Execute\dll\x64\OpenCvSharpExtern.dll
+\\192.168.137.7\Execute\dll\x64\opencv_ffmpeg400_64.dll
+\\192.168.137.7\Execute\IVMCognexLibrary.dll
+\\192.168.137.7\Execute\IVMCognexLibrary.pdb
+D:\3. Project\2. 진행중\인지디스플레이\2.Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csprojAssemblyReference.cache
+D:\3. Project\2. 진행중\인지디스플레이\2.Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CoreCompileInputs.cache
+D:\3. Project\2. 진행중\인지디스플레이\2.Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.dll
+D:\3. Project\2. 진행중\인지디스플레이\2.Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.pdb
+\\192.168.0.38\Execute\dll\x86\OpenCvSharpExtern.dll
+\\192.168.0.38\Execute\dll\x86\opencv_ffmpeg400.dll
+\\192.168.0.38\Execute\dll\x64\OpenCvSharpExtern.dll
+\\192.168.0.38\Execute\dll\x64\opencv_ffmpeg400_64.dll
+\\192.168.0.38\Execute\IVMCognexLibrary.dll
+\\192.168.0.38\Execute\IVMCognexLibrary.pdb
+D:\3. Project\2. 진행중\인지디스플레이\2.Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CopyComplete
+D:\3. Project\2. 진행중\인지디스플레이\2. Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csprojAssemblyReference.cache
+D:\3. Project\2. 진행중\인지디스플레이\2. Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CoreCompileInputs.cache
+D:\3. Project\2. 진행중\인지디스플레이\2. Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.csproj.CopyComplete
+D:\3. Project\2. 진행중\인지디스플레이\2. Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.dll
+D:\3. Project\2. 진행중\인지디스플레이\2. Project\MultiVisionInspection\IVMCognexLibrary\obj\x64\RemoteDebug\IVMCognexLibrary.pdb

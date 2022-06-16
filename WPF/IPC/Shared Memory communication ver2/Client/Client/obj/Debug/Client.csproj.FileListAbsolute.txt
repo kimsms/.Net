@@ -1,0 +1,7 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\bin\Debug\Client.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\bin\Debug\Client.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\bin\Debug\Client.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\obj\Debug\Client.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\IPC\Shared Memory communication ver2\Client\Client\obj\Debug\Client.pdb

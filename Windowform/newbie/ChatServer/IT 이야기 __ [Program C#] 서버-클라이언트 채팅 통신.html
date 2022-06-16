@@ -1,0 +1,1275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/lib/lightbox/css/lightbox.min.css" /><link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/style/content/font.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82" /><link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/style/content/content.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82" /><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.2.1.min.js"></script><!--<![endif]-->
+<script src="https://t1.daumcdn.net/tistory_admin/lib/lightbox/js/lightbox-plus-jquery.min.js"></script>
+<script>
+lightbox.options.fadeDuration = 200;
+lightbox.options.resizeDuration = 200;
+lightbox.options.wrapAround = false;
+lightbox.options.albumLabel = "%1 / %2";
+</script>
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="icon" href="//t1.daumcdn.net/tistory_admin/static/top/favicon_0630.ico" /><link rel="apple-touch-icon" href="//img1.daumcdn.net/thumb/C180x180/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2327F83A557FACBE33">
+<link rel="apple-touch-icon" sizes="76x76" href="//img1.daumcdn.net/thumb/C76x76/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2327F83A557FACBE33">
+<link rel="apple-touch-icon" sizes="120x120" href="//img1.daumcdn.net/thumb/C120x120/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2327F83A557FACBE33">
+<link rel="apple-touch-icon" sizes="152x152" href="//img1.daumcdn.net/thumb/C152x152/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2327F83A557FACBE33"><meta name="description" content="프로그램 설명  실행 후  Connect 버튼 클릭 후  메시지 전송 후  프로그램 작성 1. handleClient.cs (서버에서 사용하는 클래스) class handleClient { TcpClient clientSocket = null; public Dictionary client..">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" /><meta property="og:type" content="article"><meta property="og:url" content="https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="og:site_name" content="IT 이야기" ><meta property="og:title" content="[Program C#] 서버-클라이언트 채팅 통신" ><meta name="by" content="따시쿵" ><meta property="og:description" content="프로그램 설명  실행 후  Connect 버튼 클릭 후  메시지 전송 후  프로그램 작성 1. handleClient.cs (서버에서 사용하는 클래스) class handleClient { TcpClient clientSocket = null; public Dictionary client.." ><meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F245D613C5507D6A50C" ><meta property="article:section" content="IT 인터넷" >
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="[Program C#] 서버-클라이언트 채팅 통신" ><meta name="twitter:description" content="프로그램 설명  실행 후  Connect 버튼 클릭 후  메시지 전송 후  프로그램 작성 1. handleClient.cs (서버에서 사용하는 클래스) class handleClient { TcpClient clientSocket = null; public Dictionary client.." ><meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F245D613C5507D6A50C" >
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="https://it-jerryfamily.tistory.com/80" ><meta name="plink" content="https://it-jerryfamily.tistory.com/80" ><meta name="title" content="[Program C#] 서버-클라이언트 채팅 통신" ><meta name="article:media_name" content="IT 이야기" ><meta property="article:mobile_url" content="https://it-jerryfamily.tistory.com/m/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="article:pc_url" content="https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="article:mobile_view_url" content="https://it-jerryfamily.tistory.com/m/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="article:pc_view_url" content="https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="article:talk_channel_view_url" content="https://it-jerryfamily.tistory.com/m/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" ><meta property="article:pc_service_home" content="https://www.tistory.com" ><meta property="article:mobile_service_home" content="https://www.tistory.com/m" ><meta property="article:txid" content="1718891_80" /><meta property="article:published_time" content="2015-03-17T15:41:40+09:00" ><meta property="og:regDate" content="20150317154140" ><meta property="article:modified_time" content="2015-03-17T16:45:49+09:00" >
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https:\/\/it-jerryfamily.tistory.com\/entry\/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0"},"url":"https:\/\/it-jerryfamily.tistory.com\/entry\/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0","headline":"[Program C#] \uc11c\ubc84-\ud074\ub77c\uc774\uc5b8\ud2b8 \ucc44\ud305 \ud1b5\uc2e0","description":"\ud504\ub85c\uadf8\ub7a8 \uc124\uba85  \uc2e4\ud589 \ud6c4  Connect \ubc84\ud2bc \ud074\ub9ad \ud6c4  \uba54\uc2dc\uc9c0 \uc804\uc1a1 \ud6c4  \ud504\ub85c\uadf8\ub7a8 \uc791\uc131 1. handleClient.cs (\uc11c\ubc84\uc5d0\uc11c \uc0ac\uc6a9\ud558\ub294 \ud074\ub798\uc2a4) class handleClient { TcpClient clientSocket = null; public Dictionary client..","author":{"@type":"Person","name":"\ub530\uc2dc\ucff5"},"image":{"@type":"ImageObject","url":"https:\/\/img1.daumcdn.net\/thumb\/R800x0\/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F245D613C5507D6A50C","width":"800px","height":"800px"},"datePublished":"20150317T15:41:40+09:00","dateModified":"20150317T16:45:49+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/tistory_admin\/static\/images\/openGraph\/opengraph.png","width":"800px","height":"800px"}}}</script><meta name="robots" content="max-image-preview:large">
+<!-- END STRUCTURED_DATA -->
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="alternate" type="application/rss+xml" title="IT 이야기" href="https://it-jerryfamily.tistory.com/rss" />
+		<link rel="stylesheet" media="screen" type="text/css" href="https://tistory1.daumcdn.net/tistory/1718891/skin/style.css?_T_=1434430860" />
+		<link rel="stylesheet" media="print" type="text/css" href="https://tistory1.daumcdn.net/tistory/1718891/skin/images/print.css" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<script type="text/javascript">
+	//<![CDATA[
+			function dateToImage() {
+		var elem = document.getElementById("imgMonth");
+		var targetObj = elem.firstChild.nodeValue;
+		if(elem && targetObj.length > 0){
+		  var txtImgMonth = "";
+		  for (var i = 0, l = targetObj.length; i < l; i++) {
+			if (targetObj.substring(i, i + 1) == ".") {
+			  txtImgMonth = txtImgMonth + "<span class='dot'>&nbsp;</span>";
+			} else {
+			  txtImgMonth = txtImgMonth + "<span class='tt-calendar-num num" + targetObj.substring(i, i + 1) + "'>&nbsp;</span>";
+			}
+		  }
+		  elem.innerHTML = txtImgMonth;
+		}
+			}
+
+			if (typeof window.addEventListener != 'undefined') {
+				window.addEventListener("load", dateToImage, false);
+			} else if (typeof window.attachEvent != 'undefined') {
+				window.attachEvent("onload", dateToImage);
+			}
+	//]]>
+		</script>
+
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shCore.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shLegacy.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushBash.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushCss.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushDelphi.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushDiff.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushGroovy.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushJava.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushPlain.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushPython.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushRuby.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushScala.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushSql.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushVb.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shBrushXml.js"></script>
+<link type="text/css" rel="stylesheet" href="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shCore.css">
+<link type="text/css" rel="stylesheet" href="https://tistory1.daumcdn.net/tistory/1718891/skin/images/shThemeDefault.css">
+<script type="text/javascript">
+SyntaxHighlighter.all();
+</script>
+		<title>IT 이야기 :: [Program C#] 서버-클라이언트 채팅 통신</title>
+	
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/plugins/TistoryProfileLayer/style.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82" />
+<script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/plugins/TistoryProfileLayer/profile.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82"></script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+        
+        window.TistoryBlog = {
+            basePath: "",
+            url: "https://it-jerryfamily.tistory.com",
+            tistoryUrl: "https://it-jerryfamily.tistory.com",
+			manageUrl: 'https://it-jerryfamily.tistory.com/manage',
+            token: 'pRZmaeHZJ/TjydsxxFY4RA=='
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script type="text/javascript" defer src=https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/script/reaction/reaction-button-container.min.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82></script>
+    <script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+        <script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/script/_/base.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82"></script>
+        <link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/style/dialog.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82"/>
+            <link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/tistory_admin/www/style/top/font.css">
+    <link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/style/postBtn.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82"/>
+        <link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/style/component/tistory.css?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82" />
+        <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script></head>
+	<body id="tt-body-page" Onload="dp.SyntaxHighlighter.HighlightAll('code');">
+		<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/entry\/Program-C-SslStream-\uc744-\uc774\uc6a9\ud55c-\ud1b5\uc2e0-\ubc29\ubc95?category=611730?category=611730","NEXT_PAGE":"\/entry\/Program-C-\uc11c\ubc84\ud074\ub77c\uc774\uc5b8\ud2b8-1N-\ud1b5\uc2e0?category=611730?category=611730","BLOG":{"isDormancy":false,"title":"IT \uc774\uc57c\uae30"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Fit-jerryfamily.tistory.com%2Fentry%2FProgram-C-%25EC%2584%259C%25EB%25B2%2584%25ED%2581%25B4%25EB%259D%25BC%25EC%259D%25B4%25EC%2596%25B8%25ED%258A%25B8-%25EC%25B1%2584%25ED%258C%2585-%25ED%2586%25B5%25EC%258B%25A0%3Fcategory%3D611730","DEFAULT_URL":"https:\/\/it-jerryfamily.tistory.com","USER":{"name":null,"homepage":null},"ROLE_GROUP":"visitor","SUBSCRIPTION":{"status":"none","isConnected":false,"isProcessing":false,"isPending":false,"isWait":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"TOP_URL":"https:\/\/www.tistory.com","JOIN_URL":"https:\/\/www.tistory.com\/member\/join"};
+		window.appInfo = {"domain":"tistory.com","topUrl":"https:\/\/www.tistory.com","loginUrl":"https:\/\/www.tistory.com\/auth\/login","logoutUrl":"https:\/\/www.tistory.com\/auth\/logout"};
+
+        window.initData = {};
+        
+	})();
+</script>
+
+<script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/script/blog/common.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+			<div id="container">
+				<div id="container2">
+					<div id="header">
+						<!-- 블로그 타이틀 모듈 -->
+						  <div class="wrapBlogTitle">
+				<h1><a href="/">IT 이야기</a></h1>
+						  </div>
+							<div class="user_date">
+								<script type="text/javascript">
+							  //<![CDATA[
+								  var strEngDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+									var d = new Date();
+									var sToday = d.getFullYear() + "." + (d.getMonth() + 1) + "." + d.getDate();
+									document.write(sToday + "(" + strEngDay[d.getDay()] + ")");
+				//]]>
+								</script>
+							</div>
+							<!-- 카운터 모듈 -->
+							<div id="counter">
+								<ul>
+									<li class="total">Total <span class="tt-emp">304,340</span></li>
+									<li class="today">Today 53</li>
+									<li class="yesterday">Yesterday 216</li>
+								</ul>
+							</div>
+						<!-- close blogMenu -->
+					</div><!-- close header -->
+					<div id="wrapBody">
+						<div id="sidebar1">
+									<!-- 블로그 이미지/설명 모듈 -->
+									<div id="blogImage"><img src="https://t1.daumcdn.net/cfile/tistory/2327F83A557FACBE33" alt="블로그 이미지" /></div>
+									<div class="blogIntro">
+										<div id="userID">따시쿵</div>
+										<div id="blogDesc"></div>
+									</div>
+									<!-- 달력 모듈 -->
+									<div id="calendar">
+										<h3>calendar</h3>
+										
+											<div class="cal_month">
+												<a href="/archive/202103" class="calendar_prev" title="1개월 앞의 달력을 보여줍니다.">&nbsp;<span>&laquo;</span></a>
+												<a href="/archive/202105" class="calendar_next" title="1개월 뒤의 달력을 보여줍니다.">&nbsp;<span>&raquo;</span></a>
+												<a href="/archive/202104" title="현재 달의 달력을 보여줍니다."><span id="imgMonth">2021.4</span></a>
+											</div>
+											<table class="tt-calendar" cellpadding="0" cellspacing="7" style="table-layout: fixed">
+												
+													<thead>
+														<tr>
+															
+																<th class="cal_week2">일</th>
+															
+																<th class="cal_week1">월</th>
+															
+																<th class="cal_week1">화</th>
+															
+																<th class="cal_week1">수</th>
+															
+																<th class="cal_week1">목</th>
+															
+																<th class="cal_week1">금</th>
+															
+																<th class="cal_week1">토</th>
+															
+														</tr>
+													</thead>
+												
+												
+													<tbody>
+														
+															<tr class="cal_week">
+																
+																	<td class="cal_day1">&nbsp;</td>
+																
+																	<td class="cal_day1">&nbsp;</td>
+																
+																	<td class="cal_day1">&nbsp;</td>
+																
+																	<td class="cal_day1">&nbsp;</td>
+																
+																	<td class="cal_day cal_day3">1</td>
+																
+																	<td class="cal_day cal_day3">2</td>
+																
+																	<td class="cal_day cal_day3">3</td>
+																
+															</tr>
+														
+															<tr class="cal_week">
+																
+																	<td class="cal_day cal_day3 cal_day_sunday">4</td>
+																
+																	<td class="cal_day cal_day3">5</td>
+																
+																	<td class="cal_day cal_day3">6</td>
+																
+																	<td class="cal_day cal_day3">7</td>
+																
+																	<td class="cal_day cal_day3">8</td>
+																
+																	<td class="cal_day cal_day3">9</td>
+																
+																	<td class="cal_day cal_day3">10</td>
+																
+															</tr>
+														
+															<tr class="cal_week cal_current_week">
+																
+																	<td class="cal_day cal_day3 cal_day_sunday">11</td>
+																
+																	<td class="cal_day cal_day3">12</td>
+																
+																	<td class="cal_day cal_day3">13</td>
+																
+																	<td class="cal_day cal_day4">14</td>
+																
+																	<td class="cal_day cal_day3">15</td>
+																
+																	<td class="cal_day cal_day3">16</td>
+																
+																	<td class="cal_day cal_day3">17</td>
+																
+															</tr>
+														
+															<tr class="cal_week">
+																
+																	<td class="cal_day cal_day3 cal_day_sunday">18</td>
+																
+																	<td class="cal_day cal_day3">19</td>
+																
+																	<td class="cal_day cal_day3">20</td>
+																
+																	<td class="cal_day cal_day3">21</td>
+																
+																	<td class="cal_day cal_day3">22</td>
+																
+																	<td class="cal_day cal_day3">23</td>
+																
+																	<td class="cal_day cal_day3">24</td>
+																
+															</tr>
+														
+															<tr class="cal_week">
+																
+																	<td class="cal_day cal_day3 cal_day_sunday">25</td>
+																
+																	<td class="cal_day cal_day3">26</td>
+																
+																	<td class="cal_day cal_day3">27</td>
+																
+																	<td class="cal_day cal_day3">28</td>
+																
+																	<td class="cal_day cal_day3">29</td>
+																
+																	<td class="cal_day cal_day3">30</td>
+																
+																	<td class="cal_day2">&nbsp;</td>
+																
+															</tr>
+														
+													</tbody>
+												
+											</table>
+										
+									</div>
+									<!-- 공지사항 모듈 -->
+									
+										<div id="notice" class="tt-module">
+											<h3>Notice</h3>
+											<ul>
+												
+											</ul>
+										</div>
+									
+									<!-- 태그목록 모듈 -->
+									<div id="tagbox" class="tt-module">
+										<h3>Tag</h3>
+										<ul>
+											
+												<li><a href="/tag/c%23%20%EB%9E%8C%EB%8B%A4%EC%8B%9D" class="cloud4">c# 람다식</a></li>
+											
+												<li><a href="/tag/c%23%20linq%20to%20sql" class="cloud4">c# linq to sql</a></li>
+											
+												<li><a href="/tag/C%23%20serialPort" class="cloud4">C# serialPort</a></li>
+											
+												<li><a href="/tag/TCPListener" class="cloud4">TCPListener</a></li>
+											
+												<li><a href="/tag/c%23%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8" class="cloud4">c# 서비스 프로그램</a></li>
+											
+												<li><a href="/tag/c%23%20tcpListener%20tcpClient" class="cloud4">c# tcpListener tcpClient</a></li>
+											
+												<li><a href="/tag/Binary%20Serialization" class="cloud4">Binary Serialization</a></li>
+											
+												<li><a href="/tag/c%23%20socket" class="cloud1">c# socket</a></li>
+											
+												<li><a href="/tag/socket%20msdn%20%EC%98%88%EC%A0%9C" class="cloud4">socket msdn 예제</a></li>
+											
+												<li><a href="/tag/c%23%20DataGridview" class="cloud4">c# DataGridview</a></li>
+											
+												<li><a href="/tag/c%23%20linq" class="cloud4">c# linq</a></li>
+											
+										</ul>
+									</div>
+				  
+									<!-- 배너 모듈 - 티스토리 -->
+									<div id="adTistory">
+										<a href="http://www.tistory.com/join" title="티스토리 가입하기!">티스토리 가입하기</a>
+									</div>
+						</div>
+						<!-- close sidebar -->
+						<div id="sidebar2">
+									<!-- 검색 모듈 -->
+									<div id="searchBox">
+										<h3>Search</h3>
+										
+											<div class="cnt">
+												<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){} }"/><input value="검색" type="button" onclick="try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){}" class="submit"/>
+											</div>
+										
+									</div>
+									<!-- 카테고리 모듈 -->
+									<div id="category">
+										<h3>Category</h3>
+										<ul class="tt_category">
+	<li class="">
+		<a class="link_tit" href="/category">
+			분류 전체보기							<span class="c_cnt">(113)</span>
+			
+					</a>
+
+				<ul class="category_list">
+							<li class="">
+					<a class="link_item" href="/category/MSSQL">
+						MSSQL													<span class="c_cnt">(10)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/%EC%9E%A1%EB%8F%99%EC%82%AC%EB%8B%88">
+						잡동사니													<span class="c_cnt">(2)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23">
+						C#													<span class="c_cnt">(18)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20TCP/IP">
+						C# with TCP/IP													<span class="c_cnt">(51)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20UDP/IP">
+						C# with UDP/IP													<span class="c_cnt">(5)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20SerialPort">
+						C# with SerialPort													<span class="c_cnt">(2)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/Asp.net%20with%20WebSocket">
+						Asp.net with WebSocket													<span class="c_cnt">(1)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20DataGridView">
+						C# with DataGridView													<span class="c_cnt">(3)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20ListView">
+						C# with ListView													<span class="c_cnt">(3)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20Service%20Program">
+						C# with Service Prog..													<span class="c_cnt">(3)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20LINQ%20to%20SQL">
+						C# with LINQ to SQL													<span class="c_cnt">(14)</span>
+						
+											</a>
+
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/C%23%20with%20Excel">
+						C# with Excel													<span class="c_cnt">(1)</span>
+						
+											</a>
+
+					
+				</li>
+					</ul>
+			</li>
+</ul>
+									</div>
+			   
+									<!-- 최근 포스트 모듈 -->
+									<div id="recentPost" class="tt-module">
+										<h3>Recent Post</h3>
+										<ul>
+											
+												<li>
+													<a href="/entry/lazy-loading%EA%B3%BC-eager-loading-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90">lazy loading과 eager l⋯</a>
+													<span class="c_cnt"><span id="commentCountOnRecentEntries123"></span></span>
+												</li>
+											
+
+												<li>
+													<a href="/entry/Eager-loading">Eager loading</a>
+													<span class="c_cnt"><span id="commentCountOnRecentEntries122"></span></span>
+												</li>
+											
+
+												<li>
+													<a href="/entry/Lazy-loading">Lazy loading</a>
+													<span class="c_cnt"><span id="commentCountOnRecentEntries121"></span></span>
+												</li>
+											
+
+												<li>
+													<a href="/entry/SqlMetal-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-dbml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EB%A7%8C%EB%93%A4%EA%B8%B0">SqlMetal 을 이용해서 d⋯</a>
+													<span class="c_cnt"><span id="commentCountOnRecentEntries120"></span></span>
+												</li>
+											
+
+												<li>
+													<a href="/entry/%EC%97%91%EC%85%80-%EB%8D%B0%EC%9D%B4%ED%83%80%EB%A5%BC-import-%ED%95%98%EC%97%AC-datagridview-%EC%97%90-%EB%B3%B4%EC%9D%B4%EA%B8%B0">엑셀 데이타를 import⋯</a>
+													<span class="c_cnt"><span id="commentCountOnRecentEntries119"></span></span>
+												</li>
+											
+										</ul>
+									</div>
+								
+									<!-- 최근 댓글 모듈 -->
+									<div id="recentComment" class="tt-module">
+										<h3>Recent Comment</h3>
+										<ul id="recentComments">
+											
+												<li>
+													<a href="/100#comment16804858">TransferQueue⋯</a>
+													<span class="info"><span class="name">aaa</span><span class="date">01.29</span></span>
+												</li>
+											
+
+												<li>
+													<a href="/49#comment15525178">ㅎㅁㄷㄱㅎ</a>
+													<span class="info"><span class="name">erg</span><span class="date">2019</span></span>
+												</li>
+											
+
+												<li>
+													<a href="/79#comment15510428">프로젝트 소스⋯</a>
+													<span class="info"><span class="name">1111</span><span class="date">2019</span></span>
+												</li>
+											
+
+												<li>
+													<a href="/81#comment15478502">안녕하세요 !⋯</a>
+													<span class="info"><span class="name">YC</span><span class="date">2019</span></span>
+												</li>
+											
+
+												<li>
+													<a href="/62#comment13475033">질문이있어서⋯</a>
+													<span class="info"><span class="name">kd</span><span class="date">2017</span></span>
+												</li>
+											
+										</ul>
+									</div>
+								
+<!-- 글 보관함 모듈 -->
+									<div id="archive" class="tt-module">
+										<h3>Archive</h3>
+										<ul>
+											
+												<li>
+													<a href="/archive/201508">2015/08</a>
+													<span class="c_cnt">(3)</span>
+												</li>
+											
+
+												<li>
+													<a href="/archive/201507">2015/07</a>
+													<span class="c_cnt">(7)</span>
+												</li>
+											
+
+												<li>
+													<a href="/archive/201506">2015/06</a>
+													<span class="c_cnt">(11)</span>
+												</li>
+											
+
+												<li>
+													<a href="/archive/201505">2015/05</a>
+													<span class="c_cnt">(10)</span>
+												</li>
+											
+										</ul>
+									</div>
+								
+						</div>
+						<div id="content">
+							<div class="wrapContentTop">
+								<div id="blogMenu"><ul>		<li class="t_menu_home first">
+			<a href="/">홈</a>
+		</li>
+				<li class="t_menu_tag">
+			<a href="/tag">태그</a>
+		</li>
+				<li class="t_menu_medialog">
+			<a href="/media">미디어로그</a>
+		</li>
+				<li class="t_menu_location">
+			<a href="/location">위치로그</a>
+		</li>
+				<li class="t_menu_guestbook last">
+			<a href="/guestbook">방명록</a>
+		</li>
+		</ul></div>
+							</div>
+<!-- 태그 -->
+							
+<!-- 지역로그 -->
+							
+							<!-- 본문검색리스트 -->
+							
+							<!-- 댓글검색리스트 -->
+							
+							<!-- 공지사항글 -->
+							
+							<!-- 보호글 -->
+							<!-- 포스트의 본문 시작 -->
+							
+								<div class="entry">
+									<div class="wrapEntryHead">
+										<span class="date">2015. 3. 17. 15:41</span>
+										<span class="category"><a href="/category/C%23%20with%20TCP/IP">C# with TCP/IP</a></span>
+									</div>
+									<div class="wrapEntryCnt">
+										<div class="titleWrap">
+											<h2><a href="/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0">[Program C#] 서버-클라이언트 채팅 통신</a></h2>
+											<!-- 포스트관리 -->
+											
+										</div>
+										<!-- close titleWrap --><!-- 포스트 본문 내용 -->
+										<div class="article">
+											<div class="tt_article_useless_p_margin"><p><b><span style="font-size: 12pt;">프로그램 설명</span></b></p>
+<p><br /></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:560px;;height:auto;max-width:100%"><span data-url="https://t1.daumcdn.net/cfile/tistory/245D613C5507D6A50C?download" data-lightbox="lightbox"><img src="https://t1.daumcdn.net/cfile/tistory/245D613C5507D6A50C" style="cursor: pointer;max-width:100%;height:auto" width="560" height="296" filename="20150317_162357.png" filemime="image/jpeg" /></span></span></p>
+<p><br /></p>
+<p><br /></p>
+<p><b><span style="font-size: 12pt;">실행 후</span></b></p>
+<p><br /></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:560px;;height:auto;max-width:100%"><span data-url="https://t1.daumcdn.net/cfile/tistory/23405B3B5507D7E02F?download" data-lightbox="lightbox"><img src="https://t1.daumcdn.net/cfile/tistory/23405B3B5507D7E02F" style="cursor: pointer;max-width:100%;height:auto" width="560" height="577" filename="20150317_162520.png" filemime="image/jpeg" /></span></span></p>
+<p><br /></p>
+<p><br /></p>
+<p><b><span style="font-size: 12pt;">Connect 버튼 클릭 후</span></b></p>
+<p><br /></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:560px;;height:auto;max-width:100%"><span data-url="https://t1.daumcdn.net/cfile/tistory/210EE53A5507D7F02E?download" data-lightbox="lightbox"><img src="https://t1.daumcdn.net/cfile/tistory/210EE53A5507D7F02E" style="cursor: pointer;max-width:100%;height:auto" width="560" height="581" filename="20150317_162543.png" filemime="image/jpeg" /></span></span></p>
+<p><br /></p>
+<p><br /></p>
+<p><b><span style="font-size: 12pt;">메시지 전송 후</span></b></p>
+<p><br /></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:560px;;height:auto;max-width:100%"><span data-url="https://t1.daumcdn.net/cfile/tistory/275FE3365507D80001?download" data-lightbox="lightbox"><img src="https://t1.daumcdn.net/cfile/tistory/275FE3365507D80001" style="cursor: pointer;max-width:100%;height:auto" width="560" height="590" filename="20150317_162617.png" filemime="image/jpeg" /></span></span></p>
+<p><br /></p>
+<p><br /></p>
+<p><b><span style="font-size: 12pt;">프로그램 작성</span></b></p>
+<p><br /></p>
+<p><b><span style="font-size: 10pt;">1. handleClient.cs (서버에서 사용하는 클래스)</span></b></p>
+<p><br /></p>
+<p></p><pre class="brush:csharp">    class handleClient
+    {
+        TcpClient clientSocket = null;
+        public Dictionary&lt;Tcpclient, string&gt; clientList = null;
+
+        public void startClient(TcpClient clientSocket, Dictionary&lt;Tcpclient, string&gt; clientList)
+        {
+            this.clientSocket = clientSocket;
+            this.clientList = clientList;
+
+            Thread t_hanlder = new Thread(doChat);
+            t_hanlder.IsBackground = true;
+            t_hanlder.Start();
+        }
+
+        public delegate void MessageDisplayHandler(string message, string user_name);
+        public event MessageDisplayHandler OnReceived;
+
+        public delegate void DisconnectedHandler(TcpClient clientSocket);
+        public event DisconnectedHandler OnDisconnected;
+
+        private void doChat()
+        {
+            NetworkStream stream = null;
+            try
+            {
+                byte[] buffer = new byte[1024];
+                string msg = string.Empty;
+                int bytes = 0;
+                int MessageCount = 0;
+
+                while (true)
+                {
+                    MessageCount++;
+                    stream = clientSocket.GetStream();
+                    bytes = stream.Read(buffer, 0, buffer.Length);
+                    msg = Encoding.Unicode.GetString(buffer, 0, bytes);
+                    msg = msg.Substring(0, msg.IndexOf("$"));
+
+                    if (OnReceived != null)
+                        OnReceived(msg, clientList[clientSocket].ToString());
+                }
+            }
+            catch (SocketException se)
+            {
+                Trace.WriteLine(string.Format("doChat - SocketException : {0}", se.Message));
+
+                if (clientSocket != null)
+                {
+                    if (OnDisconnected != null)
+                        OnDisconnected(clientSocket);
+
+                    clientSocket.Close();
+                    stream.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLine(string.Format("doChat - Exception : {0}", ex.Message));
+
+                if (clientSocket != null)
+                {
+                    if (OnDisconnected != null)
+                        OnDisconnected(clientSocket);
+
+                    clientSocket.Close();
+                    stream.Close();
+                }
+            }
+        }
+
+    }</pre><p></p>
+<p><br /></p>
+<p><b><span style="font-size: 10pt;">2. 서버 프로그램</span></b></p>
+<p><br /></p>
+<p></p><pre class="brush:csharp">    public partial class MainForm : Form
+    {
+        TcpListener server = null;
+        TcpClient clientSocket = null;
+        static int counter = 0;
+
+        public Dictionary&lt;Tcpclient, string&gt; clientList = new Dictionary&lt;Tcpclient,string&gt;();
+ 
+        public MainForm()
+        {
+            InitializeComponent();
+
+            // socket start
+            Thread t = new Thread(InitSocket);
+            t.IsBackground = true;
+            t.Start();
+        }
+
+        private void InitSocket()
+        {
+            server = new TcpListener(IPAddress.Any, 9999);
+            clientSocket = default(TcpClient);
+            server.Start();
+            DisplayText("&gt;&gt; Server Started");
+
+            while(true)
+            {
+                try
+                {
+                    counter++;
+                    clientSocket = server.AcceptTcpClient();
+                    DisplayText("&gt;&gt; Accept connection from client");
+
+                    NetworkStream stream = clientSocket.GetStream();
+                    byte[] buffer = new byte[1024];
+                    int bytes = stream.Read(buffer, 0, buffer.Length);
+                    string user_name = Encoding.Unicode.GetString(buffer, 0, bytes);
+                    user_name = user_name.Substring(0, user_name.IndexOf("$"));
+
+                    clientList.Add(clientSocket, user_name);
+
+                    // send message all user
+                    SendMessageAll(user_name + " Joined ", "",  false);
+
+                    handleClient h_client = new handleClient();
+                    h_client.OnReceived += new handleClient.MessageDisplayHandler(OnReceived);
+                    h_client.OnDisconnected += new handleClient.DisconnectedHandler(h_client_OnDisconnected);                    
+                    h_client.startClient(clientSocket, clientList);
+                }
+                catch (SocketException se)
+                {
+                    Trace.WriteLine(string.Format("InitSocket - SocketException : {0}", se.Message));
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Trace.WriteLine(string.Format("InitSocket - Exception : {0}", ex.Message));
+                    break;
+                }
+            }
+
+            clientSocket.Close();
+            server.Stop();
+        }
+
+        void h_client_OnDisconnected(TcpClient clientSocket)
+        {
+            if (clientList.ContainsKey(clientSocket))
+                clientList.Remove(clientSocket);
+        }
+
+        private void OnReceived(string message, string user_name)
+        {
+            string displayMessage = "From client : " + user_name + " : " + message;
+            DisplayText(displayMessage);
+            SendMessageAll(message, user_name, true);
+        }
+
+        public void SendMessageAll(string message, string user_name, bool flag)
+        {
+            foreach(var pair in clientList)
+            {
+                Trace.WriteLine(string.Format("tcpclient : {0} user_name : {1}", pair.Key, pair.Value));
+
+                TcpClient client = pair.Key as TcpClient;
+                NetworkStream stream = client.GetStream();
+                byte[] buffer = null;
+
+                if(flag)
+                {
+                    buffer = Encoding.Unicode.GetBytes(user_name + " says : " + message);
+                }
+                else
+                {
+                    buffer = Encoding.Unicode.GetBytes(message);
+                }
+                
+                stream.Write(buffer, 0, buffer.Length);
+                stream.Flush();
+            }
+        }
+
+        private void DisplayText(string text)
+        {
+            if (richTextBox1.InvokeRequired)
+            {
+                richTextBox1.BeginInvoke(new MethodInvoker(delegate
+                {
+                    richTextBox1.AppendText(text + Environment.NewLine);
+                }));
+            }
+            else
+                richTextBox1.AppendText(text + Environment.NewLine);
+        }
+    }</pre><p></p>
+<p><br /></p>
+<p><b><span style="font-size: 10pt;">3. 클라이언트 프로그램</span></b></p>
+<p><br /></p>
+<p></p><pre class="brush:csharp">    public partial class MainForm : Form
+    {
+        TcpClient clientSocket = new TcpClient();
+        NetworkStream stream = default(NetworkStream);
+        string message = string.Empty;
+
+        public MainForm()
+        {
+            InitializeComponent();
+        }
+
+        private void btnSendText_Click(object sender, EventArgs e)
+        {
+            byte[] buffer = Encoding.Unicode.GetBytes(this.textBoxMessage.Text + "$");
+            stream.Write(buffer, 0, buffer.Length);
+            stream.Flush();
+        }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            clientSocket.Connect("192.168.0.12", 9999);
+            stream = clientSocket.GetStream();
+
+            message = "Connected to Chat Server";
+            DisplayText(message);
+
+            byte[] buffer = Encoding.Unicode.GetBytes(this.textBoxNickName.Text + "$");
+            stream.Write(buffer, 0, buffer.Length);
+            stream.Flush();
+
+            Thread t_handler = new Thread(GetMessage);
+            t_handler.IsBackground = true;
+            t_handler.Start();
+        }
+
+        private void GetMessage()
+        {
+            while(true)
+            {
+                stream = clientSocket.GetStream();
+                int BUFFERSIZE = clientSocket.ReceiveBufferSize;
+                byte[] buffer = new byte[BUFFERSIZE];
+                int bytes = stream.Read(buffer, 0, buffer.Length);
+
+                string message = Encoding.Unicode.GetString(buffer, 0, bytes);
+                DisplayText(message);
+            }
+        }
+
+        private void DisplayText(string text)
+        {
+            if (richTextBox1.InvokeRequired)
+            {
+                richTextBox1.BeginInvoke(new MethodInvoker(delegate
+                {
+                    richTextBox1.AppendText(text + Environment.NewLine);
+                }));
+            }
+            else
+                richTextBox1.AppendText(text + Environment.NewLine);
+        }
+    }</pre><p></p>
+<p><br /></p><div class="container_postbtn #post_button_group">
+    <div class="postbtn_like">
+        
+<script>
+    window.ReactionButtonType = 'reaction';
+    window.ReactionApiUrl = '//it-jerryfamily.tistory.com/reaction';
+    window.ReactionReqBody = {
+        entryId: 80    }
+</script>
+<div class="wrap_btn" id=reaction-80></div>
+<script src=https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/script/reaction/reaction-button-container.min.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82></script>
+        <div class="wrap_btn wrap_btn_share">
+    <button type="button" class="btn_post sns_btn btn_share" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F245D613C5507D6A50C" data-title="[Program C#] 서버-클라이언트 채팅 통신" data-description="프로그램 설명  실행 후  Connect 버튼 클릭 후  메시지 전송 후  프로그램 작성 1. handleClient.cs (서버에서 사용하는 클래스) class handleClient { TcpClient clientSocket = null; public Dictionary client.." data-profile-image="https://t1.daumcdn.net/cfile/tistory/2327F83A557FACBE33" data-profile-name="따시쿵" data-pc-url="https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" data-relative-pc-url="/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0" data-blog-title="IT 이야기">
+        <span class="ico_postbtn ico_share">공유하기</span>
+    </button>
+</div>
+                <div class="wrap_btn wrap_btn_etc" data-entry-id="80" data-entry-visibility="public" data-category-visibility="public">
+    <button type="button" class="btn_post btn_etc2"><span class="ico_postbtn ico_etc">글 요소</span></button>
+</div>
+    </div>
+    <button type="button" class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="1718891" data-url="https://it-jerryfamily.tistory.com/80" data-device="web_pc">
+    <em class="txt_state">구독하기</em>
+    <strong class="txt_tool_id">IT 이야기</strong>
+    <span class="img_common_tistory ico_check_type1"></span>
+</button>
+    <div class="postbtn_ccl" data-ccl-type="3">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.ko" target="_blank" class="link_ccl">
+        <span class="bundle_ccl">
+            <span class="ico_postbtn ico_ccl1">저작자표시</span>        </span>
+    </a>
+</div>
+    <!--
+<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+        <license rdf:resource="http://creativecommons.org/licenses/by-fr/2.0/kr/" />
+    </Work>
+    <License rdf:about="http://creativecommons.org/licenses/by-fr/">
+        <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <requires rdf:resource="http://web.resource.org/cc/Notice"/>
+        <requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+                <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+                    </License>
+</rdf:RDF>
+-->
+</div><div class="another_category another_category_color_gray">
+<h4>'<a href="/category/C%23%20with%20TCP/IP">C# with TCP/IP</a>' 카테고리의 다른 글</h4>
+<table>
+<tr>
+<th>
+<a href="/entry/Program-C-byte-array%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B0%94%EC%9D%B4%EB%84%88%EB%A6%AC-%ED%8C%8C%EC%9D%BC-%EC%A0%84%EC%86%A1?category=611730" >[Program C#]이미지 파일과 텍스트 전송 - 1</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.03.26</td>
+</tr>
+<tr>
+<th>
+<a href="/entry/Program-C-SslStream-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%86%B5%EC%8B%A0-%EB%B0%A9%EB%B2%95?category=611730" >[Program C#] SslStream 을 이용한 통신 방법</a>&nbsp;&nbsp;<span>(1)</span>
+</th>
+<td>
+2015.03.20</td>
+</tr>
+<tr>
+<th>
+<a href="/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0?category=611730"  class ="current" >[Program C#] 서버-클라이언트 채팅 통신</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.03.17</td>
+</tr>
+<tr>
+<th>
+<a href="/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-1N-%ED%86%B5%EC%8B%A0?category=611730" >[Program C#] 서버-클라이언트 1:N 통신</a>&nbsp;&nbsp;<span>(1)</span>
+</th>
+<td>
+2015.03.14</td>
+</tr>
+<tr>
+<th>
+<a href="/entry/Program-C-multiple-port%EB%A1%9C-%EC%9E%91%EC%97%85%ED%95%98%EA%B8%B0?category=611730" >[Program C#] Socket multiple port로 작업하기</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.03.12</td>
+</tr>
+<tr>
+<th>
+<a href="/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-11-%ED%86%B5%EC%8B%A0?category=611730" >[Program C#] 서버-클라이언트 1:1 통신</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.03.12</td>
+</tr>
+</table></div></div>
+										</div>
+										<!-- close article -->
+										<div class="author">
+											<span class="text">posted by</span>
+											따시쿵
+										</div>
+										<!-- 태그트레일 -->
+										
+											<div class="tagTrail">
+												<span class="tagText">TAG</span>
+												<a href="/tag/c%23%20chat"  rel="tag">c# chat</a>,
+<a href="/tag/c%23%20socket"  rel="tag">c# socket</a>
+											</div>
+											<!-- close tagTrail -->
+										
+										<div class="actionTrail">
+											<a href="#tb" onclick="toggleLayerForEntry(80, 'trackback'); return false" title="트랙백" class="wrapTrackback">
+												<span id="trackbackCount80">
+													<span class="st">Trackback</span>
+													<span class="tt-emp">0</span>
+												</span>
+											</a>
+											<a href="#rp" onclick="" title="댓글" class="wrapComment">
+												<span id="commentCount80_0">
+													<span class="st">Comment</span>
+													<span class="tt-emp">0</span>
+												</span>
+											</a>
+										</div>
+										<!-- 트랙백 -->
+										<div id="entry80Trackback" style="display:none">
+											<div class="trackback">
+												<h3>Trackback |<span class="url"></span></h3>
+												
+											</div>
+											<!-- close trackback -->
+										</div>
+										<div id="entry80Comment">
+											<div class="comment articleComment">
+												<h3>댓글을 달아 주세요 </h3>
+												<!-- 댓글읽기 -->
+												<div class="commentList">
+													
+												</div><!-- close commentList -->
+						<!-- 댓글쓰기 -->
+												<form method="post" action="/comment/add/80" onsubmit="return false" style="margin: 0">
+													<div class="commentWrite">
+														
+															
+																<p class="wrapName">
+																		<label for="name_" class="t_name">name</label>
+																		<input type="text" name="name" value="" id="name_" class="inp_name text" />
+																		<label for="password_" class="t_password">password</label>
+																		<input type="password" name="password" value="" id="password_" class="inp_password text" />
+																		<label for="homepage_" class="t_homepage">homepage</label>
+																		<input type="text" name="homepage" value="http://" id="homepage_" class="inp_homepage text" />
+																</p>
+															
+															<p class="secretWrap">
+																<input type="checkbox" name="secret" id="secret_" class="checkbox" />
+																<label for="secret_">
+																	&nbsp;<span>secret</span>
+																</label>
+															</p>
+														
+														<p class="t_comment">
+															<label for="comment">
+																&nbsp;<span>comment</span>
+															</label>
+															<textarea name="comment" rows="6" cols="50"></textarea>
+														</p>
+														<p class="button">
+															<input type="submit" value="댓글 달기" onclick="addComment(this, 80); return false;" class="submit" />
+														</p>
+													</div><!-- close commentWrite -->
+												</form>
+											</div><!-- close comment -->
+										</div><script type="text/javascript">loadedComments[80]=true;findFragmentAndHighlight(80)</script>
+									</div>
+								</div><!-- close entry -->
+							<!-- 페이지 -->
+							
+								<div id="paging">
+									<a  href='/entry/Program-C-SslStream-을-이용한-통신-방법?category=611730?category=611730'  class="" id="prevPage" title="PREV"><img src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/ico_prev.gif" alt="prev" /></a>
+									
+									<a  href='/entry/Program-C-File-전송?category=611730?category=611730'><span >1</span></a>
+									
+									<a ><span >&middot;&middot;&middot;</span></a>
+									
+									<a  href='/entry/Program-C-Check-all-client-connection?category=611730?category=611730'><span >3</span></a>
+									
+									<a  href='/entry/Program-C바이너리-파일과-텍스트-전송-2?category=611730?category=611730'><span >4</span></a>
+									
+									<a  href='/entry/Program-C-byte-array를-이용한-바이너리-파일-전송?category=611730?category=611730'><span >5</span></a>
+									
+									<a  href='/entry/Program-C-SslStream-을-이용한-통신-방법?category=611730?category=611730'><span >6</span></a>
+									
+									<a ><span class="selected">7</span></a>
+									
+									<a  href='/entry/Program-C-서버클라이언트-1N-통신?category=611730?category=611730'><span >8</span></a>
+									
+									<a  href='/entry/Program-C-multiple-port로-작업하기?category=611730?category=611730'><span >9</span></a>
+									
+									<a  href='/entry/Program-C-서버클라이언트-11-통신?category=611730?category=611730'><span >10</span></a>
+									
+									<a  href='/entry/Program-C-비동기-접속-윈도우폼?category=611730?category=611730'><span >11</span></a>
+									
+									<a ><span >&middot;&middot;&middot;</span></a>
+									
+									<a  href='/entry/TCPIP-프로토콜-개요?category=611730?category=611730'><span >51</span></a>
+									
+									<a  href='/entry/Program-C-서버클라이언트-1N-통신?category=611730?category=611730'  class="" id="nextPage" title="NEXT"><img src="https://tistory1.daumcdn.net/tistory/1718891/skin/images/ico_next.gif" alt="next" /></a>
+								</div>
+							
+						</div>
+						<!-- close content -->
+					</div>
+					<!-- close body --><hr/>
+					<div id="footer">
+						<!-- 푸터메뉴 -->
+						<div id="footMenu">
+							<!-- RSS 링크 -->
+							<div id="btnRSS">
+								<a href="https://it-jerryfamily.tistory.com/rss" onclick="window.open(this.href); return false" title="IT 이야기 구독하기">RSS FEED</a>
+							</div>
+						</div>
+						<!-- 카피라이트 -->
+						<div id="copyright">
+							<a href="/">따시쿵</a>'s Blog is powered by <a href="http://daum.net" onclick="window.open(this.href); return false" title="Daum 바로가기">DAUM</a>
+							/ designed by <a href="http://www.tistory.com" title="Tistory 바로가기">TISTORY</a>
+						</div>
+					</div>
+					<!-- close footer -->
+				</div>
+			</div>
+			<!-- close container /container2 -->
+		
+	<script src="//search1.daumcdn.net/search/statics/common/js/g/search_dragselection.min.js"></script>
+<script>
+    (function($) {
+        $("body").bind('copy', function (e) {
+
+            var url = document.location.href,
+                decodedUrl = decodeURI(url),
+                selection = window.getSelection();
+
+
+            if (typeof window.getSelection == "undefined") {//IE8 or earlier...
+                event.preventDefault();
+
+                var pagelink = '\n\n 출처: ' + decodedUrl,
+                    copytext = selection + pagelink;
+
+                if (window.clipboardData) {
+                    window.clipboardData.setData('Text', copytext);
+                }
+                return;
+            }
+            var body_element = document.getElementsByTagName('body')[0];
+
+            //if the selection is short let's not annoy our users
+            if (("" + selection).length < 30) return;
+
+            //create a div outside of the visible area
+            var newdiv = document.createElement('div');
+            newdiv.style.position = 'absolute';
+            newdiv.style.left = '-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+            //we need a <pre> tag workaround
+            //otherwise the text inside "pre" loses all the line breaks!
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+                newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+            }
+
+            newdiv.innerHTML += '<br /><br />출처: <a href="' + url + '">' + escapeHTML(decodedUrl) + '</a> [IT 이야기]';
+
+            selection.selectAllChildren(newdiv);
+
+            window.setTimeout(function () {
+                body_element.removeChild(newdiv);
+            }, 200);
+        });
+    })(tjQuery);
+</script>
+	<script>
+	    lightbox.option({
+			"fadeDuration": 200,
+		    "resizeDuration": 200,
+		    "wrapAround": false,
+			"albumLabel": "%1 / %2",
+			"fitImagesInViewport":true ,
+			"stopEvent": false
+	    })
+	</script>            <script type="text/javascript" src="//t1.daumcdn.net/tiara/js/v1/tiara.min.js"></script>
+            <script type="text/javascript">window.tiara = {"svcDomain":"user.tistory.com","section":"\uae00\ubdf0","trackPage":"\uae00\ubdf0_\ubcf4\uae30","page":"\uae00\ubdf0","key":"1718891-80","customProps":{"userId":0,"blogId":"1718891","role":"guest","filterTarget":false,"trackPage":"\uae00\ubdf0_\ubcf4\uae30","entryId":"80"},"entry":{"entryId":"80","categoryName":"C# with TCP\/IP","categoryId":"611730","author":"263957","authorId":"263957","image":"263957","plink":"\/entry\/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0","tags":["c# chat","c# socket"],"key":"1718891-80"},"sentryDsn":"https:\/\/a53520229cd744e798d42900d76b0e2a@aem-collector.daumkakao.io\/713","kakaoAppKey":"b8aef3eeb03fa312b81795386484f051","appUserId":null};</script>
+            <script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-1f0e611183691acd0c33293c201ea7dd76e5be82/blogs/script/tiara/tiara.min.js?_version_=tistory-1f0e611183691acd0c33293c201ea7dd76e5be82" defer></script>
+                        <script type="text/javascript">
+                window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: 'tistory'}];
+            </script>
+            <script type="text/javascript" src="//t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js" async></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="//it-jerryfamily.tistory.com/api" id="editEntry"></iframe><div id="tistoryEtcLayer" class="layer_post"></div><div id="tistorySnsLayer" class="layer_post"></div></body>
+</html>

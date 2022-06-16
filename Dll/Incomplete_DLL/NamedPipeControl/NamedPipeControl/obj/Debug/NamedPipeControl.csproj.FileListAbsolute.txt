@@ -1,0 +1,6 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\bin\Debug\NamedPipeControl.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\bin\Debug\NamedPipeControl.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\obj\Debug\NamedPipeControl.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\obj\Debug\NamedPipeControl.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\obj\Debug\NamedPipeControl.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\Dll\NamedPipeControl\NamedPipeControl\obj\Debug\NamedPipeControl.pdb

@@ -1,0 +1,19 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\bin\Debug\Server.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\bin\Debug\Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\bin\Debug\Server.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\bin\Debug\NamedPipeControl.dll
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\bin\Debug\NamedPipeControl.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\obj\Debug\Server.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\Server\Server\obj\Debug\Server.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\bin\Debug\Server.exe.config
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\bin\Debug\Server.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\bin\Debug\Server.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\bin\Debug\NamedPipeControl.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\obj\Debug\Server.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\named pipe communication ver1\Server\Server\obj\Debug\Server.pdb

@@ -1,0 +1,32 @@
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.exe
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.pdb
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\bin\Debug\ThoughtWorks.QRCode.dll
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Form1.resources
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Properties.Resources.resources
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.exe
+F:\happydong\happydong.Win.QRCodeGenerator\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.pdb
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.exe
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.pdb
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csprojAssemblyReference.cache
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Form1.resources
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Properties.Resources.resources
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.GenerateResource.cache
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.CopyComplete
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.exe
+C:\Users\김성민\Downloads\새 폴더\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\bin\Debug\happydong.Win.QRCodeGenerator.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.csproj.CopyComplete
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\exQRcode\happydong.Win.QRCodeGenerator\obj\x86\Debug\happydong.Win.QRCodeGenerator.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0264e895-8269-43c8-92e5-c7c3c157b0d0": {
+      "ProjectGuid": "0264e895-8269-43c8-92e5-c7c3c157b0d0",
+      "DisplayName": "blur",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,10 @@
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\bin\Debug\underInkey.exe.config
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\bin\Debug\underInkey.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\bin\Debug\underInkey.pdb
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.csprojAssemblyReference.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.Form1.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.Properties.Resources.resources
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.csproj.GenerateResource.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.csproj.CoreCompileInputs.cache
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.exe
+C:\Users\김성민\Documents\myJavaProgram\Programing\Study\underInkey\underInkey\obj\Debug\underInkey.pdb

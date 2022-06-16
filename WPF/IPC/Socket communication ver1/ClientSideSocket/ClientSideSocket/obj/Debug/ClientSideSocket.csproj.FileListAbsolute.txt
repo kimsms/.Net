@@ -1,0 +1,30 @@
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.exe.config
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.pdb
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket_MarkupCompile.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket_MarkupCompile.lref
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.g.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.Properties.Resources.resources
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.exe
+C:\Users\sungmin\Documents\myJavaProgram\Programing\WPF\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.exe.config
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\bin\Debug\ClientSideSocket.pdb
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.AssemblyReference.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\MainWindow.g.cs
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\App.g.cs
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket_MarkupCompile.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket_MarkupCompile.lref
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\MainWindow.baml
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.g.resources
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.Properties.Resources.resources
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.GenerateResource.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.csproj.CoreCompileInputs.cache
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.exe
+C:\Users\sungmin\Documents\GitHub\myProgram\Programing\WPF\IPC\socket communication\ClientSideSocket\ClientSideSocket\obj\Debug\ClientSideSocket.pdb
